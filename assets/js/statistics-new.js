@@ -1,6 +1,6 @@
 /**
  * Statistics Page - Enhanced Animations & Charts
- * Better Solano Portal - Minimal Professional Design
+ * Better Roxas Portal - Minimal Professional Design
  */
 
 // Brand colors
@@ -14,35 +14,15 @@ const COLORS = {
 };
 
 // Barangay data (2024 Census)
-const barangayData = [
-  { name: 'Roxas', pop: 9088 },
-  { name: 'Quirino', pop: 6572 },
-  { name: 'Osmeña', pop: 6403 },
-  { name: 'Quezon', pop: 5758 },
-  { name: 'Curifang', pop: 4885 },
-  { name: 'Bagahabag', pop: 4731 },
-  { name: 'Uddiawan', pop: 4217 },
-  { name: 'Bascaran', pop: 3845 },
-  { name: 'Aggub', pop: 3101 },
-  { name: 'San Luis', pop: 2668 },
-  { name: 'Communal', pop: 2586 },
-  { name: 'Lactawan', pop: 2109 },
-  { name: 'San Juan', pop: 1965 },
-  { name: 'Concepcion', pop: 1954 },
-  { name: 'Dadap', pop: 1409 },
-  { name: 'Wacal', pop: 1398 },
-  { name: 'Bangaan', pop: 1284 },
-  { name: 'Tucal', pop: 1244 },
-  { name: 'Bangar', pop: 1146 },
-  { name: 'Pilar D. Galima', pop: 1146 },
-  { name: 'Poblacion North', pop: 970 },
-  { name: 'Poblacion South', pop: 817 },
-];
+// TODO: populate with Roxas City's 47 barangays from PSA / city planning office.
+// Left empty deliberately: the previous figures were Solano's and must not ship.
+const barangayData = [];
 
 // Historical data
+// TODO: populate with Roxas City's census series from the PSA.
 const historicalData = {
-  years: [1990, 1995, 2000, 2007, 2010, 2015, 2020, 2024],
-  populations: [38006, 42857, 47288, 53004, 56831, 62649, 65896, 69296],
+  years: [],
+  populations: [],
 };
 
 // Chart instances
@@ -154,11 +134,27 @@ function animateBars(container) {
 }
 
 /**
+ * Replaces a chart canvas with a short notice.
+ * The Roxas City figures are still being sourced, so an empty dataset renders
+ * an explanation rather than an empty chart frame.
+ */
+function renderPendingNotice(canvas) {
+  const wrap = canvas.parentElement;
+  if (!wrap || wrap.querySelector('.chart-pending')) return;
+  canvas.style.display = 'none';
+  const note = document.createElement('p');
+  note.className = 'chart-pending';
+  note.textContent = 'Data for Roxas City is not yet available.';
+  wrap.appendChild(note);
+}
+
+/**
  * Create Historical Line Chart
  */
 function createHistoricalChart() {
   const ctx = document.getElementById('historicalLineChart');
   if (!ctx) return;
+  if (!historicalData.populations.length) return renderPendingNotice(ctx);
 
   const gradient = ctx.getContext('2d').createLinearGradient(0, 0, 0, 400);
   gradient.addColorStop(0, 'rgba(0, 50, 160, 0.2)');
@@ -234,6 +230,7 @@ function createHistoricalChart() {
 function createDistributionChart() {
   const ctx = document.getElementById('distributionPieChart');
   if (!ctx) return;
+  if (!barangayData.length) return renderPendingNotice(ctx);
 
   const top10 = barangayData.slice(0, 10);
   const colors = [
@@ -310,6 +307,7 @@ function createDistributionChart() {
 function createBarChart() {
   const ctx = document.getElementById('populationBarChart');
   if (!ctx) return;
+  if (!barangayData.length) return renderPendingNotice(ctx);
 
   const sorted = [...barangayData].sort((a, b) => b.pop - a.pop);
 
@@ -429,8 +427,10 @@ function initEconomyCounters() {
 /**
  * CMCI (Competitive Index) Data
  */
+// TODO: populate with DTI CMCI scores for Roxas City. Score series are
+// deliberately empty: the previous values were Solano's.
 const cmciData = {
-  years: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+  years: [],
   pillars: {
     economicDynamism: {
       labels: [
@@ -440,13 +440,7 @@ const cmciData = {
         'Safety Compliant',
         'Employment',
       ],
-      data: [
-        [0.4353, 0.1829, 0.1004, 0.042, 0.0328, 0.0935, 0.0344, 0.0571, 0.0259],
-        [0.0847, 0.003, 0.0081, 0.0028, 0.3297, 0.0026, 0.0, 0.0005, 0.0318],
-        [null, 0.1411, 0.8263, 0.3719, 0.5391, 0.5346, 0.5349, 0.5154, 0.4994],
-        [null, 0.2991, 0.3683, 0.2471, 0.247, 0.2629, 0.0, 0.248, 0.2235],
-        [0.3157, 0.1756, 0.1604, 0.1599, 0.1807, 0.1636, 0.1433, 0.1485, 0.3835],
-      ],
+      data: [[], [], [], [], []],
     },
     governmentEfficiency: {
       labels: [
@@ -456,13 +450,7 @@ const cmciData = {
         'Productivity',
         'Compliance',
       ],
-      data: [
-        [2.6667, 1.6216, 1.3889, 1.1508, 0.8621, 0.4063, 1.6635, 1.1905, 1.1919],
-        [2.2968, 2.2431, 2.1045, 1.9988, 2.1827, 2.1901, 1.8629, 1.546, 1.5599],
-        [2.2418, 1.5657, 0.2448, 0.7057, 0.8357, 0.7899, 1.1689, 1.1263, 0.8288],
-        [0.0062, 0.0339, 0.0083, 0.004, 0.1654, 0.2272, 0.1243, 0.1451, 0.3297],
-        [3.0994, 2.1474, 0.0, 2.45, 2.5, 2.381, 1.8929, 1.9565, 1.96],
-      ],
+      data: [[], [], [], [], []],
     },
     infrastructure: {
       labels: [
@@ -472,23 +460,11 @@ const cmciData = {
         'Transportation',
         'IT Capacity',
       ],
-      data: [
-        [0.0019, 0.0003, 0.0, 0.009, 0.0021, 0.0235, 0.0015, 0.0016, 0.0016],
-        [2.3543, 1.8319, 0.0, 1.6595, 2.4576, 2.4658, 1.3088, 1.562, 1.5281],
-        [3.3333, 2.5, 0.0, 1.8498, 2.475, 2.4714, 0.0037, 0.6363, 0.356],
-        [0.4063, 0.2816, 0.0, 0.0343, 0.0221, 0.0153, 0.023, 0.0636, 0.0959],
-        [1.4638, 0.4, 0.0, 0.1278, 0.3108, 0.2727, 0.0617, 0.1674, 0.0155],
-      ],
+      data: [[], [], [], [], []],
     },
     resiliency: {
       labels: ['DRR Plan', 'Disaster Drill', 'Early Warning', 'DRRMP Budget', 'Risk Assessments'],
-      data: [
-        [null, 2.5, 0.0, 2.4537, 2.5, 2.4474, 1.9995, 1.9583, 1.9783],
-        [null, 2.5, 0.0, 2.25, 2.5, 1.2583, 1.002, 1.0016, 1.0023],
-        [null, 2.5, 0.0, 2.5, 2.5, 1.2573, 1.0062, 1.0033, 1.0397],
-        [null, 0.0022, 0.0, 0.2655, 0.1649, 0.0183, 0.0, 0.0699, 0.002],
-        [null, 2.5, 0.0, 2.5, 2.5, 2.5, 2.0, 2.0, 2.0],
-      ],
+      data: [[], [], [], [], []],
     },
     innovation: {
       labels: [
@@ -498,24 +474,12 @@ const cmciData = {
         'STEM Graduates',
         'Innovation Facilities',
       ],
-      data: [
-        [null, null, null, null, null, null, 1.3334, 2.0001, 2.0001],
-        [null, null, null, null, null, null, 0.0, 0.0, 0.0006],
-        [null, null, null, null, null, null, 2.0, 0.0, 2.0],
-        [null, null, null, null, null, null, 0.0039, 0.0052, 0.0181],
-        [null, null, null, null, null, null, 0.0392, 0.1669, 0.0227],
-      ],
+      data: [[], [], [], [], []],
     },
   },
   keyIndicators: {
     labels: ['Health', 'Education', 'Social Protection', 'Peace & Order', 'LGU Investment'],
-    data: [
-      [0.7476, 0.5608, 0.0, 0.3946, 0.3941, 0.469, 0.3219, 0.2037, 0.2995],
-      [0.0605, 0.0992, 0.0, 0.0348, 0.1006, 0.0231, 0.1263, 0.0764, 0.1341],
-      [0.2988, 0.2421, 0.0, 0.2778, 0.2845, 0.4097, 0.0011, 0.2567, 0.4923],
-      [0.0638, 0.408, 0.0, 0.0395, 0.0347, 0.0649, 0.0, 0.2571, 0.1031],
-      [2.4381, 0.2859, 0.0, 0.2648, 0.1597, 0.0191, 0.0, 0.0016, 0.0108],
-    ],
+    data: [[], [], [], [], []],
   },
 };
 
@@ -525,6 +489,7 @@ const cmciData = {
 function createCMCIOverviewChart() {
   const ctx = document.getElementById('cmciOverviewChart');
   if (!ctx || charts.cmciOverview) return;
+  if (!cmciData.years.length) return renderPendingNotice(ctx);
 
   const chartColors = [COLORS.primary, COLORS.accent, COLORS.success, COLORS.info, '#8B5CF6'];
 
@@ -584,6 +549,7 @@ function createCMCIOverviewChart() {
 function createCMCIPillarChart(pillarKey, canvasId) {
   const ctx = document.getElementById(canvasId);
   if (!ctx || charts[canvasId]) return;
+  if (!cmciData.years.length) return renderPendingNotice(ctx);
 
   const pillarData = cmciData.pillars[pillarKey];
   if (!pillarData) return;

@@ -42,30 +42,30 @@ FIXES = {
         "Magbayad ng kinakailangang buwis sa paglipat sa Opisina ng Ingat-Yaman (0.5% ng presyo ng pagbebenta o patas na halaga sa pamilihan, alinman ang mas mataas)",
     "Additional permits and clearances issued by the Office of the Mayor":
         "Mga karagdagang permiso at clearance na ibinibigay ng Opisina ng Punong Bayan",
-    "Pay building permit fee and other fees at the Municipal Treasurer's Office":
-        "Magbayad ng bayad sa building permit at iba pang mga bayad sa Opisina ng Ingat-Yaman ng Munisipyo",
-    "Various permit types issued by the Municipal Engineering Office":
-        "Iba't ibang uri ng permiso na ibinibigay ng Opisina ng Inhinyeriya ng Munisipyo",
-    "Visit the Municipal Treasurer's Office at the Municipal Hall with your Tax Declaration or latest Official Receipt":
-        "Bumisita sa Opisina ng Ingat-Yaman ng Munisipyo sa Munisipyo na may iyong Tax Declaration o pinakabagong Opisyal na Resibo",
-    "The Municipal General Services Office manages and maintains municipal vehicles":
-        "Ang Opisina ng Pangkalahatang Serbisyo ng Munisipyo ay namamahala at nagpapanatili ng mga sasakyan ng munisipyo",
+    "Pay building permit fee and other fees at the City Treasurer's Office":
+        "Magbayad ng bayad sa building permit at iba pang mga bayad sa Opisina ng Ingat-Yaman ng Lungsod",
+    "Various permit types issued by the City Engineering Office":
+        "Iba't ibang uri ng permiso na ibinibigay ng Opisina ng Inhinyeriya ng Lungsod",
+    "Visit the City Treasurer's Office at the City Hall with your Tax Declaration or latest Official Receipt":
+        "Bumisita sa Opisina ng Ingat-Yaman ng Lungsod sa Lungsod na may iyong Tax Declaration o pinakabagong Opisyal na Resibo",
+    "The City General Services Office manages and maintains city vehicles":
+        "Ang Opisina ng Pangkalahatang Serbisyo ng Lungsod ay namamahala at nagpapanatili ng mga sasakyan ng lungsod",
     "Wait for approval from the Office of the Mayor":
         "Maghintay ng pag-apruba mula sa Opisina ng Punong Bayan",
-    "Official certifications issued by the Municipal Agriculture Office":
-        "Mga opisyal na sertipikasyon na ibinibigay ng Opisina ng Agrikultura ng Munisipyo",
-    "As deputized by the Municipal Treasurer":
-        "Bilang kinatawan ng Ingat-Yaman ng Munisipyo",
-    "Pay clearance fee to the Municipal Treasurer's Office":
-        "Magbayad ng bayad sa clearance sa Opisina ng Ingat-Yaman ng Munisipyo",
+    "Official certifications issued by the City Agriculture Office":
+        "Mga opisyal na sertipikasyon na ibinibigay ng Opisina ng Agrikultura ng Lungsod",
+    "As deputized by the City Treasurer":
+        "Bilang kinatawan ng Ingat-Yaman ng Lungsod",
+    "Pay clearance fee to the City Treasurer's Office":
+        "Magbayad ng bayad sa clearance sa Opisina ng Ingat-Yaman ng Lungsod",
     "Pay the required fee at Treasurer's Office":
         "Magbayad ng kinakailangang bayad sa Opisina ng Ingat-Yaman",
     "For indigent residents requiring certification for various purposes":
         "Para sa mga indigenteng residente na nangangailangan ng sertipikasyon para sa iba't ibang layunin",
     "Pay slaughter fee at the Slaughterhouse Office":
         "Magbayad ng bayad sa pagkatay sa Opisina ng Katayan",
-    "Additional services offered by the Municipal Treasurer's Office":
-        "Mga karagdagang serbisyo na inaalok ng Opisina ng Ingat-Yaman ng Munisipyo",
+    "Additional services offered by the City Treasurer's Office":
+        "Mga karagdagang serbisyo na inaalok ng Opisina ng Ingat-Yaman ng Lungsod",
 }
 
 def build_ilo(fil_val):
@@ -75,7 +75,7 @@ def build_ilo(fil_val):
         'ng': 'ti', 'sa': 'iti',
         'at': 'ken', 'o': 'wenno',
         'mula': 'manipud',
-        'Munisipyo': 'Munisipalidad',
+        'Lungsod': 'Lungsod',
         'Opisina': 'Opisina',
         'Serbisyo': 'Serbisio', 'serbisyo': 'serbisio',
         'Ingat-Yaman': 'Tesorero',
