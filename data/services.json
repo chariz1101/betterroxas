@@ -585,7 +585,7 @@
       "category": "Taxation & Payments",
       "categoryId": "tax-payments",
       "description": "Pre-audit of disbursements, payroll, check issuance, and financial reporting",
-      "keywords": ["accounting", "MACCO", "audit", "payroll", "check", "disbursement", "voucher"],
+      "keywords": ["accounting", "CACCO", "audit", "payroll", "check", "disbursement", "voucher"],
       "fee": "Free",
       "processingTime": "Varies",
       "office": "City Accounting Office",

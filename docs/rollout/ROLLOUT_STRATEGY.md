@@ -124,7 +124,7 @@ All new repositories must initialize with the following template:
 
 ### 2. Data Custodians (Source of Truth)
 
-- **Designation:** [e.g., City Planning & Development Coordinator (MPDC)]
+- **Designation:** [e.g., City Planning & Development Coordinator (CPDC)]
 - **Responsibility:** Provides the raw CSV/Excel files for the Citizen's Charter and Annual Budget.
 - **Contact Protocol:** [e.g., Email submission by the 5th of every month]
 

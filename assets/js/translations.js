@@ -1587,7 +1587,7 @@ const translations = {
     'contact-lgu-roxas-facebook': 'LGU Roxas City Facebook',
     'contact-lguroxasnvgmailcom': 'roxascitygovph@gmail.com',
     'contact-lunch-break': 'Lunch Break',
-    'contact-magro-roxas': 'MAGRO Roxas City',
+    'contact-magro-roxas': 'CAGRO Roxas City',
     'contact-mayors-office': "Mayor's Office",
     'contact-mdrrmo-roxas': 'CDRRMO Roxas City',
     'contact-medical-emergency-hotlines': 'Medical Emergency Hotlines',
@@ -3658,7 +3658,7 @@ const translations = {
     'mbudget-the-municipal-budget-office-assists-barangays-in':
       'The City Budget Office assists barangays in the preparation of their Annual Budget. It conducts training whenever necessary and ensures compliance with statutory, contractual obligations and budgetary requirements prior to the review and approval of the Sangguniang Panlungsod.',
     'mbudget-the-municipal-budget-office-assists-the-different':
-      'The City Budget Office assists the different schools in the preparation of SEF Annual Budget. It assists the City School Board in the conduct of budget hearings and deliberations of budget proposals. It ensures compliance with statutory, contractual obligations and budgetary requirements prior to the review and approval by the City School Board (MSB).',
+      'The City Budget Office assists the different schools in the preparation of SEF Annual Budget. It assists the City School Board in the conduct of budget hearings and deliberations of budget proposals. It ensures compliance with statutory, contractual obligations and budgetary requirements prior to the review and approval by the City School Board (CSB).',
     'mbudget-the-municipal-budget-office-processes':
       'The City Budget Office processes disbursement vouchers particularly the integral part of Obligation Request (ObR) to ensure the existence of appropriation',
     'mbudget-total-processing-time': 'Total Processing Time',
@@ -5290,7 +5290,7 @@ const translations = {
     'safety-infrastructure': 'Infrastructure',
     'safety-kabalikat-civicom': 'KABALIKAT Civicom',
     'safety-lgu-roxas-facebook': 'LGU Roxas City Facebook',
-    'safety-magro-roxas': 'MAGRO Roxas City',
+    'safety-magro-roxas': 'CAGRO Roxas City',
     'safety-mayors-office': "Mayor's Office",
     'safety-mdrrmo-roxas': 'CDRRMO Roxas City',
     'safety-medical': 'Medical',
@@ -7841,7 +7841,7 @@ const translations = {
     'contact-lgu-roxas-facebook': 'LGU Roxas City Facebook',
     'contact-lguroxasnvgmailcom': 'roxascitygovph@gmail.com',
     'contact-lunch-break': 'Tanghalian',
-    'contact-magro-roxas': 'MAGRO Roxas City',
+    'contact-magro-roxas': 'CAGRO Roxas City',
     'contact-mayors-office': 'Opisina ng Punong Bayan',
     'contact-mdrrmo-roxas': 'CDRRMO Roxas City',
     'contact-medical-emergency-hotlines': 'Mga Medikal na Emergency Hotline',
@@ -9935,7 +9935,7 @@ const translations = {
     'mbudget-the-municipal-budget-office-assists-barangays-in':
       'Ang Opisina ng Badyet ng Lungsod assists barangays sa ang paghahanda ng kanilang Taunang Budget. It conducts pagsasanay whenever necessary sa ensures pagsunod na maaari statutory, contractual mga obligasyon sa budgetary mga kinakailangan bago ang ang suriin sa pag-apruba ng ang Sangguniang Panlungsod.',
     'mbudget-the-municipal-budget-office-assists-the-different':
-      "Ang Opisina ng Badyet ng Lungsod ay tumutulong sa iba't ibang paaralan sa paghahanda ng Taunang Badyet ng SEF. Tinutulungan nito ang City School Board sa pagsasagawa ng mga pagdinig sa badyet at deliberasyon ng mga panukala sa badyet. Tinitiyak nito ang pagsunod sa mga statutory, kontraktwal na obligasyon at mga kinakailangan sa badyet bago ang pagsusuri at pag-apruba ng City School Board (MSB).",
+      "Ang Opisina ng Badyet ng Lungsod ay tumutulong sa iba't ibang paaralan sa paghahanda ng Taunang Badyet ng SEF. Tinutulungan nito ang City School Board sa pagsasagawa ng mga pagdinig sa badyet at deliberasyon ng mga panukala sa badyet. Tinitiyak nito ang pagsunod sa mga statutory, kontraktwal na obligasyon at mga kinakailangan sa badyet bago ang pagsusuri at pag-apruba ng City School Board (CSB).",
     'mbudget-the-municipal-budget-office-processes':
       'Ang Opisina ng Badyet ng Lungsod ay nagpoproseso ng mga disbursement voucher lalo na ang mahalagang bahagi ng Obligation Request (ObR) upang matiyak ang pagkakaroon ng appropriasyon',
     'mbudget-total-processing-time': 'Kabuuang Oras ng Pagproseso',
@@ -11599,7 +11599,7 @@ const translations = {
     'safety-infrastructure': 'Imprastraktura',
     'safety-kabalikat-civicom': 'KABALIKAT Civicom',
     'safety-lgu-roxas-facebook': 'LGU Roxas City Facebook',
-    'safety-magro-roxas': 'MAGRO Roxas City',
+    'safety-magro-roxas': 'CAGRO Roxas City',
     'safety-mayors-office': 'Opisina ng Punong Bayan',
     'safety-mdrrmo-roxas': 'CDRRMO Roxas City',
     'safety-medical': 'Medikal',
@@ -14161,7 +14161,7 @@ const translations = {
     'contact-lgu-roxas-facebook': 'LGU Roxas City Facebook',
     'contact-lguroxasnvgmailcom': 'roxascitygovph@gmail.com',
     'contact-lunch-break': 'Tanghalian',
-    'contact-magro-roxas': 'MAGRO Roxas City',
+    'contact-magro-roxas': 'CAGRO Roxas City',
     'contact-mayors-office': 'Opisina ti Mayor',
     'contact-mdrrmo-roxas': 'CDRRMO Roxas City',
     'contact-medical-emergency-hotlines': 'Dagiti Medikal na Emergency Hotline',
@@ -16260,7 +16260,7 @@ const translations = {
     'mbudget-the-municipal-budget-office-assists-barangays-in':
       'Ti Opisina ti Badyet ti Lungsod assists barangays iti ti panagisagana ti kanilang Taunang Budget. It conducts panagsanay whenever necessary iti ensures pagsunod na maaari statutory, contractual dagiti obligasyon iti budgetary dagiti kasapulan baro ti ti suriin iti pag-apruba ti ti Sangguniang Panlungsod.',
     'mbudget-the-municipal-budget-office-assists-the-different':
-      "Ti Opisina ti Badyet ti Lungsod ay tumutulong iti iba't ibang paaralan iti paghahanda ti Taunang Badyet ti SEF. Tinutulungan nito ti City School Board iti pagsasagawa ti dagiti pagdinig iti badyet ken deliberasyon ti dagiti panukala iti badyet. Tinitiyak nito ti pagsunod iti dagiti statutory, kontraktwal na obligasyon ken dagiti kinakailangan iti badyet bago ti pagsusuri ken pag-apruba ti City School Board (MSB).",
+      "Ti Opisina ti Badyet ti Lungsod ay tumutulong iti iba't ibang paaralan iti paghahanda ti Taunang Badyet ti SEF. Tinutulungan nito ti City School Board iti pagsasagawa ti dagiti pagdinig iti badyet ken deliberasyon ti dagiti panukala iti badyet. Tinitiyak nito ti pagsunod iti dagiti statutory, kontraktwal na obligasyon ken dagiti kinakailangan iti badyet bago ti pagsusuri ken pag-apruba ti City School Board (CSB).",
     'mbudget-the-municipal-budget-office-processes':
       'Ti Opisina ti Badyet ti Lungsod ay nagpoproseso ti dagiti disbursement voucher lalo na ti mahalagang bahagi ti Obligation Request (ObR) upang matiyak ti pagkakaroon ti appropriasyon',
     'mbudget-total-processing-time': 'Dagup Oras ti Panagproseso',
@@ -17929,7 +17929,7 @@ const translations = {
     'safety-infrastructure': 'Imprastraktura',
     'safety-kabalikat-civicom': 'KABALIKAT Civicom',
     'safety-lgu-roxas-facebook': 'LGU Roxas City Facebook',
-    'safety-magro-roxas': 'MAGRO Roxas City',
+    'safety-magro-roxas': 'CAGRO Roxas City',
     'safety-mayors-office': 'Opisina ti Mayor',
     'safety-mdrrmo-roxas': 'CDRRMO Roxas City',
     'safety-medical': 'Medikal',

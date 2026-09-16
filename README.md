@@ -68,6 +68,10 @@ notice rather than a plausible-looking wrong number.
 The 47 barangay figures sum exactly to the published 2020 city total of
 179,292, which is how the transcription was checked.
 
+**Next steps are tracked as an ordered checklist in
+[docs/rollout/LAUNCH_CHECKLIST.md](docs/rollout/LAUNCH_CHECKLIST.md)** — the
+critical path to a shareable URL is its first six items.
+
 **Still placeholders — see `.env.example` for grep commands:**
 
 - **PNP, BFP and hospital hotlines are deliberately absent.** Three

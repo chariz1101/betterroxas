@@ -12,7 +12,7 @@
 
 ### 2. Data Custodians (Source of Truth)
 
-- **Designation:** City Planning & Development Coordinator (MPDC)
+- **Designation:** City Planning & Development Coordinator (CPDC)
 - **Responsibility:** Provides the raw CSV/Excel files for the Citizen's Charter and Annual Budget.
 - **Contact Protocol:** Email submission by the 5th of every month.
 
@@ -58,7 +58,7 @@ does not publish them. Add them only from an official Roxas City source.
 - **Source:** Citizen's Charter document from each department head
 - **Frequency:** Annually, or when fees/requirements change
 - **File to update:** `data/services.json`
-- **Approver:** MPDC
+- **Approver:** CPDC
 
 ### Legislative Data (Ordinances & Resolutions)
 
@@ -93,7 +93,7 @@ does not publish them. Add them only from an official Roxas City source.
 - **Source:** Philippine Statistics Authority (PSA)
 - **Frequency:** After census releases or official population updates
 - **File to update:** `data/demographics.json`
-- **Approver:** MPDC
+- **Approver:** CPDC
 
 ---
 
