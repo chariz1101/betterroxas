@@ -1,6 +1,6 @@
 # LGU Synchronization Protocol
 
-**LGU Name:** Municipality of Solano, Nueva Vizcaya
+**LGU Name:** City of Roxas, Capiz
 **Last Sync Date:** 2026-02-03
 
 ## Roles & Responsibilities
@@ -12,7 +12,7 @@
 
 ### 2. Data Custodians (Source of Truth)
 
-- **Designation:** Municipal Planning & Development Coordinator (MPDC)
+- **Designation:** City Planning & Development Coordinator (MPDC)
 - **Responsibility:** Provides the raw CSV/Excel files for the Citizen's Charter and Annual Budget.
 - **Contact Protocol:** Email submission by the 5th of every month.
 
@@ -27,15 +27,18 @@
 
 The following hotlines must be verified monthly against official LGU records:
 
-| Service                 | Number         | Source                    |
-| ----------------------- | -------------- | ------------------------- |
-| Police (PNP)            | 0927 400 8033  | LGU Solano Municipal Hall |
-| MSWDO                   | 0916 284 0885  | LGU Solano Municipal Hall |
-| Fire (BFP)              | 0936 062 0305  | LGU Solano Municipal Hall |
-| DILG                    | 0906 188 086   | LGU Solano Municipal Hall |
-| MDRRMO                  | 0926 383 3744  | LGU Solano Municipal Hall |
-| R2TMC                   | 0906 819 5569  | LGU Solano Municipal Hall |
-| Municipal Hall Landline | (078) 805-3581 | Official records          |
+| Service                      | Number         | Source                   |
+| ---------------------------- | -------------- | ------------------------ |
+| National Emergency           | 911            | Nationwide               |
+| City Emergency Response Team | (036) 522-7878 | roxascity.gov.ph         |
+| CERT Mobile                  | 0917 306 6741  | roxascity.gov.ph         |
+| CERT Mobile                  | 0912 472 2669  | roxascity.gov.ph         |
+| City Hall Trunkline          | (036) 6212-049 | roxascity.gov.ph/contact |
+| City Hall (alt)              | (036) 6516-053 | roxascity.gov.ph/contact |
+
+PNP, BFP, hospital and per-department numbers are deliberately absent: the
+online directories that list them disagree with each other, and the city site
+does not publish them. Add them only from an official Roxas City source.
 
 **Last Verified:** [DATE]
 
@@ -45,7 +48,7 @@ The following hotlines must be verified monthly against official LGU records:
 
 ### Officials Directory
 
-- **Source:** LGU Solano Human Resources / Election results
+- **Source:** LGU Roxas City Human Resources / Election results
 - **Frequency:** After every election cycle, or when appointments change
 - **File to update:** `data/officials.json`
 - **Approver:** Information Officer
@@ -59,10 +62,10 @@ The following hotlines must be verified monthly against official LGU records:
 
 ### Legislative Data (Ordinances & Resolutions)
 
-- **Source:** Sangguniang Bayan records
-- **Frequency:** After each Sangguniang Bayan session
+- **Source:** Sangguniang Panlungsod records
+- **Frequency:** After each Sangguniang Panlungsod session
 - **Files to update:** `data/ordinances.json`, `data/resolutions.json`
-- **Approver:** SB Secretary
+- **Approver:** SP Secretary
 
 ### Competitive Index
 
@@ -83,7 +86,7 @@ The following hotlines must be verified monthly against official LGU records:
 - **Source:** BLGF portal (blgf.gov.ph), LGU Budget Officer
 - **Frequency:** Annually (after budget approval) + quarterly updates
 - **Files to update:** Budget section pages, `data/fiscal_transparency.json`
-- **Approver:** Municipal Accountant / Budget Officer
+- **Approver:** City Accountant / Budget Officer
 
 ### Demographics
 
@@ -99,7 +102,7 @@ The following hotlines must be verified monthly against official LGU records:
 - [ ] All emergency hotline numbers verified against official records
 - [ ] Officials directory matches current elected/appointed officials
 - [ ] Service fees and processing times verified with department heads
-- [ ] Legislative data reflects latest SB sessions
+- [ ] Legislative data reflects latest SP sessions
 - [ ] Budget/fiscal data matches official documents
 - [ ] Lighthouse accessibility audit score >= 90
 - [ ] Content reviewed by Information Officer

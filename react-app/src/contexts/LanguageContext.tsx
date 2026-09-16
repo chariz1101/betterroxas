@@ -15,15 +15,15 @@ const translations: Record<string, Record<string, string>> = {
     'nav-contact': 'Contact',
 
     // Appointment CTA
-    'appointment-cta-heading': "Enhancing Appointment Services of LGU Solano Mayor's Office",
+    'appointment-cta-heading': "Enhancing Appointment Services of LGU Roxas City Mayor's Office",
     'appointment-cta-subtitle': 'No lines. No back-and-forth. Just efficient appointments.',
     'appointment-schedule-btn': 'Schedule Appointment',
     'appointment-create-btn': 'Create Account',
 
     // Hero Section
-    'hero-welcome': 'Welcome to BetterSolano.org',
+    'hero-welcome': 'Welcome to BetterRoxas',
     'hero-subtitle':
-      'Access government services, information, and resources for the people of Solano, Nueva Vizcaya.',
+      'Access government services, information, and resources for the people of Roxas City, Capiz.',
     'hero-find-service': 'Find a Service',
 
     // Popular Services
@@ -44,10 +44,10 @@ const translations: Record<string, Record<string, string>> = {
     'section-updates': 'Latest Updates',
     'btn-view-all': 'View All',
 
-    // Municipal Leadership
-    'section-leadership': 'Municipal Leadership',
-    'title-mayor': 'Municipal Mayor',
-    'title-vice-mayor': 'Municipal Vice Mayor',
+    // City Leadership
+    'section-leadership': 'City Leadership',
+    'title-mayor': 'City Mayor',
+    'title-vice-mayor': 'City Vice Mayor',
     'btn-view-officials': 'View All Officials',
 
     // Contact Section
@@ -57,11 +57,11 @@ const translations: Record<string, Record<string, string>> = {
     'contact-address': 'Address',
     'contact-hours': 'Mon-Fri: 8:00 AM - 5:00 PM',
     'contact-response': "We'll respond within 24 hours",
-    'contact-municipal-hall': 'Municipal Hall',
+    'contact-municipal-hall': 'City Hall',
 
     // Services Page
-    'services-title': 'Municipal Services Directory',
-    'services-subtitle': 'Browse all services offered by the Municipality of Solano',
+    'services-title': 'City Services Directory',
+    'services-subtitle': 'Browse all services offered by the City of Roxas',
     'life-events-title': 'Browse by Life Event',
     'life-events-subtitle': "Find services based on what's happening in your life",
     'life-starting-business': 'Starting a Business',
@@ -100,7 +100,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // FAQ Page
     'faq-title': 'Frequently Asked Questions',
-    'faq-subtitle': 'Find answers to common questions about municipal services',
+    'faq-subtitle': 'Find answers to common questions about city services',
     'faq-general': 'General Questions',
     'faq-certificates': 'Certificates & Documents',
     'faq-business': 'Business & Permits',
@@ -146,58 +146,37 @@ const translations: Record<string, Record<string, string>> = {
     'health-maternal': 'Maternal Care',
     'health-maternal-desc': 'Prenatal and postnatal health services',
     'health-medicine': 'Medicine Assistance',
-    'health-medicine-desc': 'Financial assistance for medicines through MSWDO',
+    'health-medicine-desc': 'Financial assistance for medicines through CSWDO',
     'health-stat-facilities': 'Total Health Facilities',
     'health-stat-hospitals': 'Major Hospitals',
     'health-stat-bhs': 'Barangay Health Stations',
-    'health-stat-mho': 'Municipal Health Office',
-    'health-section-hospitals': 'Hospitals in Solano',
-    'health-section-mho': 'Municipal Health Office',
+    'health-stat-mho': 'City Health Office',
+    'health-section-hospitals': 'Hospitals in Roxas City',
+    'health-section-mho': 'City Health Office',
     'health-section-bhs': 'Barangay Health Stations',
-    'health-bhs-subtitle': '22 Barangay Health Stations/Centers serving all barangays of Solano',
-    'health-mho-title': 'Solano Municipal Health Office',
+    'health-bhs-subtitle':
+      '22 Barangay Health Stations/Centers serving all barangays of Roxas City',
+    'health-mho-title': 'Roxas City Health Office',
     'health-mho-desc':
-      'The Municipal Health Office provides primary healthcare services including a lying-in facility and laboratory services. It serves as the main public health center for the municipality.',
+      'The City Health Office provides primary healthcare services including a lying-in facility and laboratory services. It serves as the main public health center for the city.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Laboratory Services',
     'health-service-immunization': 'Immunization',
     'health-service-prenatal': 'Prenatal Care',
     'health-service-family-planning': 'Family Planning',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited private hospital providing comprehensive medical services.',
-    'health-national-highway-solano': 'National Highway, Solano',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Services Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as New MMG Hospital, providing quality healthcare services to the community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
+    'health-national-highway-roxas': 'National Highway, Roxas City',
     'health-private-medical-center-offering-various':
       'Private medical center offering various healthcare and diagnostic services.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Official DOH-Sourced Directory',
     'health-hivcare-cta-heading': 'Find HIV Treatment & Care Facilities Near You',
     'health-hivcare-cta-desc':
@@ -217,17 +196,17 @@ const translations: Record<string, Record<string, string>> = {
     'agri-equipment-desc': 'Equipment rental and assistance',
     'agri-livelihood': 'Livelihood Programs',
     'agri-livelihood-desc': 'Training and support for farmers',
-    'agri-office-mao': 'Municipal Agriculture Office',
+    'agri-office-mao': 'City Agriculture Office',
     'agri-office-mao-desc':
       'RSBSA registration, certifications, rice/corn programs, livestock, fishery services',
 
     // Ordinance Framework Page
     'ord-page-title': 'Ordinance Framework',
-    'ord-page-desc': 'Municipal ordinances enacted by the Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'City ordinances enacted by the Sangguniang Panlungsod ng Roxas City',
     'ord-page-badge': 'Legislative',
     'ord-what-is': 'What is an Ordinance?',
     'ord-what-is-p1':
-      'A municipal ordinance is a local law enacted by the Sangguniang Bayan (Municipal Council) that governs the municipality and its residents. Ordinances have the force and effect of law within the territorial jurisdiction of the municipality.',
+      'A city ordinance is a local law enacted by the Sangguniang Panlungsod (City Council) that governs the city and its residents. Ordinances have the force and effect of law within the territorial jurisdiction of the city.',
     'ord-what-is-p2':
       'Ordinances may cover various subjects including but not limited to: taxation, business regulations, public safety, environmental protection, traffic management, and zoning.',
     'ord-categories-title': 'Ordinance Categories',
@@ -238,21 +217,22 @@ const translations: Record<string, Record<string, string>> = {
     'ord-cat-traffic': 'Traffic & Transportation',
     'ord-cat-zoning': 'Zoning & Land Use',
     'ord-2025-title': '2025 Ordinances',
-    'ord-2025-subtitle': 'Official ordinances enacted by the Sangguniang Bayan ng Solano in 2025',
+    'ord-2025-subtitle':
+      'Official ordinances enacted by the Sangguniang Panlungsod ng Roxas City in 2025',
     'ord-table-number': 'Ordinance No.',
     'ord-table-title': 'Title',
     'ord-table-date': 'Session Date',
-    'ord-view-all': 'View All Ordinances on SB Website',
+    'ord-view-all': 'View All Ordinances on SP Website',
 
     // Resolution Framework Page
     'reso-page-title': 'Resolution Framework',
-    'reso-page-desc': 'Resolutions passed by the Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Resolutions passed by the Sangguniang Panlungsod ng Roxas City',
     'reso-page-badge': 'Legislative',
     'reso-what-is': 'What is a Resolution?',
     'reso-what-is-p1':
-      'A resolution is a formal expression of the opinion or will of the Sangguniang Bayan. Unlike ordinances, resolutions do not have the force and effect of law but serve as official statements of the legislative body.',
+      'A resolution is a formal expression of the opinion or will of the Sangguniang Panlungsod. Unlike ordinances, resolutions do not have the force and effect of law but serve as official statements of the legislative body.',
     'reso-what-is-p2':
-      'Resolutions are commonly used for: commendations, requests to higher government agencies, expressions of support or opposition, and administrative matters of the Sangguniang Bayan.',
+      'Resolutions are commonly used for: commendations, requests to higher government agencies, expressions of support or opposition, and administrative matters of the Sangguniang Panlungsod.',
     'reso-types-title': 'Types of Resolutions',
     'reso-type-commendation': 'Commendation',
     'reso-type-request': 'Request/Appeal',
@@ -261,17 +241,19 @@ const translations: Record<string, Record<string, string>> = {
     'reso-type-authorization': 'Authorization',
     'reso-type-appropriation': 'Appropriation',
     'reso-2026-title': '2026 Resolutions',
-    'reso-2026-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Solano in 2026',
+    'reso-2026-subtitle':
+      'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2026',
     'reso-2025-title': '2025 Resolutions',
-    'reso-2025-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Solano in 2025',
+    'reso-2025-subtitle':
+      'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2025',
     'reso-table-number': 'Resolution No.',
     'reso-table-title': 'Title',
     'reso-table-date': 'Session Date',
-    'reso-view-all': 'View All Resolutions on SB Website',
+    'reso-view-all': 'View All Resolutions on SP Website',
 
     // Business Services Page
     'biz-page-title': 'Business Services',
-    'biz-page-desc': 'Permits, licenses, and support for businesses in Solano',
+    'biz-page-desc': 'Permits, licenses, and support for businesses in Roxas City',
     'biz-page-badge': 'Business',
     'biz-permit-new': 'Business Permit (New)',
     'biz-permit-new-desc': "Apply for a new mayor's permit for your business",
@@ -290,7 +272,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // Tax & Payments Page
     'tax-page-title': 'Tax & Payments',
-    'tax-page-desc': 'Property tax, business tax, and other municipal payments',
+    'tax-page-desc': 'Property tax, business tax, and other city payments',
     'tax-page-badge': 'Tax & Payments',
     'tax-property': 'Real Property Tax',
     'tax-property-desc': 'Annual tax on land and improvements',
@@ -317,7 +299,7 @@ const translations: Record<string, Record<string, string>> = {
     'edu-page-desc': 'Scholarship programs and educational assistance',
     'edu-page-badge': 'Education',
     'edu-scholarship': 'Scholarship Programs',
-    'edu-scholarship-desc': 'Municipal scholarships for students',
+    'edu-scholarship-desc': 'City scholarships for students',
     'edu-training': 'Educational Assistance',
     'edu-training-desc': 'Financial aid for education',
 
@@ -376,45 +358,35 @@ const translations: Record<string, Record<string, string>> = {
     'hero-real-property-tax': 'Real Property Tax',
 
     // Homepage - Popular Services
-    'popular-services-subtitle': 'Quick access to frequently requested municipal services',
+    'popular-services-subtitle': 'Quick access to frequently requested city services',
     'popular-browse-directory': 'Browse complete directory',
 
     // Homepage - Stats
-    'stats-at-a-glance': 'Solano at a Glance',
+    'stats-at-a-glance': 'Roxas City at a Glance',
     'stats-view-statistics': 'View Statistics',
     'stats-population-label': 'Population',
     'stats-population-source': '2024 Census',
     'stats-barangays-label': 'Barangays',
     'stats-barangays-source': 'Administrative Units',
-    'stats-municipality-label': 'Municipality',
-    'stats-municipality-source': 'Income Classification',
+    'stats-city-label': 'City',
+    'stats-city-source': 'Income Classification',
     'stats-land-area-label': 'Land Area',
-    'stats-land-area-source': 'Total Municipal Area',
+    'stats-land-area-source': 'Total City Area',
 
     // Homepage - Weather & Map
-    'weather-map-title': 'Weather and Map of Solano',
+    'weather-map-title': 'Weather and Map of Roxas City',
     'weather-mainly-clear': 'Mainly clear',
-    'weather-location': 'Solano, Nueva Vizcaya',
+    'weather-location': 'Roxas City, Capiz',
 
     // Homepage - History
-    'history-title': 'Brief History of Solano',
-    'history-1760':
-      'The original name of the town was Bintauan, then a Gaddang settlement that is now a barangay of Villaverde.',
+    'history-title': 'Brief History of Roxas City',
     'history-1767':
       'The town was formally founded by Father Alejandro Vidal, a Dominican priest who led a Spanish mission.',
-    'history-1768':
-      'Named Lungabang, from the Gaddang word for cave, lungab. Later changed to Lumabang by the Spaniards.',
     'history-1851':
       'Governor General Antonio Urbiztondo declared Lumabang a barrio of Bayombong for insufficient inhabitants and revenue.',
     'history-1853':
       'The first Ilocanos arrived, brought by Don Diego Lumicao, a former gobernadorcillo.',
-    'history-1889':
-      'Renamed Solano in honor of Governor General Ramon Solano y Llanderal. The town was redeveloped by Father Juan Villaverde with 14 parallel wide streets, each 20 meters wide, forming 100 square blocks.',
-    'history-1957':
-      "The barrios of Ibung and Bintawan were separated to form the town of Ibung, later renamed as Villaverde. Solano's land area was reduced to 13,980 hectares.",
     'history-once-largest-title': 'Once the Largest',
-    'history-once-largest-desc':
-      'Solano was the largest municipality in the province until Caliat and Bintawan were separated to become Quezon and Villaverde respectively.',
     'history-urban-planning-title': 'Urban Planning',
     'history-urban-planning-desc':
       'The 1889 redevelopment created a grid of 100 square blocks, each with an aggregate area of one hectare, with streets running north-south and east-west.',
@@ -428,23 +400,23 @@ const translations: Record<string, Record<string, string>> = {
       'Deadline for business permit renewal is set for January 20, 2025. Early renewal is encouraged.',
     'news-market-title': 'New Public Market Wing Opens',
     'news-market-desc':
-      'The renovated wing of the Solano Public Market is now open to vendors and the public.',
+      'The renovated wing of the Roxas City Public Market is now open to vendors and the public.',
     'news-power-title': 'Scheduled Power Interruption',
     'news-power-desc': 'Maintenance scheduled for Barangay Osmeña on Dec 1, 8:00 AM - 5:00 PM.',
 
     // Homepage - Quiz CTA
-    'quiz-title': 'Solano Quiz',
-    'quiz-subtitle': 'How well do you know Solano, Nueva Vizcaya?',
+    'quiz-title': 'Roxas City Quiz',
+    'quiz-subtitle': 'How well do you know Roxas City, Capiz?',
     'quiz-description':
-      "Evaluate your familiarity with the municipality's heritage, cultural identity, and geographic significance through an interactive knowledge assessment designed to showcase one of Nueva Vizcaya's most prominent localities.",
+      "Evaluate your familiarity with the city's heritage, cultural identity, and geographic significance through an interactive knowledge assessment designed to showcase one of Capiz's most prominent localities.",
     'quiz-take': 'Take the Quiz',
 
     // Footer
     'footer-tagline':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Roxas City with transparent access to the services, programs, and public funds of LGU Roxas City.',
     'footer-quick-links': 'Quick Links',
     'footer-resources': 'Resources',
-    'footer-solano-quiz': 'Solano Quiz',
+    'footer-roxas-quiz': 'Roxas City Quiz',
     'footer-sitemap': 'Sitemap',
     'footer-citizens-charter': "Citizen's Charter",
     'footer-terms': 'Terms of Use',
@@ -453,15 +425,15 @@ const translations: Record<string, Record<string, string>> = {
     'footer-faq': 'FAQ',
     'footer-open-data': 'Open Data Philippines',
     'footer-foi': 'Freedom of Information',
-    'footer-lgu-portal': 'Official LGU Solano Portal',
-    'footer-sb': 'Sangguniang Bayan',
-    'footer-lgu-facebook': 'LGU Solano Facebook',
+    'footer-lgu-portal': 'Official LGU Roxas City Portal',
+    'footer-sb': 'Sangguniang Panlungsod',
+    'footer-lgu-facebook': 'LGU Roxas City Facebook',
     'footer-blgf': 'BLGF Portal',
     'footer-cmci': 'CMCI DTI Portal',
-    'footer-cost': 'Cost to the People of Solano =',
+    'footer-cost': 'Cost to the People of Roxas City =',
     'footer-volunteer': 'Volunteer with us',
     'footer-contribute': 'Contribute code with us',
-    'footer-copyright-text': 'BetterSolano.org',
+    'footer-copyright-text': 'BetterRoxas',
     'footer-copyright-disclaimer':
       'All public information sourced from official government portals.',
     'footer-skip-to-main': 'Skip to main content',
@@ -478,15 +450,15 @@ const translations: Record<string, Record<string, string>> = {
 
     // Appointment CTA
     'appointment-cta-heading':
-      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Solano',
+      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Roxas City',
     'appointment-cta-subtitle': 'Walang pila. Walang pabalik-balik. Mahusay na appointment lang.',
     'appointment-schedule-btn': 'Mag-iskedyul ng Appointment',
     'appointment-create-btn': 'Gumawa ng Account',
 
     // Hero Section
-    'hero-welcome': 'Maligayang Pagdating sa BetterSolano.org',
+    'hero-welcome': 'Maligayang Pagdating sa BetterRoxas',
     'hero-subtitle':
-      'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Solano, Nueva Vizcaya.',
+      'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Roxas City, Capiz.',
     'hero-find-service': 'Maghanap ng Serbisyo',
 
     // Popular Services
@@ -507,8 +479,8 @@ const translations: Record<string, Record<string, string>> = {
     'section-updates': 'Pinakabagong mga Update',
     'btn-view-all': 'Tingnan Lahat',
 
-    // Municipal Leadership
-    'section-leadership': 'Pamunuan ng Munisipalidad',
+    // City Leadership
+    'section-leadership': 'Pamunuan ng Lungsod',
     'title-mayor': 'Punong Bayan',
     'title-vice-mayor': 'Bise Punong Bayan',
     'btn-view-officials': 'Tingnan Lahat ng Opisyal',
@@ -520,11 +492,11 @@ const translations: Record<string, Record<string, string>> = {
     'contact-address': 'Adres',
     'contact-hours': 'Lunes-Biyernes: 8:00 AM - 5:00 PM',
     'contact-response': 'Sasagutin namin sa loob ng 24 na oras',
-    'contact-municipal-hall': 'Munisipyo',
+    'contact-municipal-hall': 'Lungsod',
 
     // Services Page
-    'services-title': 'Direktoryo ng Serbisyong Munisipal',
-    'services-subtitle': 'Tingnan ang lahat ng serbisyong inaalok ng Munisipalidad ng Solano',
+    'services-title': 'Direktoryo ng Serbisyong Panlungsod',
+    'services-subtitle': 'Tingnan ang lahat ng serbisyong inaalok ng Lungsod ng Roxas City',
     'life-events-title': 'Maghanap Ayon sa Pangyayari sa Buhay',
     'life-events-subtitle': 'Hanapin ang mga serbisyo batay sa nangyayari sa iyong buhay',
     'life-starting-business': 'Magsimula ng Negosyo',
@@ -569,7 +541,7 @@ const translations: Record<string, Record<string, string>> = {
     // FAQ Page
     'faq-title': 'Mga Madalas Itanong',
     'faq-subtitle':
-      'Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa mga serbisyong munisipal',
+      'Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa mga serbisyong panlungsod',
     'faq-general': 'Mga Pangkalahatang Tanong',
     'faq-certificates': 'Mga Sertipiko at Dokumento',
     'faq-business': 'Negosyo at Permit',
@@ -615,59 +587,37 @@ const translations: Record<string, Record<string, string>> = {
     'health-maternal': 'Pangangalaga sa Ina',
     'health-maternal-desc': 'Serbisyo sa kalusugan bago at pagkatapos manganak',
     'health-medicine': 'Tulong sa Gamot',
-    'health-medicine-desc': 'Tulong pinansyal para sa gamot sa pamamagitan ng MSWDO',
+    'health-medicine-desc': 'Tulong pinansyal para sa gamot sa pamamagitan ng CSWDO',
     'health-stat-facilities': 'Kabuuang Pasilidad sa Kalusugan',
     'health-stat-hospitals': 'Mga Pangunahing Ospital',
     'health-stat-bhs': 'Mga Barangay Health Station',
-    'health-stat-mho': 'Opisina ng Kalusugan ng Munisipalidad',
-    'health-section-hospitals': 'Mga Ospital sa Solano',
-    'health-section-mho': 'Opisina ng Kalusugan ng Munisipalidad',
+    'health-stat-mho': 'Opisina ng Kalusugan ng Lungsod',
+    'health-section-hospitals': 'Mga Ospital sa Roxas City',
+    'health-section-mho': 'Opisina ng Kalusugan ng Lungsod',
     'health-section-bhs': 'Mga Barangay Health Station',
     'health-bhs-subtitle':
-      '22 Barangay Health Stations/Centers na naglilingkod sa lahat ng barangay ng Solano',
-    'health-mho-title': 'Opisina ng Kalusugan ng Munisipalidad ng Solano',
+      '22 Barangay Health Stations/Centers na naglilingkod sa lahat ng barangay ng Roxas City',
+    'health-mho-title': 'Opisina ng Kalusugan ng Lungsod ng Roxas City',
     'health-mho-desc':
-      'Ang Municipal Health Office ay nagbibigay ng pangunahing serbisyo sa kalusugan kabilang ang lying-in facility at laboratory services. Ito ang pangunahing public health center ng munisipalidad.',
+      'Ang City Health Office ay nagbibigay ng pangunahing serbisyo sa kalusugan kabilang ang lying-in facility at laboratory services. Ito ang pangunahing public health center ng lungsod.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Serbisyo sa Laboratoryo',
     'health-service-immunization': 'Immunisasyon',
     'health-service-prenatal': 'Pangangalaga Bago Manganak',
     'health-service-family-planning': 'Pagpaplano ng Pamilya',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ng komprehensibong mga serbisyong medikal.',
-    'health-national-highway-solano': 'Pambansa Highway, Solano',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Mga serbisyo Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Bagong MMG Hospital, nagbibigay ng quality mga serbisyo sa kalusugan sa ang community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
+    'health-national-highway-roxas': 'Pambansa Highway, Roxas City',
     'health-private-medical-center-offering-various':
       'Pribado medical center offering various healthcare and diagnostic mga serbisyo.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisyal na Direktoryo mula sa DOH',
     'health-hivcare-cta-heading': 'Hanapin ang Pasilidad para sa Paggamot at Pangangalaga sa HIV',
     'health-hivcare-cta-desc':
@@ -687,17 +637,17 @@ const translations: Record<string, Record<string, string>> = {
     'agri-equipment-desc': 'Renta at tulong sa kagamitan',
     'agri-livelihood': 'Mga Programa sa Kabuhayan',
     'agri-livelihood-desc': 'Pagsasanay at suporta para sa mga magsasaka',
-    'agri-office-mao': 'Opisina ng Agrikultura ng Munisipalidad',
+    'agri-office-mao': 'Opisina ng Agrikultura ng Lungsod',
     'agri-office-mao-desc':
       'Pagpaparehistro sa RSBSA, mga sertipikasyon, programa sa palay/mais, livestock, serbisyo sa pangisdaan',
 
     // Ordinance Framework Page - Filipino
     'ord-page-title': 'Balangkas ng Ordinansa',
-    'ord-page-desc': 'Mga ordinansang ipinasa ng Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'Mga ordinansang ipinasa ng Sangguniang Panlungsod ng Roxas City',
     'ord-page-badge': 'Lehislatura',
     'ord-what-is': 'Ano ang Ordinansa?',
     'ord-what-is-p1':
-      'Ang munisipal na ordinansa ay lokal na batas na ipinasa ng Sangguniang Bayan (Konseho ng Munisipalidad) na namamahala sa munisipalidad at mga residente nito. Ang mga ordinansa ay may bisa at epekto ng batas sa saklaw ng munisipalidad.',
+      'Ang panlungsod na ordinansa ay lokal na batas na ipinasa ng Sangguniang Panlungsod (Konseho ng Lungsod) na namamahala sa lungsod at mga residente nito. Ang mga ordinansa ay may bisa at epekto ng batas sa saklaw ng lungsod.',
     'ord-what-is-p2':
       "Ang mga ordinansa ay maaaring sumasaklaw sa iba't ibang paksa kabilang ngunit hindi limitado sa: pagbubuwis, regulasyon sa negosyo, kaligtasang pampubliko, proteksyon sa kapaligiran, pamamahala ng trapiko, at zoning.",
     'ord-categories-title': 'Mga Kategorya ng Ordinansa',
@@ -709,21 +659,21 @@ const translations: Record<string, Record<string, string>> = {
     'ord-cat-zoning': 'Zoning at Paggamit ng Lupa',
     'ord-2025-title': 'Mga Ordinansa ng 2025',
     'ord-2025-subtitle':
-      'Mga opisyal na ordinansang ipinasa ng Sangguniang Bayan ng Solano sa 2025',
+      'Mga opisyal na ordinansang ipinasa ng Sangguniang Panlungsod ng Roxas City sa 2025',
     'ord-table-number': 'Numero ng Ordinansa',
     'ord-table-title': 'Pamagat',
     'ord-table-date': 'Petsa ng Sesyon',
-    'ord-view-all': 'Tingnan Lahat ng Ordinansa sa SB Website',
+    'ord-view-all': 'Tingnan Lahat ng Ordinansa sa SP Website',
 
     // Resolution Framework Page - Filipino
     'reso-page-title': 'Balangkas ng Resolusyon',
-    'reso-page-desc': 'Mga resolusyong ipinasa ng Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Mga resolusyong ipinasa ng Sangguniang Panlungsod ng Roxas City',
     'reso-page-badge': 'Lehislatura',
     'reso-what-is': 'Ano ang Resolusyon?',
     'reso-what-is-p1':
-      'Ang resolusyon ay pormal na pagpapahayag ng opinyon o kalooban ng Sangguniang Bayan. Hindi tulad ng mga ordinansa, ang mga resolusyon ay walang bisa at epekto ng batas ngunit nagsisilbing opisyal na pahayag ng lehislatura.',
+      'Ang resolusyon ay pormal na pagpapahayag ng opinyon o kalooban ng Sangguniang Panlungsod. Hindi tulad ng mga ordinansa, ang mga resolusyon ay walang bisa at epekto ng batas ngunit nagsisilbing opisyal na pahayag ng lehislatura.',
     'reso-what-is-p2':
-      'Ang mga resolusyon ay karaniwang ginagamit para sa: mga pagpupugay, mga kahilingan sa mas mataas na ahensya ng pamahalaan, mga pagpapahayag ng suporta o pagtutol, at mga administratibong bagay ng Sangguniang Bayan.',
+      'Ang mga resolusyon ay karaniwang ginagamit para sa: mga pagpupugay, mga kahilingan sa mas mataas na ahensya ng pamahalaan, mga pagpapahayag ng suporta o pagtutol, at mga administratibong bagay ng Sangguniang Panlungsod.',
     'reso-types-title': 'Mga Uri ng Resolusyon',
     'reso-type-commendation': 'Pagpupugay',
     'reso-type-request': 'Kahilingan/Apela',
@@ -733,18 +683,18 @@ const translations: Record<string, Record<string, string>> = {
     'reso-type-appropriation': 'Apropriyasyon',
     'reso-2026-title': 'Mga Resolusyon ng 2026',
     'reso-2026-subtitle':
-      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Solano sa 2026',
+      'Mga opisyal na resolusyong ipinasa ng Sangguniang Panlungsod ng Roxas City sa 2026',
     'reso-2025-title': 'Mga Resolusyon ng 2025',
     'reso-2025-subtitle':
-      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Solano sa 2025',
+      'Mga opisyal na resolusyong ipinasa ng Sangguniang Panlungsod ng Roxas City sa 2025',
     'reso-table-number': 'Numero ng Resolusyon',
     'reso-table-title': 'Pamagat',
     'reso-table-date': 'Petsa ng Sesyon',
-    'reso-view-all': 'Tingnan Lahat ng Resolusyon sa SB Website',
+    'reso-view-all': 'Tingnan Lahat ng Resolusyon sa SP Website',
 
     // Business Services Page - Filipino
     'biz-page-title': 'Serbisyo sa Negosyo',
-    'biz-page-desc': 'Mga permit, lisensya, at suporta para sa mga negosyo sa Solano',
+    'biz-page-desc': 'Mga permit, lisensya, at suporta para sa mga negosyo sa Roxas City',
     'biz-page-badge': 'Negosyo',
     'biz-permit-new': 'Permit ng Negosyo (Bago)',
     'biz-permit-new-desc': "Mag-apply ng bagong mayor's permit para sa iyong negosyo",
@@ -763,7 +713,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // Tax & Payments Page - Filipino
     'tax-page-title': 'Buwis at Pagbabayad',
-    'tax-page-desc': 'Buwis sa ari-arian, buwis sa negosyo, at iba pang bayarin sa munisipalidad',
+    'tax-page-desc': 'Buwis sa ari-arian, buwis sa negosyo, at iba pang bayarin sa lungsod',
     'tax-page-badge': 'Buwis at Pagbabayad',
     'tax-property': 'Real Property Tax',
     'tax-property-desc': 'Taunang buwis sa lupa at mga pagpapabuti',
@@ -790,7 +740,7 @@ const translations: Record<string, Record<string, string>> = {
     'edu-page-desc': 'Mga programa ng iskolarship at tulong pang-edukasyon',
     'edu-page-badge': 'Edukasyon',
     'edu-scholarship': 'Mga Programa ng Iskolarship',
-    'edu-scholarship-desc': 'Mga iskolarship ng munisipalidad para sa mga estudyante',
+    'edu-scholarship-desc': 'Mga iskolarship ng lungsod para sa mga estudyante',
     'edu-training': 'Tulong Pang-edukasyon',
     'edu-training-desc': 'Tulong pinansyal para sa edukasyon',
 
@@ -850,45 +800,35 @@ const translations: Record<string, Record<string, string>> = {
 
     // Homepage - Popular Services
     'popular-services-subtitle':
-      'Mabilis na access sa mga madalas na hinihinging serbisyo ng munisipalidad',
+      'Mabilis na access sa mga madalas na hinihinging serbisyo ng lungsod',
     'popular-browse-directory': 'Tingnan ang kumpletong direktoryo',
 
     // Homepage - Stats
-    'stats-at-a-glance': 'Isang Tingin sa Solano',
+    'stats-at-a-glance': 'Isang Tingin sa Roxas City',
     'stats-view-statistics': 'Tingnan ang Estadistika',
     'stats-population-label': 'Populasyon',
     'stats-population-source': '2024 Senso',
     'stats-barangays-label': 'Mga Barangay',
     'stats-barangays-source': 'Mga Yunit Administratibo',
-    'stats-municipality-label': 'Munisipalidad',
-    'stats-municipality-source': 'Klasipikasyon ng Kita',
+    'stats-city-label': 'Lungsod',
+    'stats-city-source': 'Klasipikasyon ng Kita',
     'stats-land-area-label': 'Lawak ng Lupa',
-    'stats-land-area-source': 'Kabuuang Lawak ng Munisipalidad',
+    'stats-land-area-source': 'Kabuuang Lawak ng Lungsod',
 
     // Homepage - Weather & Map
-    'weather-map-title': 'Panahon at Mapa ng Solano',
+    'weather-map-title': 'Panahon at Mapa ng Roxas City',
     'weather-mainly-clear': 'Halos maaliwalas',
-    'weather-location': 'Solano, Nueva Vizcaya',
+    'weather-location': 'Roxas City, Capiz',
 
     // Homepage - History
-    'history-title': 'Maikling Kasaysayan ng Solano',
-    'history-1760':
-      'Ang orihinal na pangalan ng bayan ay Bintauan, isang pamayanan ng Gaddang na ngayon ay barangay ng Villaverde.',
+    'history-title': 'Maikling Kasaysayan ng Roxas City',
     'history-1767':
       'Ang bayan ay pormal na itinatag ni Padre Alejandro Vidal, isang paring Dominikano na namuno sa isang misyong Espanyol.',
-    'history-1768':
-      'Pinangalanang Lungabang, mula sa salitang Gaddang na lungab na nangangahulugang kuweba. Kalaunan ay binago ng mga Espanyol sa Lumabang.',
     'history-1851':
       'Idineklara ni Gobernador Heneral Antonio Urbiztondo ang Lumabang bilang baryo ng Bayombong dahil sa kakulangan ng mga naninirahan at kita.',
     'history-1853':
       'Dumating ang mga unang Ilocano, dinala ni Don Diego Lumicao, isang dating gobernadorcillo.',
-    'history-1889':
-      'Pinalitan ang pangalan ng Solano bilang parangal kay Gobernador Heneral Ramon Solano y Llanderal. Ang bayan ay muling binuo ni Padre Juan Villaverde na may 14 na magkakahanay na malapad na kalye, bawat isa ay 20 metro ang lapad, na bumubuo ng 100 parisukat na bloke.',
-    'history-1957':
-      'Ang mga baryo ng Ibung at Bintawan ay pinaghiwalay upang bumuo ng bayan ng Ibung, na kalaunan ay pinalitan ng pangalang Villaverde. Ang lawak ng lupa ng Solano ay nabawasan sa 13,980 ektarya.',
     'history-once-largest-title': 'Dating Pinakamalaki',
-    'history-once-largest-desc':
-      'Ang Solano ang pinakamalaking munisipalidad sa probinsya hanggang sa pinaghiwalay ang Caliat at Bintawan upang maging Quezon at Villaverde.',
     'history-urban-planning-title': 'Pagpaplano ng Lungsod',
     'history-urban-planning-desc':
       'Ang muling pagbuo noong 1889 ay lumikha ng grid na may 100 parisukat na bloke, bawat isa ay may kabuuang lawak na isang ektarya, na may mga kalye na patungo sa hilaga-timog at silangan-kanluran.',
@@ -902,24 +842,24 @@ const translations: Record<string, Record<string, string>> = {
       'Ang deadline para sa pag-renew ng permit sa negosyo ay Enero 20, 2025. Hinihikayat ang maagang pag-renew.',
     'news-market-title': 'Bagong Wing ng Pampublikong Palengke Bukas Na',
     'news-market-desc':
-      'Ang na-renovate na wing ng Pampublikong Palengke ng Solano ay bukas na sa mga nagtitinda at publiko.',
+      'Ang na-renovate na wing ng Pampublikong Palengke ng Roxas City ay bukas na sa mga nagtitinda at publiko.',
     'news-power-title': 'Nakaiskedyul na Pagkaputol ng Kuryente',
     'news-power-desc':
       'Maintenance na nakaiskedyul para sa Barangay Osmeña sa Dis 1, 8:00 AM - 5:00 PM.',
 
     // Homepage - Quiz CTA
-    'quiz-title': 'Solano Quiz',
-    'quiz-subtitle': 'Gaano mo kakilala ang Solano, Nueva Vizcaya?',
+    'quiz-title': 'Roxas City Quiz',
+    'quiz-subtitle': 'Gaano mo kakilala ang Roxas City, Capiz?',
     'quiz-description':
-      'Suriin ang iyong kaalaman sa pamana, pagkakakilanlan sa kultura, at kahalagahang heograpiko ng munisipalidad sa pamamagitan ng isang interactive na pagtatasa ng kaalaman na idinisenyo upang ipakita ang isa sa mga pinakatanyag na lokalidad ng Nueva Vizcaya.',
+      'Suriin ang iyong kaalaman sa pamana, pagkakakilanlan sa kultura, at kahalagahang heograpiko ng lungsod sa pamamagitan ng isang interactive na pagtatasa ng kaalaman na idinisenyo upang ipakita ang isa sa mga pinakatanyag na lokalidad ng Capiz.',
     'quiz-take': 'Subukin ang Quiz',
 
     // Footer
     'footer-tagline':
-      'Pagbibigay-kapangyarihan sa mga tao ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga tao ng Roxas City na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Roxas City.',
     'footer-quick-links': 'Mga Mabilisang Link',
     'footer-resources': 'Mga Mapagkukunan',
-    'footer-solano-quiz': 'Solano Quiz',
+    'footer-roxas-quiz': 'Roxas City Quiz',
     'footer-sitemap': 'Mapa ng Site',
     'footer-citizens-charter': "Citizen's Charter",
     'footer-terms': 'Mga Tuntunin ng Paggamit',
@@ -928,15 +868,15 @@ const translations: Record<string, Record<string, string>> = {
     'footer-faq': 'FAQ',
     'footer-open-data': 'Open Data Philippines',
     'footer-foi': 'Kalayaan sa Impormasyon',
-    'footer-lgu-portal': 'Opisyal na Portal ng LGU Solano',
-    'footer-sb': 'Sangguniang Bayan',
-    'footer-lgu-facebook': 'LGU Solano Facebook',
+    'footer-lgu-portal': 'Opisyal na Portal ng LGU Roxas City',
+    'footer-sb': 'Sangguniang Panlungsod',
+    'footer-lgu-facebook': 'LGU Roxas City Facebook',
     'footer-blgf': 'BLGF Portal',
     'footer-cmci': 'CMCI DTI Portal',
-    'footer-cost': 'Gastos sa mga Tao ng Solano =',
+    'footer-cost': 'Gastos sa mga Tao ng Roxas City =',
     'footer-volunteer': 'Mag-volunteer sa amin',
     'footer-contribute': 'Mag-ambag ng code sa amin',
-    'footer-copyright-text': 'BetterSolano.org',
+    'footer-copyright-text': 'BetterRoxas',
     'footer-copyright-disclaimer':
       'Lahat ng pampublikong impormasyon ay mula sa mga opisyal na portal ng pamahalaan.',
     'footer-skip-to-main': 'Lumaktaw sa pangunahing nilalaman',
@@ -953,15 +893,15 @@ const translations: Record<string, Record<string, string>> = {
 
     // Appointment CTA
     'appointment-cta-heading':
-      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Solano',
+      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Roxas City',
     'appointment-cta-subtitle': 'Awan pila. Awan agpapasubli. Nasayaat nga appointment laeng.',
     'appointment-schedule-btn': 'Ag-iskedyul ti Appointment',
     'appointment-create-btn': 'Agaramid ti Account',
 
     // Hero Section
-    'hero-welcome': 'Naragsak nga Isasangbay iti BetterSolano.org',
+    'hero-welcome': 'Naragsak nga Isasangbay iti BetterRoxas',
     'hero-subtitle':
-      'Aksesen dagiti serbisyo ti gobierno, impormasyon, ken dagiti resources para kadagiti umili ti Solano, Nueva Vizcaya.',
+      'Aksesen dagiti serbisyo ti gobierno, impormasyon, ken dagiti resources para kadagiti umili ti Roxas City, Capiz.',
     'hero-find-service': 'Agsapul ti Serbisyo',
 
     // Popular Services
@@ -982,10 +922,10 @@ const translations: Record<string, Record<string, string>> = {
     'section-updates': 'Kabarbaro nga Update',
     'btn-view-all': 'Kitaen Amin',
 
-    // Municipal Leadership
-    'section-leadership': 'Panguluan ti Munisipalidad',
-    'title-mayor': 'Mayor ti Munisipalidad',
-    'title-vice-mayor': 'Bise Mayor ti Munisipalidad',
+    // City Leadership
+    'section-leadership': 'Panguluan ti Lungsod',
+    'title-mayor': 'Mayor ti Lungsod',
+    'title-vice-mayor': 'Bise Mayor ti Lungsod',
     'btn-view-officials': 'Kitaen Amin nga Opisyal',
 
     // Contact Section
@@ -995,11 +935,11 @@ const translations: Record<string, Record<string, string>> = {
     'contact-address': 'Adres',
     'contact-hours': 'Lunes-Biernes: 8:00 AM - 5:00 PM',
     'contact-response': 'Sumungbat kami iti uneg ti 24 nga oras',
-    'contact-municipal-hall': 'Munisipio',
+    'contact-municipal-hall': 'Lungsod',
 
     // Services Page
-    'services-title': 'Direktorio ti Serbisyo ti Munisipalidad',
-    'services-subtitle': 'Kitaen amin a serbisyo nga idatag ti Munisipalidad ti Solano',
+    'services-title': 'Direktorio ti Serbisyo ti Lungsod',
+    'services-subtitle': 'Kitaen amin a serbisyo nga idatag ti Lungsod ti Roxas City',
     'life-events-title': 'Agsapul Segun iti Pasamak iti Biag',
     'life-events-subtitle': 'Biroken dagiti serbisyo segun iti mapasamak iti biagmo',
     'life-starting-business': 'Mangrugi ti Negosyo',
@@ -1044,7 +984,7 @@ const translations: Record<string, Record<string, string>> = {
     // FAQ Page
     'faq-title': 'Masansan a Maisaludsod',
     'faq-subtitle':
-      'Biruken dagiti sungbat kadagiti gagangay a saludsod maipapan kadagiti serbisyo ti munisipalidad',
+      'Biruken dagiti sungbat kadagiti gagangay a saludsod maipapan kadagiti serbisyo ti lungsod',
     'faq-general': 'Dagiti Gagangay a Saludsod',
     'faq-certificates': 'Dagiti Sertipiko ken Dokumento',
     'faq-business': 'Negosyo ken Permit',
@@ -1090,59 +1030,37 @@ const translations: Record<string, Record<string, string>> = {
     'health-maternal': 'Panangaywan iti Ina',
     'health-maternal-desc': 'Serbisio ti salun-at sakbay ken kalpasan ti panaganak',
     'health-medicine': 'Tulong iti Agas',
-    'health-medicine-desc': 'Tulong pinansyal para iti agas babaen ti MSWDO',
+    'health-medicine-desc': 'Tulong pinansyal para iti agas babaen ti CSWDO',
     'health-stat-facilities': 'Dagup a Pasilidad ti Salun-at',
     'health-stat-hospitals': 'Dagiti Kangrunaan nga Ospital',
     'health-stat-bhs': 'Dagiti Barangay Health Station',
-    'health-stat-mho': 'Opisina ti Salun-at ti Munisipalidad',
-    'health-section-hospitals': 'Dagiti Ospital idiay Solano',
-    'health-section-mho': 'Opisina ti Salun-at ti Munisipalidad',
+    'health-stat-mho': 'Opisina ti Salun-at ti Lungsod',
+    'health-section-hospitals': 'Dagiti Ospital idiay Roxas City',
+    'health-section-mho': 'Opisina ti Salun-at ti Lungsod',
     'health-section-bhs': 'Dagiti Barangay Health Station',
     'health-bhs-subtitle':
-      '22 a Barangay Health Stations/Centers a mangserserbisio iti amin a barangay ti Solano',
-    'health-mho-title': 'Opisina ti Salun-at ti Munisipalidad ti Solano',
+      '22 a Barangay Health Stations/Centers a mangserserbisio iti amin a barangay ti Roxas City',
+    'health-mho-title': 'Opisina ti Salun-at ti Lungsod ti Roxas City',
     'health-mho-desc':
-      'Ti Municipal Health Office ket mangted ti kangrunaan a serbisio ti salun-at a mairaman ti lying-in facility ken serbisio ti laboratorio. Daytoy ti kangrunaan a public health center ti munisipalidad.',
+      'Ti City Health Office ket mangted ti kangrunaan a serbisio ti salun-at a mairaman ti lying-in facility ken serbisio ti laboratorio. Daytoy ti kangrunaan a public health center ti lungsod.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Serbisio ti Laboratorio',
     'health-service-immunization': 'Immunisasion',
     'health-service-prenatal': 'Panangyawan Sakbay Panaganak',
     'health-service-family-planning': 'Panagplano ti Pamilya',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ti komprehensibong dagiti serbisyong medikal.',
-    'health-national-highway-solano': 'Nailian Highway, Solano',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Dagiti serbisio Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Baro a MMG Hospital, nagbibigay ti quality dagiti serbisio iti kalusugan iti ti community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
+    'health-national-highway-roxas': 'Nailian Highway, Roxas City',
     'health-private-medical-center-offering-various':
       'Pribado medical center offering various healthcare and diagnostic dagiti serbisio.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisial a Direktorio manipud iti DOH',
     'health-hivcare-cta-heading':
       'Birukem ti Pasilidad para iti Panangagas ken Panangaywan iti HIV',
@@ -1163,17 +1081,17 @@ const translations: Record<string, Record<string, string>> = {
     'agri-equipment-desc': 'Pagrenta ken tulong iti gamit',
     'agri-livelihood': 'Dagiti Programa ti Panagbiag',
     'agri-livelihood-desc': 'Panagsanay ken suporta para kadagiti mannalon',
-    'agri-office-mao': 'Opisina ti Agrikultura ti Munisipalidad',
+    'agri-office-mao': 'Opisina ti Agrikultura ti Lungsod',
     'agri-office-mao-desc':
       'Panagrehistro iti RSBSA, sertipikasion, programa ti irik/mais, livestock, serbisio ti panagkalap',
 
     // Ordinance Framework Page - Ilocano
     'ord-page-title': 'Balangkas ti Ordinansa',
-    'ord-page-desc': 'Dagiti ordinansa a naipasa ti Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'Dagiti ordinansa a naipasa ti Sangguniang Panlungsod ng Roxas City',
     'ord-page-badge': 'Lehislatura',
     'ord-what-is': 'Ania ti Ordinansa?',
     'ord-what-is-p1':
-      'Ti munisipal nga ordinansa ket lokal a linteg a naipasa ti Sangguniang Bayan (Konseho ti Munisipalidad) a mangituray ti munisipalidad ken dagiti residente na. Dagiti ordinansa ket addaan ti pigsa ken epekto ti linteg iti saklaw ti munisipalidad.',
+      'Ti panlungsod nga ordinansa ket lokal a linteg a naipasa ti Sangguniang Panlungsod (Konseho ti Lungsod) a mangituray ti lungsod ken dagiti residente na. Dagiti ordinansa ket addaan ti pigsa ken epekto ti linteg iti saklaw ti lungsod.',
     'ord-what-is-p2':
       'Dagiti ordinansa ket mabalin a manakup kadagiti nadumaduma a paksa a mairaman ngem saan a limitado iti: panagbuwis, regulasion ti negosio, kaligtasan pampubliko, proteksion ti aglawlaw, panagtaripato ti trapiko, ken zoning.',
     'ord-categories-title': 'Dagiti Kategorya ti Ordinansa',
@@ -1185,21 +1103,21 @@ const translations: Record<string, Record<string, string>> = {
     'ord-cat-zoning': 'Zoning ken Panagusar ti Daga',
     'ord-2025-title': 'Dagiti Ordinansa ti 2025',
     'ord-2025-subtitle':
-      'Dagiti opisial nga ordinansa a naipasa ti Sangguniang Bayan ng Solano iti 2025',
+      'Dagiti opisial nga ordinansa a naipasa ti Sangguniang Panlungsod ng Roxas City iti 2025',
     'ord-table-number': 'Numero ti Ordinansa',
     'ord-table-title': 'Titulo',
     'ord-table-date': 'Petsa ti Sesion',
-    'ord-view-all': 'Kitaen Amin nga Ordinansa iti SB Website',
+    'ord-view-all': 'Kitaen Amin nga Ordinansa iti SP Website',
 
     // Resolution Framework Page - Ilocano
     'reso-page-title': 'Balangkas ti Resolusion',
-    'reso-page-desc': 'Dagiti resolusion a naipasa ti Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Dagiti resolusion a naipasa ti Sangguniang Panlungsod ng Roxas City',
     'reso-page-badge': 'Lehislatura',
     'reso-what-is': 'Ania ti Resolusion?',
     'reso-what-is-p1':
-      'Ti resolusion ket pormal a panangibaga ti opinion wenno pagayatan ti Sangguniang Bayan. Saan a kas kadagiti ordinansa, dagiti resolusion ket awan ti pigsa ken epekto ti linteg ngem agserbida a kas opisial a pahayag ti lehislatura.',
+      'Ti resolusion ket pormal a panangibaga ti opinion wenno pagayatan ti Sangguniang Panlungsod. Saan a kas kadagiti ordinansa, dagiti resolusion ket awan ti pigsa ken epekto ti linteg ngem agserbida a kas opisial a pahayag ti lehislatura.',
     'reso-what-is-p2':
-      'Dagiti resolusion ket kadawyan a mausar para iti: panangpadayaw, dawat kadagiti nangatngato nga ahensya ti gobierno, panangibaga ti suporta wenno supiat, ken dagiti administratibo a banag ti Sangguniang Bayan.',
+      'Dagiti resolusion ket kadawyan a mausar para iti: panangpadayaw, dawat kadagiti nangatngato nga ahensya ti gobierno, panangibaga ti suporta wenno supiat, ken dagiti administratibo a banag ti Sangguniang Panlungsod.',
     'reso-types-title': 'Dagiti Kita ti Resolusion',
     'reso-type-commendation': 'Panangpadayaw',
     'reso-type-request': 'Dawat/Apela',
@@ -1209,18 +1127,18 @@ const translations: Record<string, Record<string, string>> = {
     'reso-type-appropriation': 'Apropriyasion',
     'reso-2026-title': 'Dagiti Resolusion ti 2026',
     'reso-2026-subtitle':
-      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Solano iti 2026',
+      'Dagiti opisial a resolusion a naipasa ti Sangguniang Panlungsod ng Roxas City iti 2026',
     'reso-2025-title': 'Dagiti Resolusion ti 2025',
     'reso-2025-subtitle':
-      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Solano iti 2025',
+      'Dagiti opisial a resolusion a naipasa ti Sangguniang Panlungsod ng Roxas City iti 2025',
     'reso-table-number': 'Numero ti Resolusion',
     'reso-table-title': 'Titulo',
     'reso-table-date': 'Petsa ti Sesion',
-    'reso-view-all': 'Kitaen Amin a Resolusion iti SB Website',
+    'reso-view-all': 'Kitaen Amin a Resolusion iti SP Website',
 
     // Business Services Page - Ilocano
     'biz-page-title': 'Serbisio ti Negosio',
-    'biz-page-desc': 'Dagiti permit, lisensya, ken suporta para kadagiti negosio idiay Solano',
+    'biz-page-desc': 'Dagiti permit, lisensya, ken suporta para kadagiti negosio idiay Roxas City',
     'biz-page-badge': 'Negosio',
     'biz-permit-new': 'Permit ti Negosio (Baro)',
     'biz-permit-new-desc': "Agaplikar ti baro a mayor's permit para iti negosio",
@@ -1239,8 +1157,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // Tax & Payments Page - Ilocano
     'tax-page-title': 'Buwis ken Panagbayad',
-    'tax-page-desc':
-      'Buwis ti sanikua, buwis ti negosio, ken dadduma pay a bayadan iti munisipalidad',
+    'tax-page-desc': 'Buwis ti sanikua, buwis ti negosio, ken dadduma pay a bayadan iti lungsod',
     'tax-page-badge': 'Buwis ken Panagbayad',
     'tax-property': 'Real Property Tax',
     'tax-property-desc': 'Tawenantawen a buwis ti daga ken dagiti pagpasayaat',
@@ -1269,7 +1186,7 @@ const translations: Record<string, Record<string, string>> = {
     'edu-page-desc': 'Dagiti programa ti iskolarship ken tulong pang-edukasion',
     'edu-page-badge': 'Edukasion',
     'edu-scholarship': 'Dagiti Programa ti Iskolarship',
-    'edu-scholarship-desc': 'Dagiti iskolarship ti munisipalidad para kadagiti estudiante',
+    'edu-scholarship-desc': 'Dagiti iskolarship ti lungsod para kadagiti estudiante',
     'edu-training': 'Tulong Pang-edukasion',
     'edu-training-desc': 'Tulong pinansyal para iti edukasion',
 
@@ -1329,45 +1246,35 @@ const translations: Record<string, Record<string, string>> = {
 
     // Homepage - Popular Services
     'popular-services-subtitle':
-      'Napartak a panag-akses kadagiti masansan a makiddaw a serbisio ti munisipalidad',
+      'Napartak a panag-akses kadagiti masansan a makiddaw a serbisio ti lungsod',
     'popular-browse-directory': 'Kitaen ti kompleto a direktorio',
 
     // Homepage - Stats
-    'stats-at-a-glance': 'Maysa a Panagkita iti Solano',
+    'stats-at-a-glance': 'Maysa a Panagkita iti Roxas City',
     'stats-view-statistics': 'Kitaen ti Estadistika',
     'stats-population-label': 'Populasion',
     'stats-population-source': '2024 a Senso',
     'stats-barangays-label': 'Dagiti Barangay',
     'stats-barangays-source': 'Dagiti Yunit Administratibo',
-    'stats-municipality-label': 'Munisipalidad',
-    'stats-municipality-source': 'Klasipikasion ti Sapul',
+    'stats-city-label': 'Lungsod',
+    'stats-city-source': 'Klasipikasion ti Sapul',
     'stats-land-area-label': 'Kalawa ti Daga',
-    'stats-land-area-source': 'Dagup a Kalawa ti Munisipalidad',
+    'stats-land-area-source': 'Dagup a Kalawa ti Lungsod',
 
     // Homepage - Weather & Map
-    'weather-map-title': 'Tiempo ken Mapa ti Solano',
+    'weather-map-title': 'Tiempo ken Mapa ti Roxas City',
     'weather-mainly-clear': 'Kaaduan a nalawag',
-    'weather-location': 'Solano, Nueva Vizcaya',
+    'weather-location': 'Roxas City, Capiz',
 
     // Homepage - History
-    'history-title': 'Ababa a Pakasaritaan ti Solano',
-    'history-1760':
-      'Ti orihinal a nagan ti ili ket Bintauan, maysa a pagnaedanan ti Gaddang a ita ket barangay ti Villaverde.',
+    'history-title': 'Ababa a Pakasaritaan ti Roxas City',
     'history-1767':
       'Ti ili ket pormal a naipasdek babaen ni Padre Alejandro Vidal, maysa a padi a Dominikano a nangidaulo iti misyon nga Espanyol.',
-    'history-1768':
-      'Napanaganan iti Lungabang, manipud iti sao a Gaddang a lungab a kaipapananna ket rukib. Nabaliwan dagiti Espanyol iti Lumabang.',
     'history-1851':
       'Indeklara ni Gobernador Heneral Antonio Urbiztondo ti Lumabang a kas baryo ti Bayombong gapu iti kaawan dagiti agnanaed ken sapul.',
     'history-1853':
       'Dimteng dagiti umuna nga Ilocano, inyeg ni Don Diego Lumicao, maysa a dati a gobernadorcillo.',
-    'history-1889':
-      'Nabaliwan ti nagan iti Solano tapno padayawan ni Gobernador Heneral Ramon Solano y Llanderal. Ti ili ket naipasayaat manen babaen ni Padre Juan Villaverde nga addaan 14 a magkakahanay a nalawa a kalsada, tunggal maysa ket 20 metro ti kalawa na, a mangbukel iti 100 a kuadrado a bloke.',
-    'history-1957':
-      'Dagiti baryo ti Ibung ken Bintawan ket naisina tapno mangbukel iti ili ti Ibung, a nabaliwan ti nagan iti Villaverde. Ti kalawa ti daga ti Solano ket nabassitan iti 13,980 ektarya.',
     'history-once-largest-title': 'Idi Kadakkelan',
-    'history-once-largest-desc':
-      'Ti Solano ti kadakkelan a munisipalidad iti probinsia agingga a naisina ti Caliat ken Bintawan tapno agbalin a Quezon ken Villaverde.',
     'history-urban-planning-title': 'Panagplano ti Ili',
     'history-urban-planning-desc':
       'Ti panagpasayaat idi 1889 ket nangaramid iti grid a 100 a kuadrado a bloke, tunggal maysa ket addaan dagup a kalawa a maysa nga ektarya, nga addaan kadagiti kalsada a mapan iti amianan-abagatan ken daya-laud.',
@@ -1381,24 +1288,24 @@ const translations: Record<string, Record<string, string>> = {
       'Ti deadline para iti panag-renew ti permit ti negosio ket Enero 20, 2025. Maparegta ti nasapa a panag-renew.',
     'news-market-title': 'Baro a Wing ti Pampubliko a Tiendaan Nalukat',
     'news-market-desc':
-      'Ti na-renovate a wing ti Pampubliko a Tiendaan ti Solano ket nalukat kadagiti aglaklako ken publiko.',
+      'Ti na-renovate a wing ti Pampubliko a Tiendaan ti Roxas City ket nalukat kadagiti aglaklako ken publiko.',
     'news-power-title': 'Naiskedyul a Pannakaputol ti Kuryente',
     'news-power-desc':
       'Maintenance a naiskedyul para iti Barangay Osmeña iti Dis 1, 8:00 AM - 5:00 PM.',
 
     // Homepage - Quiz CTA
-    'quiz-title': 'Solano Quiz',
-    'quiz-subtitle': 'Kasano ti pannakaammom iti Solano, Nueva Vizcaya?',
+    'quiz-title': 'Roxas City Quiz',
+    'quiz-subtitle': 'Kasano ti pannakaammom iti Roxas City, Capiz?',
     'quiz-description':
-      'Evaluaren ti pannakaammom iti tawid, kultural a pagbigbigan, ken heograpiko a kapatgan ti munisipalidad babaen ti maysa nga interactive a panagsubok ti pannakaammo a naidisinio tapno ipakita ti maysa kadagiti kalatakan a lokalidad ti Nueva Vizcaya.',
+      'Evaluaren ti pannakaammom iti tawid, kultural a pagbigbigan, ken heograpiko a kapatgan ti lungsod babaen ti maysa nga interactive a panagsubok ti pannakaammo a naidisinio tapno ipakita ti maysa kadagiti kalatakan a lokalidad ti Capiz.',
     'quiz-take': 'Subokan ti Quiz',
 
     // Footer
     'footer-tagline':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Roxas City nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Roxas City.',
     'footer-quick-links': 'Dagiti Napartak a Silpo',
     'footer-resources': 'Dagiti Rekurso',
-    'footer-solano-quiz': 'Solano Quiz',
+    'footer-roxas-quiz': 'Roxas City Quiz',
     'footer-sitemap': 'Mapa ti Site',
     'footer-citizens-charter': "Citizen's Charter",
     'footer-terms': 'Dagiti Kondision ti Panagusar',
@@ -1407,15 +1314,15 @@ const translations: Record<string, Record<string, string>> = {
     'footer-faq': 'FAQ',
     'footer-open-data': 'Open Data Philippines',
     'footer-foi': 'Wayawaya ti Impormasion',
-    'footer-lgu-portal': 'Opisial a Portal ti LGU Solano',
-    'footer-sb': 'Sangguniang Bayan',
-    'footer-lgu-facebook': 'LGU Solano Facebook',
+    'footer-lgu-portal': 'Opisial a Portal ti LGU Roxas City',
+    'footer-sb': 'Sangguniang Panlungsod',
+    'footer-lgu-facebook': 'LGU Roxas City Facebook',
     'footer-blgf': 'BLGF Portal',
     'footer-cmci': 'CMCI DTI Portal',
-    'footer-cost': 'Gastos kadagiti Umili ti Solano =',
+    'footer-cost': 'Gastos kadagiti Umili ti Roxas City =',
     'footer-volunteer': 'Ag-volunteer kadakami',
     'footer-contribute': 'Ag-ambag ti code kadakami',
-    'footer-copyright-text': 'BetterSolano.org',
+    'footer-copyright-text': 'BetterRoxas',
     'footer-copyright-disclaimer':
       'Amin a pampubliko nga impormasion ket nagtaud kadagiti opisial a portal ti gobierno.',
     'footer-skip-to-main': 'Lumaktaw iti kangrunaan a linaon',
@@ -1437,7 +1344,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // Load saved language from localStorage
-    const savedLang = localStorage.getItem('bettersolano_lang') as Language;
+    const savedLang = localStorage.getItem('betterroxas_lang') as Language;
     if (savedLang && ['en', 'fil', 'ilo'].includes(savedLang)) {
       setLanguageState(savedLang);
     }
@@ -1445,7 +1352,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('bettersolano_lang', lang);
+    localStorage.setItem('betterroxas_lang', lang);
   };
 
   const t = (key: string): string => {

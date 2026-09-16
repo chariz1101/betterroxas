@@ -1,18 +1,259 @@
 {
   "_schema_version": "1.0",
-  "_status": "draft",
+  "_status": "published",
   "_source": "Philippine Statistics Authority (PSA)",
-  "_note": "Awaiting official data from PSA / LGU Solano planning office",
-  "municipality": "Solano",
-  "province": "Nueva Vizcaya",
-  "region": "Region II - Cagayan Valley",
+  "_note": "City totals are PSA 2024 census. The per-barangay breakdown is PSA 2020, the latest release with barangay-level detail; those 47 figures sum to the published 2020 city total of 179,292.",
+  "city": "Roxas City",
+  "province": "Capiz",
+  "region": "Region VI - Western Visayas",
   "population": {
-    "total": 69296,
+    "total": 185236,
     "year": 2024,
     "source": "PSA Census"
   },
-  "land_area_km2": 162.7,
-  "barangay_count": 22,
-  "income_class": "1st",
-  "barangays": []
+  "land_area_km2": 95.07,
+  "barangay_count": 47,
+  "income_class": "2nd",
+  "barangays": [
+    {
+      "name": "Lawa-an",
+      "population": 11484,
+      "census_year": 2020
+    },
+    {
+      "name": "Baybay",
+      "population": 9732,
+      "census_year": 2020
+    },
+    {
+      "name": "Banica",
+      "population": 8950,
+      "census_year": 2020
+    },
+    {
+      "name": "Tiza",
+      "population": 8919,
+      "census_year": 2020
+    },
+    {
+      "name": "Bolo",
+      "population": 8001,
+      "census_year": 2020
+    },
+    {
+      "name": "Culasi",
+      "population": 7869,
+      "census_year": 2020
+    },
+    {
+      "name": "Libas",
+      "population": 7802,
+      "census_year": 2020
+    },
+    {
+      "name": "Milibili",
+      "population": 7120,
+      "census_year": 2020
+    },
+    {
+      "name": "Dinginan",
+      "population": 7064,
+      "census_year": 2020
+    },
+    {
+      "name": "Lanot",
+      "population": 6421,
+      "census_year": 2020
+    },
+    {
+      "name": "Cagay",
+      "population": 6333,
+      "census_year": 2020
+    },
+    {
+      "name": "Tanque",
+      "population": 5922,
+      "census_year": 2020
+    },
+    {
+      "name": "Punta Tabuc",
+      "population": 5782,
+      "census_year": 2020
+    },
+    {
+      "name": "Mongpong",
+      "population": 5286,
+      "census_year": 2020
+    },
+    {
+      "name": "Dayao",
+      "population": 5211,
+      "census_year": 2020
+    },
+    {
+      "name": "Inzo Arnaldo Village",
+      "population": 4930,
+      "census_year": 2020
+    },
+    {
+      "name": "San Jose",
+      "population": 4406,
+      "census_year": 2020
+    },
+    {
+      "name": "Dumolog",
+      "population": 4014,
+      "census_year": 2020
+    },
+    {
+      "name": "Sibaguan",
+      "population": 3875,
+      "census_year": 2020
+    },
+    {
+      "name": "Lonoy",
+      "population": 3080,
+      "census_year": 2020
+    },
+    {
+      "name": "Barra",
+      "population": 2947,
+      "census_year": 2020
+    },
+    {
+      "name": "Jumaguicjic",
+      "population": 2778,
+      "census_year": 2020
+    },
+    {
+      "name": "Adlawan",
+      "population": 2597,
+      "census_year": 2020
+    },
+    {
+      "name": "Cabugao",
+      "population": 2422,
+      "census_year": 2020
+    },
+    {
+      "name": "Loctugan",
+      "population": 2359,
+      "census_year": 2020
+    },
+    {
+      "name": "Tanza",
+      "population": 2354,
+      "census_year": 2020
+    },
+    {
+      "name": "Bato",
+      "population": 2348,
+      "census_year": 2020
+    },
+    {
+      "name": "Talon",
+      "population": 2236,
+      "census_year": 2020
+    },
+    {
+      "name": "Cogon",
+      "population": 2204,
+      "census_year": 2020
+    },
+    {
+      "name": "Balijuagan",
+      "population": 2166,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion VII",
+      "population": 2117,
+      "census_year": 2020
+    },
+    {
+      "name": "Culajao",
+      "population": 2099,
+      "census_year": 2020
+    },
+    {
+      "name": "Bago",
+      "population": 2047,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion V",
+      "population": 1934,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion IX",
+      "population": 1794,
+      "census_year": 2020
+    },
+    {
+      "name": "Gabu-an",
+      "population": 1521,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion I",
+      "population": 1443,
+      "census_year": 2020
+    },
+    {
+      "name": "Liong",
+      "population": 1420,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion II",
+      "population": 1382,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion X",
+      "population": 1352,
+      "census_year": 2020
+    },
+    {
+      "name": "Punta Cogon",
+      "population": 1216,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion XI",
+      "population": 1174,
+      "census_year": 2020
+    },
+    {
+      "name": "Olotayan",
+      "population": 1058,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion VIII",
+      "population": 975,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion III",
+      "population": 523,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion VI",
+      "population": 490,
+      "census_year": 2020
+    },
+    {
+      "name": "Poblacion IV",
+      "population": 135,
+      "census_year": 2020
+    }
+  ],
+  "population_density_per_km2": {
+    "value": 1886,
+    "year": 2020,
+    "source": "PSA Census"
+  }
 }

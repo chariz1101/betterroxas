@@ -1,54 +1,77 @@
 {
+  "_source": "https://roxascity.gov.ph/city-council/ and https://roxascity.gov.ph/elected-officials (2025-2028 term)",
+  "_note": "Official portraits are not yet supplied; the image paths below are placeholders and the cards fall back to initials until the files are added.",
+  "_term": "2025-2028",
   "mayor": {
-    "name": "Hon. Philip A. Dacayo",
-    "title": "Municipal Mayor",
+    "name": "Hon. Ronnie T. Dadivas",
+    "title": "City Mayor",
     "image": "assets/images/officials/mayor.jpg"
   },
   "vice_mayor": {
-    "name": "Hon. Eduardo D. Tiongson",
-    "title": "Municipal Vice Mayor",
+    "name": "Hon. Teresa H. Almalbis",
+    "title": "City Vice Mayor",
     "image": "assets/images/officials/vice-mayor.jpg"
   },
   "councilors": [
     {
-      "name": "Hon. Councilor One",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb1.jpg"
+      "name": "Hon. Victor Federico B. Acepcion",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp1.jpg"
     },
     {
-      "name": "Hon. Councilor Two",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb2.jpg"
+      "name": "Hon. Jaime Cortes M. Altavas",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp2.jpg"
     },
     {
-      "name": "Hon. Councilor Three",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb3.jpg"
+      "name": "Hon. Paul Ivan R. Baticados",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp3.jpg"
     },
     {
-      "name": "Hon. Councilor Four",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb4.jpg"
+      "name": "Hon. Earl C. Sicad",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp4.jpg"
     },
     {
-      "name": "Hon. Councilor Five",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb5.jpg"
+      "name": "Hon. John Paul J. Arcenas",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp5.jpg"
     },
     {
-      "name": "Hon. Councilor Six",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb6.jpg"
+      "name": "Hon. Fernando Luis A. Viterbo",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp6.jpg"
     },
     {
-      "name": "Hon. Councilor Seven",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb7.jpg"
+      "name": "Hon. Reynaldo C. Magallanes",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp7.jpg"
     },
     {
-      "name": "Hon. Councilor Eight",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb8.jpg"
+      "name": "Hon. Midelo D. Ocampo",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp8.jpg"
+    },
+    {
+      "name": "Hon. Herbert S. Chu",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp9.jpg"
+    },
+    {
+      "name": "Hon. Gia T. Potato",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp10.jpg"
+    },
+    {
+      "name": "Hon. Roberto Ross E. Roldan",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp11.jpg"
+    },
+    {
+      "name": "Hon. Martin Antonio S. Pimentel II",
+      "title": "SP Member",
+      "image": "assets/images/officials/sp12.jpg"
     }
   ]
 }
