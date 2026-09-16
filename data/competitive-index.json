@@ -170,6 +170,22 @@
       "values": []
     }
   ],
-  "_status": "draft",
-  "_note": "Awaiting DTI CMCI scores for Roxas City."
+  "_status": "partial",
+  "_note": "Headline 2024 rankings are from roxascity.gov.ph. Per-pillar and per-indicator score series are published only through the DTI interactive portal (https://cmci.dti.gov.ph/lgu-profile.php?lgu=Roxas+(CZ)), which does not expose them for reuse, so the \"values\" arrays are intentionally empty.",
+  "_source": "DTI Cities and Municipalities Competitiveness Index (CMCI)",
+  "rankings": [
+    {
+      "year": 2024,
+      "award": "Most Competitive Component City, Western Visayas (Region VI)",
+      "rank": 1,
+      "source": "https://roxascity.gov.ph/"
+    },
+    {
+      "year": 2024,
+      "award": "Most Improved Ranking among component cities nationwide",
+      "rank": 18,
+      "of": 116,
+      "source": "https://roxascity.gov.ph/"
+    }
+  ]
 }

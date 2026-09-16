@@ -154,7 +154,8 @@ const translations: Record<string, Record<string, string>> = {
     'health-section-hospitals': 'Hospitals in Roxas City',
     'health-section-mho': 'City Health Office',
     'health-section-bhs': 'Barangay Health Stations',
-    'health-bhs-subtitle': '22 Barangay Health Stations/Centers serving all barangays of Roxas City',
+    'health-bhs-subtitle':
+      '22 Barangay Health Stations/Centers serving all barangays of Roxas City',
     'health-mho-title': 'Roxas City Health Office',
     'health-mho-desc':
       'The City Health Office provides primary healthcare services including a lying-in facility and laboratory services. It serves as the main public health center for the city.',
@@ -164,40 +165,18 @@ const translations: Record<string, Record<string, string>> = {
     'health-service-prenatal': 'Prenatal Care',
     'health-service-family-planning': 'Family Planning',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited private hospital providing comprehensive medical services.',
     'health-national-highway-roxas': 'National Highway, Roxas City',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Services Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as New MMG Hospital, providing quality healthcare services to the community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-private-medical-center-offering-various':
       'Private medical center offering various healthcare and diagnostic services.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Official DOH-Sourced Directory',
     'health-hivcare-cta-heading': 'Find HIV Treatment & Care Facilities Near You',
     'health-hivcare-cta-desc':
@@ -238,7 +217,8 @@ const translations: Record<string, Record<string, string>> = {
     'ord-cat-traffic': 'Traffic & Transportation',
     'ord-cat-zoning': 'Zoning & Land Use',
     'ord-2025-title': '2025 Ordinances',
-    'ord-2025-subtitle': 'Official ordinances enacted by the Sangguniang Panlungsod ng Roxas City in 2025',
+    'ord-2025-subtitle':
+      'Official ordinances enacted by the Sangguniang Panlungsod ng Roxas City in 2025',
     'ord-table-number': 'Ordinance No.',
     'ord-table-title': 'Title',
     'ord-table-date': 'Session Date',
@@ -261,9 +241,11 @@ const translations: Record<string, Record<string, string>> = {
     'reso-type-authorization': 'Authorization',
     'reso-type-appropriation': 'Appropriation',
     'reso-2026-title': '2026 Resolutions',
-    'reso-2026-subtitle': 'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2026',
+    'reso-2026-subtitle':
+      'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2026',
     'reso-2025-title': '2025 Resolutions',
-    'reso-2025-subtitle': 'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2025',
+    'reso-2025-subtitle':
+      'Official resolutions passed by the Sangguniang Panlungsod ng Roxas City in 2025',
     'reso-table-number': 'Resolution No.',
     'reso-table-title': 'Title',
     'reso-table-date': 'Session Date',
@@ -398,23 +380,13 @@ const translations: Record<string, Record<string, string>> = {
 
     // Homepage - History
     'history-title': 'Brief History of Roxas City',
-    'history-1760':
-      'The original name of the town was Bintauan, then a Gaddang settlement that is now a barangay of Villaverde.',
     'history-1767':
       'The town was formally founded by Father Alejandro Vidal, a Dominican priest who led a Spanish mission.',
-    'history-1768':
-      'Named Lungabang, from the Gaddang word for cave, lungab. Later changed to Lumabang by the Spaniards.',
     'history-1851':
       'Governor General Antonio Urbiztondo declared Lumabang a barrio of Bayombong for insufficient inhabitants and revenue.',
     'history-1853':
       'The first Ilocanos arrived, brought by Don Diego Lumicao, a former gobernadorcillo.',
-    'history-1889':
-      'Renamed Roxas City in honor of Governor General Ramon Roxas City y Llanderal. The town was redeveloped by Father Juan Villaverde with 14 parallel wide streets, each 20 meters wide, forming 100 square blocks.',
-    'history-1957':
-      "The barrios of Ibung and Bintawan were separated to form the town of Ibung, later renamed as Villaverde. Roxas City's land area was reduced to 13,980 hectares.",
     'history-once-largest-title': 'Once the Largest',
-    'history-once-largest-desc':
-      'Roxas City was the largest city in the province until Caliat and Bintawan were separated to become Quezon and Villaverde respectively.',
     'history-urban-planning-title': 'Urban Planning',
     'history-urban-planning-desc':
       'The 1889 redevelopment created a grid of 100 square blocks, each with an aggregate area of one hectare, with streets running north-south and east-west.',
@@ -634,40 +606,18 @@ const translations: Record<string, Record<string, string>> = {
     'health-service-prenatal': 'Pangangalaga Bago Manganak',
     'health-service-family-planning': 'Pagpaplano ng Pamilya',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ng komprehensibong mga serbisyong medikal.',
     'health-national-highway-roxas': 'Pambansa Highway, Roxas City',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Mga serbisyo Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Bagong MMG Hospital, nagbibigay ng quality mga serbisyo sa kalusugan sa ang community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-private-medical-center-offering-various':
       'Pribado medical center offering various healthcare and diagnostic mga serbisyo.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisyal na Direktoryo mula sa DOH',
     'health-hivcare-cta-heading': 'Hanapin ang Pasilidad para sa Paggamot at Pangangalaga sa HIV',
     'health-hivcare-cta-desc':
@@ -872,23 +822,13 @@ const translations: Record<string, Record<string, string>> = {
 
     // Homepage - History
     'history-title': 'Maikling Kasaysayan ng Roxas City',
-    'history-1760':
-      'Ang orihinal na pangalan ng bayan ay Bintauan, isang pamayanan ng Gaddang na ngayon ay barangay ng Villaverde.',
     'history-1767':
       'Ang bayan ay pormal na itinatag ni Padre Alejandro Vidal, isang paring Dominikano na namuno sa isang misyong Espanyol.',
-    'history-1768':
-      'Pinangalanang Lungabang, mula sa salitang Gaddang na lungab na nangangahulugang kuweba. Kalaunan ay binago ng mga Espanyol sa Lumabang.',
     'history-1851':
       'Idineklara ni Gobernador Heneral Antonio Urbiztondo ang Lumabang bilang baryo ng Bayombong dahil sa kakulangan ng mga naninirahan at kita.',
     'history-1853':
       'Dumating ang mga unang Ilocano, dinala ni Don Diego Lumicao, isang dating gobernadorcillo.',
-    'history-1889':
-      'Pinalitan ang pangalan ng Roxas City bilang parangal kay Gobernador Heneral Ramon Roxas City y Llanderal. Ang bayan ay muling binuo ni Padre Juan Villaverde na may 14 na magkakahanay na malapad na kalye, bawat isa ay 20 metro ang lapad, na bumubuo ng 100 parisukat na bloke.',
-    'history-1957':
-      'Ang mga baryo ng Ibung at Bintawan ay pinaghiwalay upang bumuo ng bayan ng Ibung, na kalaunan ay pinalitan ng pangalang Villaverde. Ang lawak ng lupa ng Roxas City ay nabawasan sa 13,980 ektarya.',
     'history-once-largest-title': 'Dating Pinakamalaki',
-    'history-once-largest-desc':
-      'Ang Roxas City ang pinakamalaking lungsod sa probinsya hanggang sa pinaghiwalay ang Caliat at Bintawan upang maging Quezon at Villaverde.',
     'history-urban-planning-title': 'Pagpaplano ng Lungsod',
     'history-urban-planning-desc':
       'Ang muling pagbuo noong 1889 ay lumikha ng grid na may 100 parisukat na bloke, bawat isa ay may kabuuang lawak na isang ektarya, na may mga kalye na patungo sa hilaga-timog at silangan-kanluran.',
@@ -1109,40 +1049,18 @@ const translations: Record<string, Record<string, string>> = {
     'health-service-prenatal': 'Panangyawan Sakbay Panaganak',
     'health-service-family-planning': 'Panagplano ti Pamilya',
     'health-service-tb-dots': 'TB-DOTS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
     'health-a-tertiary-level-philhealthaccredited-private':
       'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ti komprehensibong dagiti serbisyong medikal.',
     'health-national-highway-roxas': 'Nailian Highway, Roxas City',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Dagiti serbisio Cooperative',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Baro a MMG Hospital, nagbibigay ti quality dagiti serbisio iti kalusugan iti ti community.',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-private-medical-center-offering-various':
       'Pribado medical center offering various healthcare and diagnostic dagiti serbisio.',
-    'health-aggub-bhs': 'Aggub BHS',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
     'health-bangaan-bhs': 'Bangaan BHS',
     'health-bangar-bhs': 'Bangar BHS',
-    'health-buenavista-bhs': 'Buenavista BHS',
-    'health-calaocan-bhs': 'Calaocan BHS',
-    'health-commando-bhs': 'Commando BHS',
     'health-concepcion-bhs': 'Concepcion BHS',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
     'health-pilar-bhs': 'Pilar BHS',
     'health-poblacion-bhs': 'Poblacion BHS',
     'health-quezon-bhs': 'Quezon BHS',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-roxas-bhs': 'Roxas BHS',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisial a Direktorio manipud iti DOH',
     'health-hivcare-cta-heading':
       'Birukem ti Pasilidad para iti Panangagas ken Panangaywan iti HIV',
@@ -1239,8 +1157,7 @@ const translations: Record<string, Record<string, string>> = {
 
     // Tax & Payments Page - Ilocano
     'tax-page-title': 'Buwis ken Panagbayad',
-    'tax-page-desc':
-      'Buwis ti sanikua, buwis ti negosio, ken dadduma pay a bayadan iti lungsod',
+    'tax-page-desc': 'Buwis ti sanikua, buwis ti negosio, ken dadduma pay a bayadan iti lungsod',
     'tax-page-badge': 'Buwis ken Panagbayad',
     'tax-property': 'Real Property Tax',
     'tax-property-desc': 'Tawenantawen a buwis ti daga ken dagiti pagpasayaat',
@@ -1351,23 +1268,13 @@ const translations: Record<string, Record<string, string>> = {
 
     // Homepage - History
     'history-title': 'Ababa a Pakasaritaan ti Roxas City',
-    'history-1760':
-      'Ti orihinal a nagan ti ili ket Bintauan, maysa a pagnaedanan ti Gaddang a ita ket barangay ti Villaverde.',
     'history-1767':
       'Ti ili ket pormal a naipasdek babaen ni Padre Alejandro Vidal, maysa a padi a Dominikano a nangidaulo iti misyon nga Espanyol.',
-    'history-1768':
-      'Napanaganan iti Lungabang, manipud iti sao a Gaddang a lungab a kaipapananna ket rukib. Nabaliwan dagiti Espanyol iti Lumabang.',
     'history-1851':
       'Indeklara ni Gobernador Heneral Antonio Urbiztondo ti Lumabang a kas baryo ti Bayombong gapu iti kaawan dagiti agnanaed ken sapul.',
     'history-1853':
       'Dimteng dagiti umuna nga Ilocano, inyeg ni Don Diego Lumicao, maysa a dati a gobernadorcillo.',
-    'history-1889':
-      'Nabaliwan ti nagan iti Roxas City tapno padayawan ni Gobernador Heneral Ramon Roxas City y Llanderal. Ti ili ket naipasayaat manen babaen ni Padre Juan Villaverde nga addaan 14 a magkakahanay a nalawa a kalsada, tunggal maysa ket 20 metro ti kalawa na, a mangbukel iti 100 a kuadrado a bloke.',
-    'history-1957':
-      'Dagiti baryo ti Ibung ken Bintawan ket naisina tapno mangbukel iti ili ti Ibung, a nabaliwan ti nagan iti Villaverde. Ti kalawa ti daga ti Roxas City ket nabassitan iti 13,980 ektarya.',
     'history-once-largest-title': 'Idi Kadakkelan',
-    'history-once-largest-desc':
-      'Ti Roxas City ti kadakkelan a lungsod iti probinsia agingga a naisina ti Caliat ken Bintawan tapno agbalin a Quezon ken Villaverde.',
     'history-urban-planning-title': 'Panagplano ti Ili',
     'history-urban-planning-desc':
       'Ti panagpasayaat idi 1889 ket nangaramid iti grid a 100 a kuadrado a bloke, tunggal maysa ket addaan dagup a kalawa a maysa nga ektarya, nga addaan kadagiti kalsada a mapan iti amianan-abagatan ken daya-laud.',

@@ -34,7 +34,7 @@ KEEP_AS_IS = {
     'R2TMC', 'MTOF', 'BPLS', 'RPT', 'CTC', 'RPTA',
     'Filipizen', 'BetterRoxas', 'Better Roxas',
     'Abakada.org', 'volunteer@betterroxas.org',
-    'accounting@roxascity.gov.ph', 'Facebook', 'Google',
+    'roxascitygovph@gmail.com', 'Facebook', 'Google',
     'Sangguniang Panlungsod', 'Sangguniang Panlalawigan',
     'Capiz', 'Roxas City', 'Bayombong',
 }

@@ -27,15 +27,18 @@
 
 The following hotlines must be verified monthly against official LGU records:
 
-| Service                 | Number         | Source                    |
-| ----------------------- | -------------- | ------------------------- |
-| Police (PNP)            | 0927 400 8033  | LGU Roxas City Hall |
-| CSWDO                   | 0916 284 0885  | LGU Roxas City Hall |
-| Fire (BFP)              | 0936 062 0305  | LGU Roxas City Hall |
-| DILG                    | 0906 188 086   | LGU Roxas City Hall |
-| CDRRMO                  | 0926 383 3744  | LGU Roxas City Hall |
-| R2TMC                   | 0906 819 5569  | LGU Roxas City Hall |
-| City Hall Landline | (078) 805-3581 | Official records          |
+| Service                      | Number         | Source                   |
+| ---------------------------- | -------------- | ------------------------ |
+| National Emergency           | 911            | Nationwide               |
+| City Emergency Response Team | (036) 522-7878 | roxascity.gov.ph         |
+| CERT Mobile                  | 0917 306 6741  | roxascity.gov.ph         |
+| CERT Mobile                  | 0912 472 2669  | roxascity.gov.ph         |
+| City Hall Trunkline          | (036) 6212-049 | roxascity.gov.ph/contact |
+| City Hall (alt)              | (036) 6516-053 | roxascity.gov.ph/contact |
+
+PNP, BFP, hospital and per-department numbers are deliberately absent: the
+online directories that list them disagree with each other, and the city site
+does not publish them. Add them only from an official Roxas City source.
 
 **Last Verified:** [DATE]
 

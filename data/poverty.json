@@ -1,0 +1,45 @@
+{
+  "_status": "published",
+  "_source": "PSA City and Municipal Level Poverty Estimates (small-area estimation)",
+  "_note": "Poverty incidence among the population, in percent.",
+  "city": "Roxas City",
+  "province": "Capiz",
+  "poverty_incidence": [
+    {
+      "year": 2000,
+      "incidence_percent": 25.88
+    },
+    {
+      "year": 2003,
+      "incidence_percent": 19.37
+    },
+    {
+      "year": 2006,
+      "incidence_percent": 17.3
+    },
+    {
+      "year": 2009,
+      "incidence_percent": 12.06
+    },
+    {
+      "year": 2012,
+      "incidence_percent": 12.55
+    },
+    {
+      "year": 2015,
+      "incidence_percent": 14.65
+    },
+    {
+      "year": 2018,
+      "incidence_percent": 7.32
+    },
+    {
+      "year": 2021,
+      "incidence_percent": 9.52
+    },
+    {
+      "year": 2023,
+      "incidence_percent": 6.54
+    }
+  ]
+}

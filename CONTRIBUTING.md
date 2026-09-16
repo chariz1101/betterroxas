@@ -112,17 +112,17 @@ Types:
 
 ## Contribution Areas
 
-| Area               | Description                          |
-| ------------------ | ------------------------------------ |
-| Bug Fixes          | Fix reported issues                  |
-| Features           | Implement new functionality          |
-| Content            | Update city service information |
-| Translations       | Translate to Filipino or Ilocano     |
-| Design             | Improve UI/UX and accessibility      |
-| Data               | Verify and update statistics         |
-| Documentation      | Improve guides and comments          |
-| API Integration    | Connect real-time data sources       |
-| Data Visualization | Enhance charts and graphs            |
+| Area               | Description                      |
+| ------------------ | -------------------------------- |
+| Bug Fixes          | Fix reported issues              |
+| Features           | Implement new functionality      |
+| Content            | Update city service information  |
+| Translations       | Translate to Filipino or Ilocano |
+| Design             | Improve UI/UX and accessibility  |
+| Data               | Verify and update statistics     |
+| Documentation      | Improve guides and comments      |
+| API Integration    | Connect real-time data sources   |
+| Data Visualization | Enhance charts and graphs        |
 
 ## Code Guidelines
 
@@ -183,7 +183,7 @@ Pull requests are reviewed for:
 ## Community
 
 - **Discord:** [Join our community](https://discord.com/invite/qeSu7RJkjQ)
-- **Facebook:** [@betterroxas.org](https://www.facebook.com/betterroxas.vercel.app)
+- **Facebook:** [@betterroxas.org](https://www.facebook.com/betterroxas)
 - **LinkedIn:** [Connect with us](https://www.linkedin.com/company/betterroxas)
 - **Email:** volunteer@betterroxas.org
 

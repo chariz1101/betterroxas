@@ -92,24 +92,22 @@
       <div class="container">
         <div class="hotline-inner">
           <div class="hotline-items">
-            <a href="tel:09274008033" class="hotline-item"
-              ><i class="bi bi-shield-fill"></i><span>Police: 0927 400 8033</span></a
-            >
-            <a href="tel:09162840885" class="hotline-item"
-              ><i class="bi bi-heart-fill"></i><span>CSWDO: 0916 284 0885</span></a
-            >
-            <a href="tel:09360620305" class="hotline-item"
-              ><i class="bi bi-fire"></i><span>Fire: 0936 062 0305</span></a
-            >
-            <a href="tel:0906188086" class="hotline-item"
-              ><i class="bi bi-building"></i><span>DILG: 0906 188 086</span></a
-            >
-            <a href="tel:09263833744" class="hotline-item"
-              ><i class="bi bi-exclamation-triangle-fill"></i><span>CDRRMO: 0926 383 3744</span></a
-            >
-            <a href="tel:09068195569" class="hotline-item"
-              ><i class="bi bi-truck"></i><span>R2TMC: 0906 819 5569</span></a
-            >
+            <a href="tel:911" class="hotline-item">
+              <i class="bi bi-telephone-fill"></i>
+              <span>Emergency: 911</span>
+            </a>
+            <a href="tel:0365227878" class="hotline-item">
+              <i class="bi bi-exclamation-triangle-fill"></i>
+              <span>City CERT: (036) 522-7878</span>
+            </a>
+            <a href="tel:09173066741" class="hotline-item">
+              <i class="bi bi-shield-fill"></i>
+              <span>CERT Mobile: 0917 306 6741</span>
+            </a>
+            <a href="tel:0366212049" class="hotline-item">
+              <i class="bi bi-building"></i>
+              <span>City Hall: (036) 6212-049</span>
+            </a>
           </div>
         </div>
       </div>
@@ -300,9 +298,40 @@
             </p>
           </div>
 
-          <div class="finance-grid" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+          <div class="finance-grid">
+            <div class="finance-card finance-card-primary">
+              <div class="finance-card-header">
+                <i class="bi bi-cash-coin"></i>
+                <span>Total Revenue</span>
+              </div>
+              <div class="finance-card-value">₱1.375B</div>
+              <div class="finance-card-detail">2024</div>
             </div>
+            <div class="finance-card">
+              <div class="finance-card-header">
+                <i class="bi bi-wallet2"></i>
+                <span>Total Expenditure</span>
+              </div>
+              <div class="finance-card-value">₱601.7M</div>
+              <div class="finance-card-detail">2024</div>
+            </div>
+            <div class="finance-card">
+              <div class="finance-card-header">
+                <i class="bi bi-bank"></i>
+                <span>Total Assets</span>
+              </div>
+              <div class="finance-card-value">₱3.592B</div>
+              <div class="finance-card-detail">2024</div>
+            </div>
+            <div class="finance-card">
+              <div class="finance-card-header">
+                <i class="bi bi-file-earmark-text"></i>
+                <span>Total Liabilities</span>
+              </div>
+              <div class="finance-card-value">₱469.7M</div>
+              <div class="finance-card-detail">2024</div>
+            </div>
+          </div>
 
           <div class="income-breakdown animate-on-scroll">
             <h4 data-i18n="stats-income-composition">Income Composition</h4>
@@ -346,9 +375,21 @@
             </p>
           </div>
 
-          <div class="trends-summary" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+          <div class="trends-summary">
+            <div class="trend-stat">
+              <span class="trend-stat-label">1990</span>
+              <span class="trend-stat-value">103,171</span>
             </div>
+            <div class="trend-arrow"><i class="bi bi-arrow-right"></i></div>
+            <div class="trend-stat trend-stat-current">
+              <span class="trend-stat-label">2024</span>
+              <span class="trend-stat-value">185,236</span>
+            </div>
+            <div class="trend-stat trend-stat-growth">
+              <span class="trend-stat-label" data-i18n="stats-growth">Growth</span>
+              <span class="trend-stat-value">+79.5%</span>
+            </div>
+          </div>
 
           <div class="chart-wrapper">
             <canvas id="historicalLineChart"></canvas>
@@ -383,15 +424,295 @@
             <div class="distribution-chart">
               <canvas id="distributionPieChart"></canvas>
             </div>
-            <div class="distribution-list" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+            <div class="distribution-list">
+              <div class="barangay-row" data-rank="1">
+                <span class="rank">#1</span
+                ><span class="name">Lawa-an</span>
+                <div class="bar-wrap"><div class="bar" data-width="100"></div></div>
+                <span class="pop">11,484</span>
+              </div>
+              <div class="barangay-row" data-rank="2">
+                <span class="rank">#2</span
+                ><span class="name">Baybay</span>
+                <div class="bar-wrap"><div class="bar" data-width="85"></div></div>
+                <span class="pop">9,732</span>
+              </div>
+              <div class="barangay-row" data-rank="3">
+                <span class="rank">#3</span
+                ><span class="name">Banica</span>
+                <div class="bar-wrap"><div class="bar" data-width="78"></div></div>
+                <span class="pop">8,950</span>
+              </div>
+              <div class="barangay-row" data-rank="4">
+                <span class="rank">#4</span
+                ><span class="name">Tiza</span>
+                <div class="bar-wrap"><div class="bar" data-width="78"></div></div>
+                <span class="pop">8,919</span>
+              </div>
+              <div class="barangay-row" data-rank="5">
+                <span class="rank">#5</span
+                ><span class="name">Bolo</span>
+                <div class="bar-wrap"><div class="bar" data-width="70"></div></div>
+                <span class="pop">8,001</span>
+              </div>
+              <div class="barangay-row" data-rank="6">
+                <span class="rank">#6</span
+                ><span class="name">Culasi</span>
+                <div class="bar-wrap"><div class="bar" data-width="69"></div></div>
+                <span class="pop">7,869</span>
+              </div>
+              <div class="barangay-row" data-rank="7">
+                <span class="rank">#7</span
+                ><span class="name">Libas</span>
+                <div class="bar-wrap"><div class="bar" data-width="68"></div></div>
+                <span class="pop">7,802</span>
+              </div>
+              <div class="barangay-row" data-rank="8">
+                <span class="rank">#8</span
+                ><span class="name">Milibili</span>
+                <div class="bar-wrap"><div class="bar" data-width="62"></div></div>
+                <span class="pop">7,120</span>
+              </div>
+              <div class="barangay-row" data-rank="9">
+                <span class="rank">#9</span
+                ><span class="name">Dinginan</span>
+                <div class="bar-wrap"><div class="bar" data-width="62"></div></div>
+                <span class="pop">7,064</span>
+              </div>
+              <div class="barangay-row" data-rank="10">
+                <span class="rank">#10</span
+                ><span class="name">Lanot</span>
+                <div class="bar-wrap"><div class="bar" data-width="56"></div></div>
+                <span class="pop">6,421</span>
+              </div>
             </div>
           </div>
 
           <details class="more-barangays">
             <summary data-i18n="stats-view-all-22-barangays">View all 22 barangays</summary>
-            <div class="distribution-list distribution-list-full" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+            <div class="distribution-list distribution-list-full">
+              <div class="barangay-row">
+                <span class="rank">#11</span
+                ><span class="name">Cagay</span>
+                <div class="bar-wrap"><div class="bar" data-width="55"></div></div>
+                <span class="pop">6,333</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#12</span
+                ><span class="name">Tanque</span>
+                <div class="bar-wrap"><div class="bar" data-width="52"></div></div>
+                <span class="pop">5,922</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#13</span
+                ><span class="name">Punta Tabuc</span>
+                <div class="bar-wrap"><div class="bar" data-width="50"></div></div>
+                <span class="pop">5,782</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#14</span
+                ><span class="name">Mongpong</span>
+                <div class="bar-wrap"><div class="bar" data-width="46"></div></div>
+                <span class="pop">5,286</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#15</span
+                ><span class="name">Dayao</span>
+                <div class="bar-wrap"><div class="bar" data-width="45"></div></div>
+                <span class="pop">5,211</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#16</span
+                ><span class="name">Inzo Arnaldo Village</span>
+                <div class="bar-wrap"><div class="bar" data-width="43"></div></div>
+                <span class="pop">4,930</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#17</span
+                ><span class="name">San Jose</span>
+                <div class="bar-wrap"><div class="bar" data-width="38"></div></div>
+                <span class="pop">4,406</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#18</span
+                ><span class="name">Dumolog</span>
+                <div class="bar-wrap"><div class="bar" data-width="35"></div></div>
+                <span class="pop">4,014</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#19</span
+                ><span class="name">Sibaguan</span>
+                <div class="bar-wrap"><div class="bar" data-width="34"></div></div>
+                <span class="pop">3,875</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#20</span
+                ><span class="name">Lonoy</span>
+                <div class="bar-wrap"><div class="bar" data-width="27"></div></div>
+                <span class="pop">3,080</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#21</span
+                ><span class="name">Barra</span>
+                <div class="bar-wrap"><div class="bar" data-width="26"></div></div>
+                <span class="pop">2,947</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#22</span
+                ><span class="name">Jumaguicjic</span>
+                <div class="bar-wrap"><div class="bar" data-width="24"></div></div>
+                <span class="pop">2,778</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#23</span
+                ><span class="name">Adlawan</span>
+                <div class="bar-wrap"><div class="bar" data-width="23"></div></div>
+                <span class="pop">2,597</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#24</span
+                ><span class="name">Cabugao</span>
+                <div class="bar-wrap"><div class="bar" data-width="21"></div></div>
+                <span class="pop">2,422</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#25</span
+                ><span class="name">Loctugan</span>
+                <div class="bar-wrap"><div class="bar" data-width="21"></div></div>
+                <span class="pop">2,359</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#26</span
+                ><span class="name">Tanza</span>
+                <div class="bar-wrap"><div class="bar" data-width="20"></div></div>
+                <span class="pop">2,354</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#27</span
+                ><span class="name">Bato</span>
+                <div class="bar-wrap"><div class="bar" data-width="20"></div></div>
+                <span class="pop">2,348</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#28</span
+                ><span class="name">Talon</span>
+                <div class="bar-wrap"><div class="bar" data-width="19"></div></div>
+                <span class="pop">2,236</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#29</span
+                ><span class="name">Cogon</span>
+                <div class="bar-wrap"><div class="bar" data-width="19"></div></div>
+                <span class="pop">2,204</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#30</span
+                ><span class="name">Balijuagan</span>
+                <div class="bar-wrap"><div class="bar" data-width="19"></div></div>
+                <span class="pop">2,166</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#31</span
+                ><span class="name">Poblacion VII</span>
+                <div class="bar-wrap"><div class="bar" data-width="18"></div></div>
+                <span class="pop">2,117</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#32</span
+                ><span class="name">Culajao</span>
+                <div class="bar-wrap"><div class="bar" data-width="18"></div></div>
+                <span class="pop">2,099</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#33</span
+                ><span class="name">Bago</span>
+                <div class="bar-wrap"><div class="bar" data-width="18"></div></div>
+                <span class="pop">2,047</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#34</span
+                ><span class="name">Poblacion V</span>
+                <div class="bar-wrap"><div class="bar" data-width="17"></div></div>
+                <span class="pop">1,934</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#35</span
+                ><span class="name">Poblacion IX</span>
+                <div class="bar-wrap"><div class="bar" data-width="16"></div></div>
+                <span class="pop">1,794</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#36</span
+                ><span class="name">Gabu-an</span>
+                <div class="bar-wrap"><div class="bar" data-width="13"></div></div>
+                <span class="pop">1,521</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#37</span
+                ><span class="name">Poblacion I</span>
+                <div class="bar-wrap"><div class="bar" data-width="13"></div></div>
+                <span class="pop">1,443</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#38</span
+                ><span class="name">Liong</span>
+                <div class="bar-wrap"><div class="bar" data-width="12"></div></div>
+                <span class="pop">1,420</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#39</span
+                ><span class="name">Poblacion II</span>
+                <div class="bar-wrap"><div class="bar" data-width="12"></div></div>
+                <span class="pop">1,382</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#40</span
+                ><span class="name">Poblacion X</span>
+                <div class="bar-wrap"><div class="bar" data-width="12"></div></div>
+                <span class="pop">1,352</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#41</span
+                ><span class="name">Punta Cogon</span>
+                <div class="bar-wrap"><div class="bar" data-width="11"></div></div>
+                <span class="pop">1,216</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#42</span
+                ><span class="name">Poblacion XI</span>
+                <div class="bar-wrap"><div class="bar" data-width="10"></div></div>
+                <span class="pop">1,174</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#43</span
+                ><span class="name">Olotayan</span>
+                <div class="bar-wrap"><div class="bar" data-width="9"></div></div>
+                <span class="pop">1,058</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#44</span
+                ><span class="name">Poblacion VIII</span>
+                <div class="bar-wrap"><div class="bar" data-width="8"></div></div>
+                <span class="pop">975</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#45</span
+                ><span class="name">Poblacion III</span>
+                <div class="bar-wrap"><div class="bar" data-width="5"></div></div>
+                <span class="pop">523</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#46</span
+                ><span class="name">Poblacion VI</span>
+                <div class="bar-wrap"><div class="bar" data-width="4"></div></div>
+                <span class="pop">490</span>
+              </div>
+              <div class="barangay-row">
+                <span class="rank">#47</span
+                ><span class="name">Poblacion IV</span>
+                <div class="bar-wrap"><div class="bar" data-width="1"></div></div>
+                <span class="pop">135</span>
+              </div>
             </div>
           </details>
 
@@ -462,9 +783,34 @@
             </p>
           </div>
 
-          <div class="poverty-comparison" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+          <div class="poverty-comparison">
+            <div class="poverty-card poverty-card-2018">
+              <span class="poverty-year">2021</span>
+              <div class="poverty-rate">
+                <span class="rate-value">9.52</span>
+                <span class="rate-symbol">%</span>
+              </div>
+              <div class="poverty-bar"><div class="poverty-fill" data-width="9.52"></div></div>
+              <span class="poverty-ci">PSA small-area estimate</span>
             </div>
+            <div class="poverty-arrow">
+              <i class="bi bi-arrow-right"></i>
+              <span class="poverty-change">-2.98 pts</span>
+            </div>
+            <div class="poverty-card poverty-card-2021">
+              <span class="poverty-year">2023</span>
+              <div class="poverty-rate">
+                <span class="rate-value">6.54</span>
+                <span class="rate-symbol">%</span>
+              </div>
+              <div class="poverty-bar"><div class="poverty-fill" data-width="6.54"></div></div>
+              <span class="poverty-ci">PSA small-area estimate</span>
+              <span class="poverty-badge"
+                ><i class="bi bi-check-circle-fill"></i>
+                <span data-i18n="stats-improved">Improved</span></span
+              >
+            </div>
+          </div>
 
           <p class="data-source">
             <i class="bi bi-info-circle"></i> Source:
@@ -522,8 +868,25 @@
 
           <!-- Overview Panel -->
           <div class="cmci-panel active" id="panel-overview">
-            <div class="cmci-overview-grid" data-pending="true">
-              <p class="chart-pending">Figures for Roxas City are not yet available.</p>
+            <div class="cmci-overview-grid">
+              <div class="cmci-pillar-card">
+                <div class="pillar-icon"><i class="bi bi-trophy-fill"></i></div>
+                <h4>Most Competitive Component City</h4>
+                <div class="pillar-score">Rank 1</div>
+                <div class="pillar-trend trend-up">Western Visayas, 2024</div>
+              </div>
+              <div class="cmci-pillar-card">
+                <div class="pillar-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                <h4>Most Improved Ranking</h4>
+                <div class="pillar-score">Rank 18</div>
+                <div class="pillar-trend trend-up">of 116 component cities nationwide, 2024</div>
+              </div>
+              <p class="chart-pending">
+                Per-pillar and per-indicator scores are published only through the DTI's
+                interactive portal, which does not expose them for reuse. See the
+                <a href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Roxas+(CZ)" target="_blank" rel="noopener noreferrer">Roxas City CMCI profile</a>
+                for the full breakdown.
+              </p>
             </div>
 
             <div class="cmci-chart-container">
@@ -685,7 +1048,7 @@
             </p>
             <div class="footer-social-new">
               <a
-                href="https://www.facebook.com/betterroxas.vercel.app"
+                href="https://www.facebook.com/betterroxas"
                 class="footer-social-btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -775,7 +1138,7 @@
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/OfficialLguRoxasCityFanpage/"
+                  href="https://www.facebook.com/roxascitycomgroup/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-i18n="stats-lgu-roxas-facebook"

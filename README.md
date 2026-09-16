@@ -48,25 +48,50 @@ Visit the live website: [https://betterroxas.vercel.app](https://betterroxas.ver
 ## Rebrand Status
 
 This site was rebranded from BetterSolano.org (Solano, Nueva Vizcaya) to Roxas
-City, Capiz. The branding, place names, city terminology and verified
-top-level facts (population, land area, barangay count, income class) are all
-updated, and Solano's datasets have been cleared rather than relabelled.
+City, Capiz. Everything that could be sourced has been filled in with real
+Roxas City data; what could not be sourced renders a "not yet available"
+notice rather than a plausible-looking wrong number.
 
-**Not yet filled in — see `.env.example` for the full list and grep commands:**
+**Filled in from primary sources:**
 
-- **Emergency hotlines and office phone numbers are still Solano's**, including
-  the `(078)` Nueva Vizcaya landlines. These must be replaced before the site
-  is shared publicly.
-- Service fees quoted on the `services/` pages are Solano's schedule.
-- Ordinances, resolutions, DPWH projects, news, per-barangay populations,
-  historical census series and CMCI scores are empty pending Roxas City data.
-- Google Analytics ID, Facebook page, quiz site, appointment system and
-  contact email are placeholders.
+| Data                                              | Source                          |
+| ------------------------------------------------- | ------------------------------- |
+| Mayor, Vice Mayor, 12 Sangguniang Panlungsod members (2025-2028) | roxascity.gov.ph |
+| All 47 barangays with 2020 populations            | PSA via PhilAtlas               |
+| Census series 1990-2024, city totals, income class| PSA                             |
+| Poverty incidence, 2000-2023                      | PSA small-area estimates        |
+| 2024 revenue, expenditure, assets, liabilities    | City financial statements       |
+| CMCI 2024 rankings                                | DTI / roxascity.gov.ph          |
+| City history timeline                             | roxascity.gov.ph, Wikipedia     |
+| Emergency hotline, city hall numbers, email, address, Facebook page | roxascity.gov.ph |
+
+The 47 barangay figures sum exactly to the published 2020 city total of
+179,292, which is how the transcription was checked.
+
+**Still placeholders — see `.env.example` for grep commands:**
+
+- **PNP, BFP and hospital hotlines are deliberately absent.** Three
+  independent directories give three different numbers for the Roxas City
+  police station, and the city site publishes only the City Emergency
+  Response Team line. The hotline sections carry 911 and the CERT numbers
+  instead. Add the rest only from an official source.
+- Department direct lines and emails: the city publishes a trunkline and one
+  address, not per-office contacts, so every department card points at those.
+- **Service fees on the `services/` pages are still Solano's schedule** —
+  check them against the Roxas City Citizen's Charter.
+- Registered businesses, agricultural land, employment rate, sector mix and
+  the NTA/local revenue split are not published in citable form.
+- CMCI per-indicator score series is portal-only (the DTI site blocks
+  automated access); the headline rankings are in place.
+- Ordinances, resolutions, DPWH projects and news are empty.
+- Google Analytics ID, the quiz site, the appointment system and the project's
+  own contact email and Facebook page are placeholders.
 - The logo artwork and `opengraph.png` social card still read "BetterSolano" —
   the wordmark is outlined vector paths, so it needs a designer, not a text
   edit.
 - The third UI language is Ilocano, which is regional to Nueva Vizcaya.
-  Hiligaynon would be the appropriate language for Capiz.
+  Hiligaynon would be the appropriate language for Capiz. The new history and
+  hotline copy is untagged for i18n, so it stays English in all three.
 
 ## Technology Stack
 
@@ -508,7 +533,7 @@ See [LICENSE](LICENSE) for full details.
 | -------- | ------------------------------------------------------------------------- |
 | Website  | [betterroxas.vercel.app](https://betterroxas.vercel.app)                              |
 | Email    | volunteer@betterroxas.org                                                |
-| Facebook | [@betterroxas.org](https://www.facebook.com/betterroxas.vercel.app)            |
+| Facebook | [@betterroxas.org](https://www.facebook.com/betterroxas)            |
 | LinkedIn | [BetterRoxas](https://www.linkedin.com/company/betterroxas/)            |
 | Discord  | [Join Community](https://discord.com/invite/qeSu7RJkjQ)                   |
 | GitHub   | [chariz1101/betterroxas](https://github.com/chariz1101/betterroxas) |

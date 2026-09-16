@@ -297,73 +297,111 @@ export default function HomePage() {
           </div>
           <div className="history-content">
             <div className="history-timeline">
-              <div className="timeline-item" data-year="1760">
+              <div className="timeline-item" data-year="1569">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1760</span>
-                  <p>{t('history-1760')}</p>
+                  <span className="timeline-year">1569</span>
+                  <p>
+                    Captain Diego de Artieda, sent from Cebu by Miguel López de Legazpi, landed on
+                    the shores of Panay and proclaimed it the regional capital. The seat was later
+                    moved to Capiz for its better docking facilities.
+                  </p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1767">
+              <div className="timeline-item" data-year="1716">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1767</span>
-                  <p>{t('history-1767')}</p>
+                  <span className="timeline-year">1716</span>
+                  <p>
+                    The town was formally created as El Puerto de Capiz, a vicariate under Fr. Pedro
+                    Vivaldi.
+                  </p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1768">
+              <div className="timeline-item" data-year="1746">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1768</span>
-                  <p>{t('history-1768')}</p>
+                  <span className="timeline-year">1746</span>
+                  <p>
+                    Capiz became the seat of the politico-military government, separating from
+                    Iloilo's control after some two centuries.
+                  </p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1851">
+              <div className="timeline-item" data-year="1814">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1851</span>
-                  <p>{t('history-1851')}</p>
+                  <span className="timeline-year">1814</span>
+                  <p>Stone forts were built at Baybay Beach in response to raids from the south.</p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1853">
+              <div className="timeline-item" data-year="1877">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1853</span>
-                  <p>{t('history-1853')}</p>
+                  <span className="timeline-year">1877</span>
+                  <p>
+                    The cathedral was completed, seven years after construction began under Reverend
+                    Apolonio Alvarez.
+                  </p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1889">
+              <div className="timeline-item" data-year="1898">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1889</span>
-                  <p>{t('history-1889')}</p>
+                  <span className="timeline-year">1898</span>
+                  <p>
+                    The Spanish colonial government capitulated on 31 August, when Governor Juan
+                    Herrero surrendered to General Ananias Diokno.
+                  </p>
                 </div>
               </div>
-              <div className="timeline-item" data-year="1957">
+              <div className="timeline-item" data-year="1951">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <span className="timeline-year">1957</span>
-                  <p>{t('history-1957')}</p>
+                  <span className="timeline-year">1951</span>
+                  <p>
+                    Chartered as a city on 12 May under Republic Act 603, and renamed Roxas City
+                    after Manuel Acuña Roxas, the first president of the independent Third
+                    Philippine Republic.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="history-summary">
               <div className="history-card">
                 <div className="history-card-icon">
-                  <i className="bi bi-geo-alt-fill"></i>
+                  <i className="bi bi-person-badge-fill"></i>
                 </div>
                 <div className="history-card-content">
-                  <h4>{t('history-once-largest-title')}</h4>
-                  <p>{t('history-once-largest-desc')}</p>
+                  <h4>Named for a President</h4>
+                  <p>
+                    The city carries the name of Manuel Acuña Roxas, born here in 1892 — the first
+                    president of the independent Third Philippine Republic.
+                  </p>
                 </div>
               </div>
               <div className="history-card">
                 <div className="history-card-icon">
-                  <i className="bi bi-grid-3x3"></i>
+                  <i className="bi bi-anchor"></i>
                 </div>
                 <div className="history-card-content">
-                  <h4>{t('history-urban-planning-title')}</h4>
-                  <p>{t('history-urban-planning-desc')}</p>
+                  <h4>A Port Town First</h4>
+                  <p>
+                    Founded as El Puerto de Capiz, the settlement was chosen over Pan-ay precisely
+                    because ships could dock here, and the sea has shaped the city ever since.
+                  </p>
+                </div>
+              </div>
+              <div className="history-card">
+                <div className="history-card-icon">
+                  <i className="bi bi-bank"></i>
+                </div>
+                <div className="history-card-content">
+                  <h4>Capital of Capiz</h4>
+                  <p>
+                    Seat of the politico-military government from 1746, Roxas City remains the
+                    provincial capital and the commercial centre of Capiz.
+                  </p>
                 </div>
               </div>
             </div>
@@ -635,25 +673,25 @@ export default function HomePage() {
           <div className="home-leadership-grid">
             <div className="home-leader-card">
               <div className="home-leader-badge">{t('title-mayor')}</div>
-              <h3>Hon. Philip A. Dacayo</h3>
+              <h3>Hon. Ronnie T. Dadivas</h3>
               <div className="home-leader-contacts">
-                <a href="mailto:mayor@roxascity.gov.ph">
-                  <i className="bi bi-envelope"></i> mayor@roxascity.gov.ph
+                <a href="mailto:roxascitygovph@gmail.com">
+                  <i className="bi bi-envelope"></i> roxascitygovph@gmail.com
                 </a>
-                <a href="tel:0783265002">
-                  <i className="bi bi-telephone"></i> (078) 326-5002
+                <a href="tel:0366212049">
+                  <i className="bi bi-telephone"></i> (036) 6212-049
                 </a>
               </div>
             </div>
             <div className="home-leader-card">
               <div className="home-leader-badge">{t('title-vice-mayor')}</div>
-              <h3>Hon. Eduardo D. Tiongson</h3>
+              <h3>Hon. Teresa H. Almalbis</h3>
               <div className="home-leader-contacts">
-                <a href="mailto:vicemayor@roxascity.gov.ph">
-                  <i className="bi bi-envelope"></i> vicemayor@roxascity.gov.ph
+                <a href="mailto:roxascitygovph@gmail.com">
+                  <i className="bi bi-envelope"></i> roxascitygovph@gmail.com
                 </a>
-                <a href="tel:0783265003">
-                  <i className="bi bi-telephone"></i> (078) 326-5003
+                <a href="tel:0366212049">
+                  <i className="bi bi-telephone"></i> (036) 6212-049
                 </a>
               </div>
             </div>
@@ -671,23 +709,23 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="home-contact-v2-grid">
-            <a href="tel:0788053581" className="home-contact-v2-card">
+            <a href="tel:0366212049" className="home-contact-v2-card">
               <div className="home-contact-v2-icon">
                 <i className="bi bi-telephone-fill"></i>
               </div>
               <div className="home-contact-v2-content">
                 <h3>{t('contact-phone')}</h3>
-                <p className="home-contact-v2-value">(078) 805-3581</p>
+                <p className="home-contact-v2-value">(036) 6212-049</p>
                 <span className="home-contact-v2-note">{t('contact-hours')}</span>
               </div>
             </a>
-            <a href="mailto:lguroxasnv@gmail.com" className="home-contact-v2-card">
+            <a href="mailto:roxascitygovph@gmail.com" className="home-contact-v2-card">
               <div className="home-contact-v2-icon">
                 <i className="bi bi-envelope-fill"></i>
               </div>
               <div className="home-contact-v2-content">
                 <h3>{t('contact-email')}</h3>
-                <p className="home-contact-v2-value">lguroxasnv@gmail.com</p>
+                <p className="home-contact-v2-value">roxascitygovph@gmail.com</p>
                 <span className="home-contact-v2-note">{t('contact-response')}</span>
               </div>
             </a>

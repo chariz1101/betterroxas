@@ -30,7 +30,7 @@ export default function Footer() {
             <p className="footer-tagline">{t('footer-tagline')}</p>
             <div className="footer-social-new">
               <a
-                href="https://www.facebook.com/betterroxas.vercel.app"
+                href="https://www.facebook.com/betterroxas"
                 className="footer-social-btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -111,17 +111,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://roxascity.gov.ph/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://roxascity.gov.ph/" target="_blank" rel="noopener noreferrer">
                   {t('footer-sb')}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/OfficialLguRoxasCityFanpage/"
+                  href="https://www.facebook.com/roxascitycomgroup/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

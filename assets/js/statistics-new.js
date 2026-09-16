@@ -13,16 +13,63 @@ const COLORS = {
   info: '#0077BE',
 };
 
-// Barangay data (2024 Census)
-// TODO: populate with Roxas City's 47 barangays from PSA / city planning office.
-// Left empty deliberately: the previous figures were Solano's and must not ship.
-const barangayData = [];
+// Barangay data (2020 Census, PSA — the latest release with a per-barangay
+// breakdown; the 2024 total of 185,236 is city-wide only). These 47 figures
+// sum to the published 2020 city total of 179,292.
+const barangayData = [
+  { name: 'Lawa-an', pop: 11484 },
+  { name: 'Baybay', pop: 9732 },
+  { name: 'Banica', pop: 8950 },
+  { name: 'Tiza', pop: 8919 },
+  { name: 'Bolo', pop: 8001 },
+  { name: 'Culasi', pop: 7869 },
+  { name: 'Libas', pop: 7802 },
+  { name: 'Milibili', pop: 7120 },
+  { name: 'Dinginan', pop: 7064 },
+  { name: 'Lanot', pop: 6421 },
+  { name: 'Cagay', pop: 6333 },
+  { name: 'Tanque', pop: 5922 },
+  { name: 'Punta Tabuc', pop: 5782 },
+  { name: 'Mongpong', pop: 5286 },
+  { name: 'Dayao', pop: 5211 },
+  { name: 'Inzo Arnaldo Village', pop: 4930 },
+  { name: 'San Jose', pop: 4406 },
+  { name: 'Dumolog', pop: 4014 },
+  { name: 'Sibaguan', pop: 3875 },
+  { name: 'Lonoy', pop: 3080 },
+  { name: 'Barra', pop: 2947 },
+  { name: 'Jumaguicjic', pop: 2778 },
+  { name: 'Adlawan', pop: 2597 },
+  { name: 'Cabugao', pop: 2422 },
+  { name: 'Loctugan', pop: 2359 },
+  { name: 'Tanza', pop: 2354 },
+  { name: 'Bato', pop: 2348 },
+  { name: 'Talon', pop: 2236 },
+  { name: 'Cogon', pop: 2204 },
+  { name: 'Balijuagan', pop: 2166 },
+  { name: 'Poblacion VII', pop: 2117 },
+  { name: 'Culajao', pop: 2099 },
+  { name: 'Bago', pop: 2047 },
+  { name: 'Poblacion V', pop: 1934 },
+  { name: 'Poblacion IX', pop: 1794 },
+  { name: 'Gabu-an', pop: 1521 },
+  { name: 'Poblacion I', pop: 1443 },
+  { name: 'Liong', pop: 1420 },
+  { name: 'Poblacion II', pop: 1382 },
+  { name: 'Poblacion X', pop: 1352 },
+  { name: 'Punta Cogon', pop: 1216 },
+  { name: 'Poblacion XI', pop: 1174 },
+  { name: 'Olotayan', pop: 1058 },
+  { name: 'Poblacion VIII', pop: 975 },
+  { name: 'Poblacion III', pop: 523 },
+  { name: 'Poblacion VI', pop: 490 },
+  { name: 'Poblacion IV', pop: 135 },
+];
 
-// Historical data
-// TODO: populate with Roxas City's census series from the PSA.
+// Historical data (PSA census counts; 2024 is the latest census total)
 const historicalData = {
-  years: [],
-  populations: [],
+  years: [1990, 1995, 2000, 2007, 2010, 2015, 2020, 2024],
+  populations: [103171, 118715, 126352, 147738, 156197, 167003, 179292, 185236],
 };
 
 // Chart instances
