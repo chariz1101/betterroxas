@@ -1,8 +1,8 @@
 /* Footer - Minimal Professional Design */
 
 .site-footer {
-  background: linear-gradient(180deg, #1a1a1a 0%, #111111 100%);
-  color: #ffffff;
+  background: linear-gradient(180deg, var(--gray-900) 0%, var(--gray-900) 100%);
+  color: var(--color-white);
   padding: 0;
   margin-top: 0;
 }
@@ -47,7 +47,7 @@
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +110,7 @@ ter Columns */
   font-size: 0.625rem;
   background: rgba(255, 255, 255, 0.1);
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -121,7 +121,7 @@ ter Columns */
   gap: 6px;
   padding: 6px 12px;
   background: rgba(6, 167, 125, 0.08);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.8);
   white-space: nowrap;
@@ -201,7 +201,7 @@ ter Columns */
   color: rgba(255, 255, 255, 0.7);
   background: rgba(255, 255, 255, 0.05);
   padding: 8px 16px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   text-decoration: none;
   transition: all 0.2s ease;
   margin-top: 12px;
@@ -220,7 +220,7 @@ ter Columns */
 /* Icon colors for contribute buttons */
 .footer-contribute i.bi-envelope-heart,
 .footer-contribute i.bi-github {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 /* Partner Logos */

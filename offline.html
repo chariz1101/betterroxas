@@ -21,8 +21,8 @@
           'Segoe UI',
           Roboto,
           sans-serif;
-        background: #f5f7f5;
-        color: #1a1a1a;
+        background: var(--gray-50);
+        color: var(--gray-900);
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -34,8 +34,8 @@
         top: -100%;
         left: 0;
         padding: 0.5rem 1rem;
-        background: #0032a0;
-        color: #fff;
+        background: var(--color-primary);
+        color: var(--color-white);
         z-index: 100;
       }
       .skip-link:focus {
@@ -53,25 +53,25 @@
       }
       h1 {
         font-size: 1.5rem;
-        color: #0032a0;
+        color: var(--color-primary);
         margin-bottom: 0.5rem;
       }
       .subtitle {
-        color: #555;
+        color: var(--gray-700);
         margin-bottom: 2rem;
         line-height: 1.5;
       }
       .hotlines {
-        background: #fff;
-        border: 1px solid #ddd;
-        border-radius: 8px;
+        background: var(--color-white);
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
         padding: 1.5rem;
         margin-bottom: 2rem;
         text-align: left;
       }
       .hotlines h2 {
         font-size: 1.1rem;
-        color: #0032a0;
+        color: var(--color-primary);
         margin-bottom: 1rem;
         text-align: center;
       }
@@ -83,40 +83,40 @@
         justify-content: space-between;
         align-items: center;
         padding: 0.6rem 0;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid var(--gray-200);
       }
       .hotline-list li:last-child {
         border-bottom: none;
       }
       .hotline-label {
         font-weight: 600;
-        color: #333;
+        color: var(--gray-900);
       }
       .hotline-number {
-        color: #0032a0;
+        color: var(--color-primary);
         font-weight: 600;
         text-decoration: none;
       }
       .hotline-number:focus {
-        outline: 2px solid #0032a0;
+        outline: 2px solid var(--color-primary);
         outline-offset: 2px;
       }
       .retry-btn {
         display: inline-block;
-        background: #0032a0;
-        color: #fff;
+        background: var(--color-primary);
+        color: var(--color-white);
         border: none;
         padding: 0.75rem 2rem;
         font-size: 1rem;
-        border-radius: 6px;
+        border-radius: var(--radius-sm);
         cursor: pointer;
         text-decoration: none;
       }
       .retry-btn:hover {
-        background: #002170;
+        background: var(--color-primary-dark);
       }
       .retry-btn:focus {
-        outline: 2px solid #0032a0;
+        outline: 2px solid var(--color-primary);
         outline-offset: 2px;
       }
       @media (max-width: 480px) {

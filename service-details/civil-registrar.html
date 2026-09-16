@@ -91,7 +91,7 @@
         margin-bottom: var(--spacing-lg);
         padding: var(--spacing-md);
         background: var(--color-white);
-        border-radius: 12px;
+        border-radius: var(--radius-md);
         box-shadow: var(--shadow-sm);
       }
 
@@ -101,8 +101,8 @@
         gap: 6px;
         padding: 10px 16px;
         background: var(--color-bg-alt);
-        border: 1px solid #e5e7eb;
-        border-radius: 8px;
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
         font-size: 0.875rem;
         font-weight: 500;
         color: var(--color-text);
@@ -130,41 +130,41 @@
         gap: var(--spacing-md);
         background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
         padding: var(--spacing-md) var(--spacing-lg);
-        border-radius: 12px;
+        border-radius: var(--radius-md);
         margin-bottom: var(--spacing-md);
         color: white;
       }
 
       .section-header-card.birth {
-        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        background: linear-gradient(135deg, var(--color-primary-mid) 0%, var(--color-primary-mid) 100%);
       }
       .section-header-card.marriage {
-        background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+        background: linear-gradient(135deg, var(--chart-4) 0%, var(--chart-4) 100%);
       }
       .section-header-card.death {
-        background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+        background: linear-gradient(135deg, var(--gray-700) 0%, var(--gray-700) 100%);
       }
       .section-header-card.cenomar {
-        background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+        background: linear-gradient(135deg, var(--chart-5) 0%, var(--chart-5) 100%);
       }
       .section-header-card.correction {
-        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        background: linear-gradient(135deg, var(--color-warning) 0%, var(--color-warning) 100%);
       }
       .section-header-card.legitimation {
-        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        background: linear-gradient(135deg, var(--color-success) 0%, var(--color-success) 100%);
       }
       .section-header-card.foundling {
-        background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+        background: linear-gradient(135deg, var(--color-info) 0%, var(--color-info) 100%);
       }
       .section-header-card.delayed {
-        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        background: linear-gradient(135deg, var(--color-danger) 0%, var(--color-danger) 100%);
       }
 
       .section-header-icon {
         width: 56px;
         height: 56px;
         background: rgba(255, 255, 255, 0.2);
-        border-radius: 12px;
+        border-radius: var(--radius-md);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -186,8 +186,8 @@
 
       .service-detail-card {
         background: var(--color-white);
-        border: 1px solid #e5e7eb;
-        border-radius: 12px;
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
         overflow: hidden;
       }
 
@@ -195,7 +195,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 1px;
-        background: #e5e7eb;
+        background: var(--gray-200);
       }
 
       .service-info-box {
@@ -264,7 +264,7 @@
       .process-step-content {
         flex: 1;
         padding-bottom: var(--spacing-md);
-        border-bottom: 1px solid #f3f4f6;
+        border-bottom: 1px solid var(--gray-100);
       }
 
       .process-step:last-child .process-step-content {
@@ -298,7 +298,7 @@
         gap: 8px;
         padding: 10px 12px;
         background: var(--color-bg-alt);
-        border-radius: 8px;
+        border-radius: var(--radius-md);
         font-size: 0.875rem;
       }
 
@@ -331,8 +331,8 @@
 
       .contact-sidebar {
         background: var(--color-white);
-        border: 1px solid #e5e7eb;
-        border-radius: 12px;
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
         padding: var(--spacing-lg);
         position: sticky;
         top: 100px;
@@ -355,7 +355,7 @@
         align-items: flex-start;
         gap: 12px;
         padding: 12px 0;
-        border-bottom: 1px solid #f3f4f6;
+        border-bottom: 1px solid var(--gray-100);
       }
 
       .contact-item:last-child {
@@ -400,8 +400,8 @@
 
       .quick-stat-card {
         background: var(--color-white);
-        border: 1px solid #e5e7eb;
-        border-radius: 10px;
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
         padding: var(--spacing-md);
         text-align: center;
       }
@@ -437,7 +437,7 @@
       .fee-table td {
         padding: 12px;
         text-align: left;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid var(--gray-200);
       }
 
       .fee-table th {
@@ -456,9 +456,9 @@
       .fee-badge {
         display: inline-block;
         padding: 4px 10px;
-        background: #dcfce7;
-        color: #166534;
-        border-radius: 4px;
+        background: var(--color-success-tint);
+        color: var(--color-success-dark);
+        border-radius: var(--radius-sm);
         font-size: 0.8125rem;
         font-weight: 600;
       }
@@ -466,7 +466,7 @@
       .related-services {
         margin-top: var(--spacing-lg);
         padding-top: var(--spacing-md);
-        border-top: 1px solid #e5e7eb;
+        border-top: 1px solid var(--gray-200);
       }
 
       .related-services h4 {

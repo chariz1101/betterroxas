@@ -3,15 +3,55 @@
  * Better Roxas Portal - Minimal Professional Design
  */
 
-// Brand colors
+/**
+ * Colours come from the CSS custom properties in style.css, so the stylesheet
+ * stays the single source of truth and the charts cannot drift from the UI.
+ * The fallbacks only apply if the stylesheet has not loaded.
+ */
+function cssVar(name, fallback) {
+  if (typeof getComputedStyle !== 'function') return fallback;
+  const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return v || fallback;
+}
+
 const COLORS = {
-  primary: '#0032a0',
-  primaryDark: '#002170',
-  secondary: '#003D82',
-  accent: '#F77F00',
-  success: '#06A77D',
-  info: '#0077BE',
+  primary: cssVar('--color-primary', '#0032a0'),
+  primaryDark: cssVar('--color-primary-dark', '#002170'),
+  secondary: cssVar('--color-secondary', '#003d82'),
+  accent: cssVar('--color-accent', '#f77f00'),
+  success: cssVar('--color-success', '#06a77d'),
+  info: cssVar('--color-info', '#0077be'),
+  gray: cssVar('--gray-300', '#d1d5db'),
 };
+
+/**
+ * Categorical palette for charts that encode identity (one colour per series).
+ * Okabe-Ito derived and validated for colour-vision deficiency and contrast at
+ * every pair. Assigned in order and never cycled: past five series the tail is
+ * grouped rather than given invented hues.
+ */
+const CHART_PALETTE = [
+  cssVar('--chart-1', '#0072b2'),
+  cssVar('--chart-2', '#d55e00'),
+  cssVar('--chart-3', '#009e73'),
+  cssVar('--chart-4', '#a3427c'),
+  cssVar('--chart-5', '#7c3aed'),
+];
+
+/**
+ * Sequential ramp for magnitude: one hue, light to dark, evenly stepped.
+ * Population is a magnitude, not an identity, so it gets a ramp rather than
+ * a set of unrelated hues.
+ */
+function sequentialBlue(n) {
+  if (n <= 1) return ['rgb(0, 50, 160)'];
+  return Array.from({ length: n }, (_, i) => {
+    const t = i / (n - 1); // 0 = darkest, 1 = lightest
+    const light = 0.18 + 0.62 * t; // stays within a legible band
+    const mix = (c) => Math.round(c + (255 - c) * light);
+    return `rgb(${mix(0)}, ${mix(50)}, ${mix(160)})`;
+  });
+}
 
 // Barangay data (2020 Census, PSA — the latest release with a per-barangay
 // breakdown; the 2024 total of 185,236 is city-wide only). These 47 figures
@@ -280,18 +320,7 @@ function createDistributionChart() {
   if (!barangayData.length) return renderPendingNotice(ctx);
 
   const top10 = barangayData.slice(0, 10);
-  const colors = [
-    COLORS.primary,
-    COLORS.accent,
-    COLORS.success,
-    COLORS.info,
-    '#8B5CF6',
-    '#EC4899',
-    '#14B8A6',
-    '#F59E0B',
-    '#6366F1',
-    COLORS.secondary,
-  ];
+  const colors = sequentialBlue(top10.length);
 
   charts.distribution = new Chart(ctx, {
     type: 'doughnut',
@@ -366,10 +395,10 @@ function createBarChart() {
         {
           label: 'Population',
           data: sorted.map((d) => d.pop),
-          backgroundColor: sorted.map((_, i) => {
-            const opacity = 1 - i * 0.03;
-            return `rgba(0, 50, 160, ${opacity})`;
-          }),
+          // One hue, darkest for the largest barangay. Stepped across the
+          // actual bar count: the old `1 - i * 0.03` went negative past the
+          // 34th bar, so with 47 barangays the tail rendered invisible.
+          backgroundColor: sequentialBlue(sorted.length),
           borderRadius: 4,
           borderSkipped: false,
         },
@@ -538,7 +567,7 @@ function createCMCIOverviewChart() {
   if (!ctx || charts.cmciOverview) return;
   if (!cmciData.years.length) return renderPendingNotice(ctx);
 
-  const chartColors = [COLORS.primary, COLORS.accent, COLORS.success, COLORS.info, '#8B5CF6'];
+  const chartColors = CHART_PALETTE;
 
   charts.cmciOverview = new Chart(ctx, {
     type: 'line',
@@ -601,7 +630,7 @@ function createCMCIPillarChart(pillarKey, canvasId) {
   const pillarData = cmciData.pillars[pillarKey];
   if (!pillarData) return;
 
-  const chartColors = [COLORS.primary, COLORS.accent, COLORS.success, COLORS.info, '#8B5CF6'];
+  const chartColors = CHART_PALETTE;
 
   charts[canvasId] = new Chart(ctx, {
     type: 'line',

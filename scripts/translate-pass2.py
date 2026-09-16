@@ -669,7 +669,7 @@ PASS2_FIL_3 = {
     "Roxas City Competitive Index": "Competitive Index ng Roxas City",
     "Roxas City at a Glance": "Roxas City sa Isang Tingin",
     "Brief History of Roxas City": "Maikling Kasaysayan ng Roxas City",
-    "22 Barangays": "22 Barangay",
+    "47 barangays": "22 Barangay",
     "24/7 Operations": "24/7 Operasyon",
     "60 Years+": "60 Taon+",
     "Nationwide": "Buong Bansa",

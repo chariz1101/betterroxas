@@ -32,7 +32,7 @@
   background: rgba(255, 255, 255, 0.15);
   color: white;
   padding: 8px 20px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 16px;
@@ -69,7 +69,7 @@
 
 .leg-category-card {
   background: white;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   padding: 32px;
   text-decoration: none;
   color: var(--color-text);
@@ -97,7 +97,7 @@
 
 .leg-category-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 48px rgba(0, 50, 160, 0.15);
+  box-shadow: var(--shadow-lg);
   text-decoration: none;
   border-color: transparent;
 }
@@ -110,7 +110,7 @@
   width: 72px;
   height: 72px;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,7 +182,7 @@
   background: rgba(0, 50, 160, 0.08);
   color: var(--color-primary);
   padding: 5px 12px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 10px;
@@ -208,7 +208,7 @@
 
 .leg-info-card {
   background: white;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   padding: 16px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   text-align: left;
@@ -219,14 +219,14 @@
 
 .leg-info-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 2px 12px rgba(0, 50, 160, 0.08);
+  box-shadow: var(--shadow-md);
 }
 
 .leg-info-card-icon {
   width: 36px;
   height: 36px;
   background: var(--color-primary);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +344,7 @@
     width: 52px;
     height: 52px;
     font-size: 1.25rem;
-    border-radius: 14px;
+    border-radius: var(--radius-md);
     margin-bottom: 12px;
   }
 
@@ -421,7 +421,7 @@
   padding: 12px 24px;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -442,7 +442,7 @@
   color: var(--color-text-light);
   background: rgba(0, 0, 0, 0.04);
   padding: 2px 8px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
 }
 
 .leg-tab-btn:hover {
@@ -490,7 +490,7 @@
   flex: 1;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   padding: 16px 14px 14px 14px;
   transition: all 0.2s ease;
   display: flex;
@@ -499,7 +499,7 @@
 
 .leg-flow-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 2px 12px rgba(0, 50, 160, 0.08);
+  box-shadow: var(--shadow-md);
 }
 
 .leg-flow-number {
@@ -512,7 +512,7 @@
   color: white;
   font-size: 0.6875rem;
   font-weight: 700;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   margin-bottom: 10px;
   flex-shrink: 0;
 }

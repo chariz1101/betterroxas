@@ -106,22 +106,10 @@ export default function HealthPage() {
       <section className="section section-compact">
         <div className="container">
           <div className="health-stats-grid">
-            <div className="health-stat-card">
-              <span className="health-stat-num">88</span>
-              <span className="health-stat-label">{t('health-stat-facilities')}</span>
-            </div>
-            <div className="health-stat-card">
-              <span className="health-stat-num">3</span>
-              <span className="health-stat-label">{t('health-stat-hospitals')}</span>
-            </div>
-            <div className="health-stat-card">
-              <span className="health-stat-num">22</span>
-              <span className="health-stat-label">{t('health-stat-bhs')}</span>
-            </div>
-            <div className="health-stat-card">
-              <span className="health-stat-num">1</span>
-              <span className="health-stat-label">{t('health-stat-mho')}</span>
-            </div>
+            <p className="chart-pending">
+              Facility counts for Roxas City are being compiled from DOH and City Health Office
+              records.
+            </p>
           </div>
         </div>
       </section>

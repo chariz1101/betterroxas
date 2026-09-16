@@ -20,7 +20,7 @@
   background: rgba(255, 255, 255, 0.12);
   color: white;
   padding: 6px 16px;
-  border-radius: 100px;
+  border-radius: var(--radius-pill);
   font-size: 0.8125rem;
   font-weight: 500;
   margin-bottom: 12px;
@@ -44,7 +44,7 @@
 /* SRE Section V2 */
 .sre-section-v2 {
   padding: 48px 0 64px;
-  background: #f8fafc;
+  background: var(--gray-50);
 }
 
 .sre-header-v2 {
@@ -91,9 +91,9 @@
   display: flex;
   gap: 4px;
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-sm);
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
@@ -104,7 +104,7 @@
   padding: 10px 24px;
   border: none;
   background: transparent;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
   min-width: 90px;
@@ -147,25 +147,25 @@
 
 .sre-metric-card {
   background: white;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   padding: 20px;
   display: flex;
   align-items: center;
   gap: 14px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-sm);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
 }
 
 .sre-metric-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 50, 160, 0.1);
+  box-shadow: var(--shadow-lg);
 }
 
 .sre-metric-icon {
   width: 48px;
   height: 48px;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,22 +174,22 @@
 }
 
 .sre-metric-income .sre-metric-icon {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, var(--color-success) 0%, var(--color-success) 100%);
   color: white;
 }
 
 .sre-metric-expense .sre-metric-icon {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  background: linear-gradient(135deg, var(--color-warning) 0%, var(--color-warning) 100%);
   color: white;
 }
 
 .sre-metric-net .sre-metric-icon {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  background: linear-gradient(135deg, var(--color-primary-mid) 0%, var(--color-primary-mid) 100%);
   color: white;
 }
 
 .sre-metric-balance .sre-metric-icon {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, var(--chart-5) 0%, var(--chart-5) 100%);
   color: white;
 }
 
@@ -230,9 +230,9 @@
 
 .sre-breakdown-panel {
   background: white;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-sm);
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
@@ -279,13 +279,13 @@
   align-items: center;
   gap: 12px;
   padding: 12px;
-  background: #f8fafc;
-  border-radius: 10px;
+  background: var(--gray-50);
+  border-radius: var(--radius-md);
   transition: all 0.2s ease;
 }
 
 .sre-breakdown-item:hover {
-  background: #f1f5f9;
+  background: var(--gray-100);
 }
 
 .sre-item-indicator {
@@ -296,22 +296,22 @@
 }
 
 .sre-indicator-local {
-  background: #10b981;
+  background: var(--color-success);
 }
 .sre-indicator-external {
-  background: #0ea5e9;
+  background: var(--color-info);
 }
 .sre-indicator-gps {
-  background: #3b82f6;
+  background: var(--color-primary-mid);
 }
 .sre-indicator-social {
-  background: #8b5cf6;
+  background: var(--chart-5);
 }
 .sre-indicator-economic {
-  background: #f59e0b;
+  background: var(--color-warning);
 }
 .sre-indicator-debt {
-  background: #ef4444;
+  background: var(--color-danger);
 }
 
 .sre-item-info {
@@ -351,7 +351,7 @@
   color: var(--color-text-light);
   background: rgba(0, 0, 0, 0.04);
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
 }
 
 /* Download Actions */
@@ -369,7 +369,7 @@
   padding: 12px 20px;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   color: var(--color-text);
   font-size: 0.875rem;
   font-weight: 500;
@@ -381,7 +381,7 @@
   border-color: var(--color-primary);
   color: var(--color-primary);
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0, 50, 160, 0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .sre-download-link i {
@@ -439,7 +439,7 @@
 /* Project Card */
 .infra-project-v5 {
   background: white;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   border: 1px solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: all 0.2s ease;
@@ -452,7 +452,7 @@
 
 .infra-project-v5:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 8px 32px rgba(0, 50, 160, 0.1);
+  box-shadow: var(--shadow-lg);
 }
 
 .infra-project-main {
@@ -471,7 +471,7 @@
   background: var(--color-primary);
   color: white;
   padding: 6px 14px;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.8125rem;
   font-weight: 700;
 }
@@ -483,7 +483,7 @@
   background: rgba(0, 119, 190, 0.08);
   color: var(--color-info);
   padding: 6px 12px;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.8125rem;
   font-weight: 600;
 }
@@ -513,7 +513,7 @@
 /* Project Details */
 .infra-project-details {
   padding: 24px 28px;
-  background: #fafbfc;
+  background: var(--gray-50);
 }
 
 .infra-detail-row {
@@ -585,7 +585,7 @@
 /* Resources Section V2 */
 .resources-section-v2 {
   padding: 64px 0;
-  background: #f8fafc;
+  background: var(--gray-50);
 }
 
 .resources-header-v2 {
@@ -631,7 +631,7 @@
   align-items: center;
   gap: 16px;
   background: white;
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   text-decoration: none;
@@ -640,7 +640,7 @@
 
 .resource-card-v2:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 8px 24px rgba(0, 50, 160, 0.1);
+  box-shadow: var(--shadow-lg);
   text-decoration: none;
   transform: translateY(-2px);
 }
@@ -649,7 +649,7 @@
   width: 52px;
   height: 52px;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -822,7 +822,7 @@
   align-items: center;
   gap: 6px;
   font-size: 0.8125rem;
-  color: #16a34a;
+  color: var(--color-success);
   font-weight: 500;
 }
 
@@ -843,7 +843,7 @@
   gap: 32px;
   padding: 16px 24px;
   background: white;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   border: 1px solid rgba(0, 0, 0, 0.06);
   margin-bottom: 16px;
 }
@@ -888,7 +888,7 @@
   padding: 8px 14px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: white;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--color-text-light);
@@ -917,7 +917,7 @@
   font-size: 0.625rem;
   padding: 2px 6px;
   background: rgba(0, 0, 0, 0.06);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   font-weight: 600;
 }
 
@@ -928,7 +928,7 @@
 /* Table Wrapper */
 .dpwh-table-wrap {
   background: white;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   border: 1px solid rgba(0, 0, 0, 0.06);
   overflow: hidden;
 }
@@ -942,7 +942,7 @@
 }
 
 .dpwh-table thead {
-  background: #0032a0;
+  background: var(--color-primary);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -955,7 +955,7 @@
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  color: #ffffff;
+  color: var(--color-white);
   white-space: nowrap;
 }
 
@@ -1020,7 +1020,7 @@
   color: var(--color-primary);
   background: rgba(26, 95, 42, 0.08);
   padding: 2px 5px;
-  border-radius: 3px;
+  border-radius: var(--radius-sm);
   letter-spacing: 0.2px;
 }
 
@@ -1028,29 +1028,29 @@
   font-size: 0.5rem;
   font-weight: 600;
   padding: 2px 6px;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   text-transform: uppercase;
   letter-spacing: 0.2px;
 }
 
 .dpwh-cat-badge.buildings {
   background: rgba(139, 92, 246, 0.1);
-  color: #7c3aed;
+  color: var(--chart-5);
 }
 
 .dpwh-cat-badge.roads {
   background: rgba(59, 130, 246, 0.1);
-  color: #2563eb;
+  color: var(--color-primary-mid);
 }
 
 .dpwh-cat-badge.flood {
   background: rgba(0, 119, 190, 0.1);
-  color: #0077be;
+  color: var(--color-info);
 }
 
 .dpwh-cat-badge.water {
   background: rgba(6, 182, 212, 0.1);
-  color: #0891b2;
+  color: var(--color-info);
 }
 
 .dpwh-proj-title {
@@ -1111,7 +1111,7 @@
 .dpwh-badge {
   display: inline-block;
   padding: 3px 8px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   font-size: 0.625rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1119,13 +1119,13 @@
 }
 
 .dpwh-badge.complete {
-  background: #dcfce7;
-  color: #166534;
+  background: var(--color-success-tint);
+  color: var(--color-success-dark);
 }
 
 .dpwh-badge.ongoing {
-  background: #fef3c7;
-  color: #92400e;
+  background: var(--color-warning-tint);
+  color: var(--color-warning-dark);
 }
 
 /* Date Cell */
@@ -1150,7 +1150,7 @@
   padding: 10px 20px;
   background: white;
   border: 1px solid var(--color-primary);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   color: var(--color-primary);
   font-size: 0.8125rem;
   font-weight: 600;
@@ -1177,11 +1177,11 @@
 /* Skeleton Loader */
 .dpwh-skeleton-row {
   height: 56px;
-  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background: linear-gradient(90deg, var(--gray-100) 25%, var(--gray-200) 50%, var(--gray-100) 75%);
   background-size: 200% 100%;
   animation: dpwh-shimmer 1.2s infinite;
   margin: 8px 16px;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
 }
 
 @keyframes dpwh-shimmer {

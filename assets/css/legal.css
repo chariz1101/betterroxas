@@ -19,7 +19,7 @@
   background: rgba(255, 255, 255, 0.15);
   color: white;
   padding: 8px 20px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 16px;
@@ -55,10 +55,10 @@
   position: sticky;
   top: 100px;
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--shadow-md);
 }
 
 .legal-toc h4 {
@@ -83,7 +83,7 @@
   padding: 8px 12px;
   font-size: 0.8125rem;
   color: var(--color-text-light);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   transition: all 0.2s ease;
   text-decoration: none;
 }
@@ -173,7 +173,7 @@
   background: linear-gradient(135deg, rgba(6, 167, 125, 0.1) 0%, rgba(6, 167, 125, 0.05) 100%);
   border-left: 4px solid var(--color-success);
   padding: 16px 20px;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
   margin: 20px 0;
 }
 
@@ -193,7 +193,7 @@
   gap: 12px;
   background: var(--color-bg-alt);
   padding: 16px 20px;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   margin: 20px 0;
 }
 
@@ -214,7 +214,7 @@
 .legal-callout {
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   padding: 20px;
   margin: 24px 0;
 }
@@ -266,7 +266,7 @@ Contact Section */
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   color: white;
   padding: 14px 24px;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   font-size: 0.9375rem;
   font-weight: 500;
   text-decoration: none;
@@ -275,7 +275,7 @@ Contact Section */
 
 .contact-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 50, 160, 0.25);
+  box-shadow: var(--shadow-md);
   color: white;
   text-decoration: none;
 }

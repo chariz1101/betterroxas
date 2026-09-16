@@ -154,8 +154,7 @@ const translations: Record<string, Record<string, string>> = {
     'health-section-hospitals': 'Hospitals in Roxas City',
     'health-section-mho': 'City Health Office',
     'health-section-bhs': 'Barangay Health Stations',
-    'health-bhs-subtitle':
-      '22 Barangay Health Stations/Centers serving all barangays of Roxas City',
+    'health-bhs-subtitle': 'Barangay health stations serving all 47 barangays of Roxas City',
     'health-mho-title': 'Roxas City Health Office',
     'health-mho-desc':
       'The City Health Office provides primary healthcare services including a lying-in facility and laboratory services. It serves as the main public health center for the city.',
@@ -596,7 +595,7 @@ const translations: Record<string, Record<string, string>> = {
     'health-section-mho': 'Opisina ng Kalusugan ng Lungsod',
     'health-section-bhs': 'Mga Barangay Health Station',
     'health-bhs-subtitle':
-      '22 Barangay Health Stations/Centers na naglilingkod sa lahat ng barangay ng Roxas City',
+      'Barangay health stations na naglilingkod sa lahat ng 47 barangay ng Roxas City',
     'health-mho-title': 'Opisina ng Kalusugan ng Lungsod ng Roxas City',
     'health-mho-desc':
       'Ang City Health Office ay nagbibigay ng pangunahing serbisyo sa kalusugan kabilang ang lying-in facility at laboratory services. Ito ang pangunahing public health center ng lungsod.',

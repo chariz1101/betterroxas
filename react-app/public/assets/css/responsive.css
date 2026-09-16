@@ -122,7 +122,7 @@
   .main-nav a {
     display: block;
     padding: 12px 16px;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     transition: background-color 0.15s ease;
     -webkit-tap-highlight-color: transparent;
   }
@@ -578,7 +578,7 @@
 .mobile-menu-toggle:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: -2px;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
 }
 
 @media (max-width: 1024px) {
@@ -604,7 +604,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #cccccc;
+  color: var(--gray-300);
   font-size: 1.25rem;
   transition: all 0.2s ease;
 }
@@ -632,11 +632,11 @@
 
   .card {
     box-shadow: none;
-    border: 1px solid #ddd;
+    border: 1px solid var(--gray-200);
   }
 
   a {
-    color: #000;
+    color: var(--gray-900);
     text-decoration: underline;
   }
 }

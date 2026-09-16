@@ -32,7 +32,7 @@
   background: rgba(255, 255, 255, 0.15);
   color: white;
   padding: 8px 20px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 16px;
@@ -70,10 +70,10 @@
 
 .trans-metrics .metric-card {
   background: white;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   padding: 28px 24px;
   text-align: center;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(0, 0, 0, 0.04);
   opacity: 0;
   transform: translateY(30px);
@@ -87,13 +87,13 @@
 
 .trans-metrics .metric-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(0, 50, 160, 0.12);
+  box-shadow: var(--shadow-lg);
 }
 
 .trans-metrics .metric-icon {
   width: 56px;
   height: 56px;
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,13 +103,13 @@
 }
 
 .metric-icon-income {
-  background: linear-gradient(135deg, var(--color-success) 0%, #05c793 100%);
+  background: linear-gradient(135deg, var(--color-success) 0%, var(--color-success) 100%);
 }
 .metric-icon-expense {
-  background: linear-gradient(135deg, var(--color-danger) 0%, #e63946 100%);
+  background: linear-gradient(135deg, var(--color-danger) 0%, var(--color-danger) 100%);
 }
 .metric-icon-net {
-  background: linear-gradient(135deg, var(--color-info) 0%, #0099cc 100%);
+  background: linear-gradient(135deg, var(--color-info) 0%, var(--color-info) 100%);
 }
 .metric-icon-balance {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
@@ -156,7 +156,7 @@
   background: rgba(0, 50, 160, 0.08);
   color: var(--color-primary);
   padding: 6px 14px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.8125rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -185,7 +185,7 @@ come Section */
 
 .income-chart-wrap {
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 24px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   height: 350px;
@@ -199,7 +199,7 @@ come Section */
 
 .income-category {
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   border: 1px solid rgba(0, 0, 0, 0.06);
   overflow: hidden;
 }
@@ -215,7 +215,7 @@ come Section */
 .income-category-icon {
   width: 44px;
   height: 44px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,10 +224,10 @@ come Section */
 }
 
 .income-icon-local {
-  background: linear-gradient(135deg, var(--color-success) 0%, #05c793 100%);
+  background: linear-gradient(135deg, var(--color-success) 0%, var(--color-success) 100%);
 }
 .income-icon-external {
-  background: linear-gradient(135deg, var(--color-info) 0%, #0099cc 100%);
+  background: linear-gradient(135deg, var(--color-info) 0%, var(--color-info) 100%);
 }
 
 .income-category-info {
@@ -254,7 +254,7 @@ come Section */
   color: var(--color-primary);
   background: rgba(0, 50, 160, 0.08);
   padding: 4px 10px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
 }
 
 .income-items {
@@ -291,7 +291,7 @@ iture Section */
 
 .expenditure-chart-wrap {
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 24px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   height: 350px;
@@ -305,7 +305,7 @@ iture Section */
 
 .expenditure-item {
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 16px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   transition: all 0.2s ease;
@@ -313,7 +313,7 @@ iture Section */
 
 .expenditure-item:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(0, 50, 160, 0.08);
+  box-shadow: var(--shadow-md);
 }
 
 .expenditure-header {
@@ -326,7 +326,7 @@ iture Section */
   width: 40px;
   height: 40px;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -360,7 +360,7 @@ iture Section */
 .expenditure-bar {
   height: 8px;
   background: var(--color-bg-alt);
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   margin-top: 12px;
   overflow: hidden;
 }
@@ -368,7 +368,7 @@ iture Section */
 .expenditure-fill {
   height: 100%;
   background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-info) 100%);
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   width: 0;
   transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -387,14 +387,14 @@ iture Section */
 ct Card */
 .project-card {
   background: white;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .project-header {
-  background: linear-gradient(90deg, var(--color-info) 0%, #0099cc 100%);
+  background: linear-gradient(90deg, var(--color-info) 0%, var(--color-info) 100%);
   padding: 16px 24px;
   display: flex;
   align-items: center;
@@ -417,7 +417,7 @@ ct Card */
   background: rgba(255, 255, 255, 0.2);
   color: white;
   padding: 6px 14px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 500;
 }
@@ -452,7 +452,7 @@ ct Card */
 .project-detail {
   background: var(--color-bg-alt);
   padding: 16px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   text-align: center;
 }
 
@@ -503,7 +503,7 @@ ct Card */
   align-items: center;
   gap: 16px;
   background: white;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   text-decoration: none;
@@ -512,7 +512,7 @@ ct Card */
 
 .report-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(0, 50, 160, 0.1);
+  box-shadow: var(--shadow-md);
   text-decoration: none;
 }
 
@@ -520,7 +520,7 @@ ct Card */
   width: 56px;
   height: 56px;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -660,7 +660,7 @@ uarter Selection Tabs */
   padding: 12px 24px;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -743,7 +743,7 @@ uarter Selection Tabs */
 
 .sre-section {
   padding: 60px 0 80px;
-  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  background: linear-gradient(180deg, var(--gray-50) 0%, var(--color-white) 100%);
 }
 
 .sre-header {
@@ -758,7 +758,7 @@ uarter Selection Tabs */
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   color: white;
   padding: 8px 20px;
-  border-radius: 50px;
+  border-radius: var(--radius-pill);
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 16px;
@@ -787,16 +787,16 @@ uarter Selection Tabs */
 
 .sre-quarter-card {
   background: white;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
 }
 
 .sre-quarter-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 50, 160, 0.12);
+  box-shadow: var(--shadow-lg);
 }
 
 .sre-quarter-header {
@@ -807,11 +807,11 @@ uarter Selection Tabs */
 }
 
 .sre-q1-header {
-  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  background: linear-gradient(135deg, var(--color-primary-mid) 0%, var(--color-primary-mid) 100%);
 }
 
 .sre-q2-header {
-  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+  background: linear-gradient(135deg, var(--chart-5) 0%, var(--chart-5) 100%);
 }
 
 .sre-quarter-badge {
@@ -847,7 +847,7 @@ uarter Selection Tabs */
 .sre-metric-icon {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -856,22 +856,22 @@ uarter Selection Tabs */
 
 .sre-metric-income .sre-metric-icon {
   background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
+  color: var(--color-success);
 }
 
 .sre-metric-expense .sre-metric-icon {
   background: rgba(239, 68, 68, 0.1);
-  color: #ef4444;
+  color: var(--color-danger);
 }
 
 .sre-metric-net .sre-metric-icon {
   background: rgba(14, 165, 233, 0.1);
-  color: #0ea5e9;
+  color: var(--color-info);
 }
 
 .sre-metric-balance .sre-metric-icon {
   background: rgba(59, 130, 246, 0.1);
-  color: #3b82f6;
+  color: var(--color-primary-mid);
 }
 
 .sre-metric-info {
@@ -893,7 +893,7 @@ uarter Selection Tabs */
 }
 
 .sre-metric-value.sre-positive {
-  color: #10b981;
+  color: var(--color-success);
 }
 
 .sre-metric-divider {
@@ -915,7 +915,7 @@ uarter Selection Tabs */
   padding: 10px 20px;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   color: var(--color-primary);
   font-size: 0.875rem;
   font-weight: 600;
@@ -933,9 +933,9 @@ uarter Selection Tabs */
 /* Breakdown Section */
 .sre-breakdown-section {
   background: white;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   padding: 32px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
@@ -959,14 +959,14 @@ uarter Selection Tabs */
   gap: 8px;
   background: var(--color-bg-alt);
   padding: 4px;
-  border-radius: 10px;
+  border-radius: var(--radius-md);
 }
 
 .sre-tab {
   padding: 8px 20px;
   border: none;
   background: transparent;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--color-text-light);
@@ -981,7 +981,7 @@ uarter Selection Tabs */
 .sre-tab.active {
   background: white;
   color: var(--color-primary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-sm);
 }
 
 .sre-breakdown-grid {
@@ -992,7 +992,7 @@ uarter Selection Tabs */
 
 .sre-breakdown-card {
   background: var(--color-bg-alt);
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   padding: 24px;
 }
 
@@ -1041,22 +1041,22 @@ uarter Selection Tabs */
 }
 
 .sre-dot-local {
-  background: #10b981;
+  background: var(--color-success);
 }
 .sre-dot-external {
-  background: #0ea5e9;
+  background: var(--color-info);
 }
 .sre-dot-gps {
-  background: #3b82f6;
+  background: var(--color-primary-mid);
 }
 .sre-dot-social {
-  background: #8b5cf6;
+  background: var(--chart-5);
 }
 .sre-dot-economic {
-  background: #f59e0b;
+  background: var(--color-warning);
 }
 .sre-dot-debt {
-  background: #ef4444;
+  background: var(--color-danger);
 }
 
 .sre-item-label {

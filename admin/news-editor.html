@@ -7,14 +7,14 @@
     <title>News Curation · BetterRoxas (internal)</title>
     <style>
       :root {
-        --primary: #1d4ed8;
-        --primary-dark: #1e3a8a;
-        --border: #e5e7eb;
-        --text: #1f2937;
-        --muted: #6b7280;
-        --bg: #f3f4f6;
-        --danger: #b91c1c;
-        --ok: #15803d;
+        --primary: var(--color-primary-mid);
+        --primary-dark: var(--color-primary-dark);
+        --border: var(--gray-200);
+        --text: var(--gray-900);
+        --muted: var(--gray-700);
+        --bg: var(--gray-100);
+        --danger: var(--color-danger-dark);
+        --ok: var(--color-success-dark);
       }
       * {
         box-sizing: border-box;
@@ -27,7 +27,7 @@
         background: var(--bg);
       }
       header.app {
-        background: #fff;
+        background: var(--color-white);
         border-bottom: 1px solid var(--border);
         padding: 14px 20px;
         display: flex;
@@ -45,20 +45,20 @@
       }
       header.app .tag {
         font-size: 0.7rem;
-        background: #fef3c7;
-        color: #b45309;
+        background: var(--color-warning-tint);
+        color: var(--color-warning-dark);
         padding: 2px 8px;
-        border-radius: 50px;
+        border-radius: var(--radius-pill);
         font-weight: 600;
       }
       button {
         font: inherit;
         cursor: pointer;
         border: 1px solid var(--border);
-        background: #fff;
+        background: var(--color-white);
         color: var(--text);
         padding: 8px 12px;
-        border-radius: 8px;
+        border-radius: var(--radius-md);
       }
       button:hover {
         border-color: var(--primary);
@@ -66,14 +66,14 @@
       button.primary {
         background: var(--primary);
         border-color: var(--primary);
-        color: #fff;
+        color: var(--color-white);
       }
       button.primary:hover {
         background: var(--primary-dark);
       }
       button.danger {
         color: var(--danger);
-        border-color: #fecaca;
+        border-color: var(--color-danger-tint);
       }
       main {
         display: grid;
@@ -88,9 +88,9 @@
         }
       }
       .panel {
-        background: #fff;
+        background: var(--color-white);
         border: 1px solid var(--border);
-        border-radius: 12px;
+        border-radius: var(--radius-md);
         padding: 16px;
       }
       .panel h2 {
@@ -102,7 +102,7 @@
       }
       .entry {
         border: 1px solid var(--border);
-        border-radius: 10px;
+        border-radius: var(--radius-md);
         padding: 10px 12px;
         margin-bottom: 10px;
       }
@@ -151,8 +151,8 @@
         font: inherit;
         padding: 8px 10px;
         border: 1px solid var(--border);
-        border-radius: 8px;
-        background: #fff;
+        border-radius: var(--radius-md);
+        background: var(--color-white);
       }
       textarea {
         min-height: 84px;
@@ -210,10 +210,10 @@
       }
       .nc {
         border: 1px solid var(--border);
-        border-radius: 12px;
+        border-radius: var(--radius-md);
         overflow: hidden;
         max-width: 360px;
-        background: #fff;
+        background: var(--color-white);
       }
       .nc-head {
         display: flex;
@@ -225,19 +225,19 @@
         font-size: 0.75rem;
         font-weight: 600;
         padding: 4px 10px;
-        border-radius: 50px;
+        border-radius: var(--radius-pill);
       }
       .b-info {
-        background: #e0f2fe;
-        color: #0369a1;
+        background: var(--color-info-tint);
+        color: var(--color-info);
       }
       .b-success {
-        background: #dcfce7;
-        color: #15803d;
+        background: var(--color-success-tint);
+        color: var(--color-success-dark);
       }
       .b-warning {
-        background: #fef3c7;
-        color: #b45309;
+        background: var(--color-warning-tint);
+        color: var(--color-warning-dark);
       }
       .nc-date {
         font-size: 0.75rem;
