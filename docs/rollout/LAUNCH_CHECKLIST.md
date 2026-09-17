@@ -86,19 +86,26 @@ still Solano's fee schedule.
 grep -rn "₱" --include="*.html" services service-details
 ```
 
-### 6. Logo artwork and social card **[DESIGN]**
+### 6. Logo artwork and social card — DONE
 
-The filenames were renamed but the artwork still reads "BetterSolano". The
-wordmark is outlined vector paths, not editable text, so this needs a
-designer rather than a find-and-replace.
+The Figma exports were installed and the wordmark, favicon and social card all
+carry the Roxas City brand. Figma had rasterised the Philippine sun as a
+960x960 truecolour PNG and embedded a copy in each export (~849 KB for the
+set); it is now one shared alpha mask painted with a solid fill, so the set is
+109 KB and recolouring is a one-line change.
 
-- [ ] `assets/images/logo/better-roxas-logo.svg`
-- [ ] `assets/images/logo/better-roxas-logo-white.svg`
-- [ ] `assets/images/banners/opengraph.png` (1200×630 social preview)
-- [ ] Mirror all three into `react-app/public/assets/images/`
-- [ ] Check `assets/images/logo/favicon.svg` and `favicon.ico`
+- [x] `assets/images/logo/better-roxas-logo.svg`
+- [x] `assets/images/logo/better-roxas-logo-white.svg` (derived: the exports
+      had no white _wordmark_, only a white icon)
+- [x] `assets/images/logo/favicon.svg` and `favicon.ico` (6 sizes, 16-256)
+- [x] `assets/images/banners/opengraph.png` (1200x630)
+- [x] `assets/images/logo/roxas-icon.svg` / `roxas-icon-white.svg`
+- [x] Mirrored into `react-app/public/assets/images/`
 
-Until this is done, every social share of the site shows the old brand.
+One judgement call worth revisiting: the wordmark reads **BetterRoxas.org**,
+but the site is deployed on a `vercel.app` subdomain and no `.org` domain is
+registered. Either register the domain or have the wordmark set without the
+suffix.
 
 ### 7. Google Analytics **[OWNER]**
 
@@ -114,11 +121,10 @@ grep -rl "G-XXXXXXXXXX" --include="*.html" .
 
 ### 8. Dead placeholder links **[OWNER]**
 
-Four links point at hosts that do not resolve. Each needs a decision: stand it
+Three links point at hosts that do not resolve. Each needs a decision: stand it
 up, repoint it, or remove the link.
 
 - [ ] `quiz.betterroxas.org` — homepage CTA and every footer
-- [ ] `roxasmayorsoffice-oasys.com` — the homepage appointment CTA
 - [ ] `volunteer@betterroxas.org` — no mailbox exists on a `vercel.app` deploy
 - [ ] `facebook.com/betterroxas` — the project's own page, footer social icon
 
