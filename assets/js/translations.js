@@ -59,9 +59,6 @@ const translations = {
     'hero-find-service': 'Find a Service',
 
     // Appointment CTA
-    'appointment-cta-heading': "Enhancing Appointment Services of LGU Roxas City Mayor's Office",
-    'appointment-cta-subtitle': 'No lines. No back-and-forth. Just efficient appointments.',
-    'appointment-schedule-btn': 'Schedule Appointment',
     'appointment-create-btn': 'Create Account',
 
     // Popular Services
@@ -2748,7 +2745,6 @@ const translations = {
     'home-citizens-charter': "Citizen's Charter",
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Contact Us',
-    'home-create-account': 'Create Account',
     'home-education': 'Education',
     'home-empowering-the-people-of-roxas-with-transparent':
       'Empowering the people of Roxas City with transparent access to the services, programs, and public funds of LGU Roxas City.',
@@ -2798,7 +2794,6 @@ const translations = {
     'home-resolution-framework': 'Resolution Framework',
     'home-resources': 'Resources',
     'home-sangguniang-bayan': 'Sangguniang Panlungsod',
-    'home-schedule-appointment': 'Schedule Appointment',
     'home-sitemap': 'Sitemap',
     'home-skip-to-main-content': 'Skip to main content',
     'home-social-services': 'Social Services',
@@ -6358,10 +6353,6 @@ const translations = {
     'hero-contact': 'Makipag-ugnayan sa Amin',
     'hero-search-placeholder': 'Maghanap ng serbisyo...',
     'hero-find-service': 'Maghanap ng Serbisyo',
-    'appointment-cta-heading':
-      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Roxas City',
-    'appointment-cta-subtitle': 'Walang pila. Walang pabalik-balik. Mahusay na appointment lang.',
-    'appointment-schedule-btn': 'Mag-iskedyul ng Appointment',
     'appointment-create-btn': 'Gumawa ng Account',
     'section-popular': 'Mga Sikat na Serbisyo',
     'service-certificates': 'Mga Sertipiko',
@@ -9010,7 +9001,6 @@ const translations = {
     'home-citizens-charter': "Citizen's Charter",
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Makipag-ugnayan sa Amin',
-    'home-create-account': 'Gumawa ng Account',
     'home-education': 'Edukasyon',
     'home-empowering-the-people-of-roxas-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Roxas City na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Roxas City.',
@@ -9061,7 +9051,6 @@ const translations = {
     'home-resolution-framework': 'Balangkas ng Resolusyon',
     'home-resources': 'Mga Mapagkukunan',
     'home-sangguniang-bayan': 'Sangguniang Panlungsod',
-    'home-schedule-appointment': 'Mag-iskedyul ng Appointment',
     'home-sitemap': 'Mapa ng Site',
     'home-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'home-social-services': 'Serbisyong Panlipunan',
@@ -12673,10 +12662,6 @@ const translations = {
     'hero-contact': 'Kontaken Dakami',
     'hero-search-placeholder': 'Agsapul ti serbisio...',
     'hero-find-service': 'Agsapul ti Serbisio',
-    'appointment-cta-heading':
-      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Roxas City',
-    'appointment-cta-subtitle': 'Awan pila. Awan agpapasubli. Nasayaat nga appointment laeng.',
-    'appointment-schedule-btn': 'Ag-iskedyul ti Appointment',
     'appointment-create-btn': 'Agaramid ti Account',
     'section-popular': 'Dagiti Popular a Serbisio',
     'service-certificates': 'Dagiti Sertipiko',
@@ -15336,7 +15321,6 @@ const translations = {
     'home-citizens-charter': "Citizen's Charter",
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Kontaken Dakami',
-    'home-create-account': 'Gumawa ti Account',
     'home-education': 'Edukasion',
     'home-empowering-the-people-of-roxas-with-transparent':
       'Panangted ti bileg kadagiti umili ti Roxas City nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Roxas City.',
@@ -15387,7 +15371,6 @@ const translations = {
     'home-resolution-framework': 'Balangkas ti Resolusion',
     'home-resources': 'Dagiti Rekurso',
     'home-sangguniang-bayan': 'Sangguniang Panlungsod',
-    'home-schedule-appointment': 'Mag-iskedyul ti Appointment',
     'home-sitemap': 'Mapa ti Site',
     'home-skip-to-main-content': 'Lumaktaw iti kangrunaan a linaon',
     'home-social-services': 'Serbisio Sosyal',

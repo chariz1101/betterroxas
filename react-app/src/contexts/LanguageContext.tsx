@@ -15,9 +15,6 @@ const translations: Record<string, Record<string, string>> = {
     'nav-contact': 'Contact',
 
     // Appointment CTA
-    'appointment-cta-heading': "Enhancing Appointment Services of LGU Roxas City Mayor's Office",
-    'appointment-cta-subtitle': 'No lines. No back-and-forth. Just efficient appointments.',
-    'appointment-schedule-btn': 'Schedule Appointment',
     'appointment-create-btn': 'Create Account',
 
     // Hero Section
@@ -448,10 +445,6 @@ const translations: Record<string, Record<string, string>> = {
     'nav-contact': 'Makipag-ugnayan',
 
     // Appointment CTA
-    'appointment-cta-heading':
-      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Roxas City',
-    'appointment-cta-subtitle': 'Walang pila. Walang pabalik-balik. Mahusay na appointment lang.',
-    'appointment-schedule-btn': 'Mag-iskedyul ng Appointment',
     'appointment-create-btn': 'Gumawa ng Account',
 
     // Hero Section
@@ -891,10 +884,6 @@ const translations: Record<string, Record<string, string>> = {
     'nav-contact': 'Kontaken',
 
     // Appointment CTA
-    'appointment-cta-heading':
-      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Roxas City',
-    'appointment-cta-subtitle': 'Awan pila. Awan agpapasubli. Nasayaat nga appointment laeng.',
-    'appointment-schedule-btn': 'Ag-iskedyul ti Appointment',
     'appointment-create-btn': 'Agaramid ti Account',
 
     // Hero Section

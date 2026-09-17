@@ -88,11 +88,8 @@ critical path to a shareable URL is its first six items.
 - CMCI per-indicator score series is portal-only (the DTI site blocks
   automated access); the headline rankings are in place.
 - Ordinances, resolutions, DPWH projects and news are empty.
-- Google Analytics ID, the quiz site, the appointment system and the project's
-  own contact email and Facebook page are placeholders.
-- The logo artwork and `opengraph.png` social card still read "BetterSolano" —
-  the wordmark is outlined vector paths, so it needs a designer, not a text
-  edit.
+- Google Analytics ID, the quiz site, and the project's own contact email and
+  Facebook page are placeholders.
 - The third UI language is Ilocano, which is regional to Nueva Vizcaya.
   Hiligaynon would be the appropriate language for Capiz. The new history and
   hotline copy is untagged for i18n, so it stays English in all three.
@@ -132,7 +129,6 @@ critical path to a shareable URL is its first six items.
 | **Budget Transparency**          | Financial reports, income/expenditure breakdowns, and infrastructure projects                                                                                                                                     |
 | **Legislative Documents**        | Searchable database of ordinances and resolutions from Sangguniang Panlungsod                                                                                                                                          |
 | **City Statistics**         | Demographics, economic data, and competitive index rankings                                                                                                                                                       |
-| **Appointment Services**         | Online appointment scheduling integration with the Mayor's Office (OASYS), featuring branded Lottie animation                                                                                                     |
 | **Roxas City Quiz**                  | Interactive quiz about Roxas City history and culture, linked from homepage CTA and footer across all pages                                                                                                           |
 | **Real-time Information**        | Live weather updates, currency exchange rates, and Philippine time                                                                                                                                                |
 | **Emergency Hotline Marquee**    | Clickable scrolling marquee for emergency contacts on tablet and mobile viewports, with pause-on-hover/focus accessibility                                                                                        |
