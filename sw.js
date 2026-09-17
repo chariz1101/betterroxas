@@ -3,7 +3,10 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v4';
+// Bump this whenever a precached asset's CONTENTS change. The filenames are
+// not content-hashed, so an unchanged version leaves old copies served from
+// the precache indefinitely -- which is what stranded the pre-rebrand logo.
+var CACHE_VERSION = 'v5';
 var STATIC_CACHE = 'betterroxas-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'betterroxas-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -38,8 +41,19 @@ self.addEventListener('install', function (event) {
     caches
       .open(STATIC_CACHE)
       .then(function (cache) {
-        // Use addAll for atomic precaching — if any fail, install fails
-        return cache.addAll(PRECACHE_URLS);
+        // Fetch with cache:'reload' rather than cache.addAll, which would
+        // consult the HTTP cache: a visitor still holding a long-lived copy of
+        // an asset would otherwise have it re-stored into the fresh precache,
+        // so bumping CACHE_VERSION alone would not shake a stale file loose.
+        // Still atomic — one rejection fails the install.
+        return Promise.all(
+          PRECACHE_URLS.map(function (url) {
+            return fetch(url, { cache: 'reload' }).then(function (response) {
+              if (!response.ok) throw new Error('precache failed: ' + url);
+              return cache.put(url, response);
+            });
+          })
+        );
       })
       .then(function () {
         return self.skipWaiting();
@@ -155,7 +169,10 @@ self.addEventListener('fetch', function (event) {
   if (isStaticAsset(url)) {
     event.respondWith(
       caches.match(event.request).then(function (cached) {
-        var fetchPromise = fetch(event.request)
+        // 'reload' bypasses the HTTP cache. Without it a long max-age on these
+        // files means the revalidation is answered from cache and simply
+        // re-stores the stale copy, so the asset can never update.
+        var fetchPromise = fetch(event.request, { cache: 'reload' })
           .then(function (response) {
             if (response.ok) {
               var clone = response.clone();
