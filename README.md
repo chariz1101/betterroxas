@@ -64,6 +64,8 @@ notice rather than a plausible-looking wrong number.
 | CMCI 2024 rankings                                | DTI / roxascity.gov.ph          |
 | City history timeline                             | roxascity.gov.ph, Wikipedia     |
 | Emergency hotline, city hall numbers, email, address, Facebook page | roxascity.gov.ph |
+| Service fees and processing times for 35 of 57 services | Citizen's Charter, 4th Ed. (2023) |
+| 36-office directory with department heads and phone lines | Citizen's Charter, 4th Ed. (2023) |
 
 The 47 barangay figures sum exactly to the published 2020 city total of
 179,292, which is how the transcription was checked.
@@ -79,17 +81,21 @@ critical path to a shareable URL is its first six items.
   police station, and the city site publishes only the City Emergency
   Response Team line. The hotline sections carry 911 and the CERT numbers
   instead. Add the rest only from an official source.
-- Department direct lines and emails: the city publishes a trunkline and one
-  address, not per-office contacts, so every department card points at those.
-- **Service fees on the `services/` pages are still Solano's schedule** —
-  check them against the Roxas City Citizen's Charter.
+- Department emails: the city publishes one address, so department cards point
+  at it. Per-office **phone lines** are now in place from the Citizen's Charter.
+- **Service fees have been reconciled against the Citizen's Charter, 4th Edition
+  (2023).** 35 of 57 services now carry charter-sourced fees and processing
+  times; the remaining 22 are services the charter does not cover and read
+  "Not published". Every change is listed in
+  [UNVERIFIED-CONTENT.md](UNVERIFIED-CONTENT.md).
 - Registered businesses, agricultural land, employment rate, sector mix and
   the NTA/local revenue split are not published in citable form.
 - CMCI per-indicator score series is portal-only (the DTI site blocks
   automated access); the headline rankings are in place.
 - Ordinances, resolutions, DPWH projects and news are empty.
 - Google Analytics ID, the quiz site, and the project's own contact email and
-  Facebook page are placeholders.
+  Facebook page are placeholders. `quiz.betterroxas.org` currently has no DNS
+  record but is linked from 51 pages.
 - The third UI language is Ilocano, which is regional to Nueva Vizcaya.
   Hiligaynon would be the appropriate language for Capiz. The new history and
   hotline copy is untagged for i18n, so it stays English in all three.
