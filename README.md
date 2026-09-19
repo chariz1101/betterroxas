@@ -65,7 +65,7 @@ notice rather than a plausible-looking wrong number.
 | City history timeline                             | roxascity.gov.ph, Wikipedia     |
 | Emergency hotline, city hall numbers, email, address, Facebook page | roxascity.gov.ph |
 | Service fees and processing times for 35 of 57 services | Citizen's Charter, 4th Ed. (2023) |
-| 36-office directory with department heads and phone lines | Citizen's Charter, 4th Ed. (2023) |
+| 36-office directory (telephone lines only, no names) | Citizen's Charter, 4th Ed. (2023) |
 
 The 47 barangay figures sum exactly to the published 2020 city total of
 179,292, which is how the transcription was checked.
@@ -82,7 +82,11 @@ critical path to a shareable URL is its first six items.
   Response Team line. The hotline sections carry 911 and the CERT numbers
   instead. Add the rest only from an official source.
 - Department emails: the city publishes one address, so department cards point
-  at it. Per-office **phone lines** are now in place from the Citizen's Charter.
+  at it. Per-office **phone lines** are now in place from the Citizen's Charter;
+  three are corroborated by the live city site, the other 33 are 2023-only.
+- **Current department heads and staff are deliberately blank.** The charter's
+  list is from 2023 and the city is on the 2025-2028 term, so office-holder
+  cards show the position only. Elected officials come from roxascity.gov.ph.
 - **Service fees have been reconciled against the Citizen's Charter, 4th Edition
   (2023).** 35 of 57 services now carry charter-sourced fees and processing
   times; the remaining 22 are services the charter does not cover and read

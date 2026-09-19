@@ -1,8 +1,19 @@
 # Unverified content review
 
 **Date of review:** 19 September 2026
-**Primary source used:** [Roxas City Citizen's Charter, 4th Edition (2023)](https://roxascity.gov.ph/wp-content/uploads/2024/06/CITIZEN-CHARTER-2023-4th-edition-updated.pdf) (237 pages)
-**Secondary sources:** [roxascity.gov.ph/contact](https://roxascity.gov.ph/contact/), [roxascity.gov.ph/city-council](https://roxascity.gov.ph/city-council/), Local Government Code of 1991 (RA 7160), RA 11916
+
+**Sources, in order of precedence (most recent first):**
+
+1. **roxascity.gov.ph** — live pages: [contact](https://roxascity.gov.ph/contact/),
+   [city council](https://roxascity.gov.ph/city-council/), homepage. Used for anything
+   about **people** and for current contact details.
+2. **[Citizen's Charter, 4th Edition (2023)](https://roxascity.gov.ph/wp-content/uploads/2024/06/CITIZEN-CHARTER-2023-4th-edition-updated.pdf)**
+   (237 pages). Used for **procedures, fees, processing times and office telephone lines**.
+3. **Statute** — Local Government Code of 1991 (RA 7160), RA 11916, Family Code, PD 651.
+
+**Where sources disagree, the more recent one wins.** The charter is a 2023 document and
+the city is now on the 2025-2028 term, so it is *not* treated as authoritative for
+office holders — see section 2.
 
 This file lists everything on the site that was **changed** or **removed** because it
 could not be traced to a primary source. It exists so the figures can be checked
@@ -25,33 +36,44 @@ below matched the Roxas City charter.
 
 ## 2. Personal names removed (highest priority)
 
-Real individuals were named as Roxas City staff. They are not in the charter's list of
-department and unit heads, and several were presented as holding offices the charter
-assigns to someone else.
+Real individuals were named as Roxas City staff. They appear in no current city source,
+and several were presented as holding offices under names that do not match any published
+list.
 
-| Name shown | Shown as | Page(s) | Charter says |
-| --- | --- | --- | --- |
-| Evangeline B. Ramos | City Accountant | `service-details/municipal-accounting.html` | **Teresita T. Bidiones** |
-| Marcial L. Ramos, CPA | City Budget Officer | `service-details/municipal-budget.html` | **Edgardo A. Alfon** |
-| Engr. Antonio A. Valdez | City Engineer | `service-details/municipal-engineering.html` | **Antonio V. Amoroso, Jr.** |
-| Ma. Theresa | GSO Head | `service-details/municipal-general-services.html` | **Lorie Belle O. Usison** |
-| Mary Jane C. Salvador | Accountant III | `service-details/municipal-accounting.html` | not published |
-| Jocelyn L. Gatan | Administrative Officer V | `service-details/municipal-accounting.html` | not published |
-| Rosalinda M. Fernandez | Administrative Aide VI | `service-details/municipal-accounting.html` | not published |
-| Engr. Bryan N. Tolentino | Engineer III | `service-details/municipal-engineering.html` | not published |
-| Melisa Claire Leal | Administrative Officer V | `service-details/municipal-budget.html` | not published |
-| Darby Gold Abalos | Administrative Officer II | `service-details/municipal-budget.html` | not published |
-| Jonathan T. Castillo | Engineering Aide | `service-details/municipal-engineering.html` | not published |
-| Bernadette, Juvy, Oliver, "Edgar Mc" | Named in process steps | `death-certificate.html`, `marriage-certificate.html` | charter names the **role**, not the person |
+| Name shown | Shown as | Page(s) |
+| --- | --- | --- |
+| Evangeline B. Ramos | City Accountant | `service-details/municipal-accounting.html` |
+| Marcial L. Ramos, CPA | City Budget Officer | `service-details/municipal-budget.html` |
+| Engr. Antonio A. Valdez | City Engineer | `service-details/municipal-engineering.html` |
+| Ma. Theresa | GSO Head | `service-details/municipal-general-services.html` |
+| Mary Jane C. Salvador | Accountant III | `service-details/municipal-accounting.html` |
+| Jocelyn L. Gatan | Administrative Officer V | `service-details/municipal-accounting.html` |
+| Rosalinda M. Fernandez | Administrative Aide VI | `service-details/municipal-accounting.html` |
+| Engr. Bryan N. Tolentino | Engineer III | `service-details/municipal-engineering.html` |
+| Melisa Claire Leal | Administrative Officer V | `service-details/municipal-budget.html` |
+| Darby Gold Abalos | Administrative Officer II | `service-details/municipal-budget.html` |
+| Jonathan T. Castillo | Engineering Aide | `service-details/municipal-engineering.html` |
+| Bernadette, Juvy, Oliver, "Edgar Mc" | Named in process steps | `death-certificate.html`, `marriage-certificate.html` |
 
-**Action taken:** office-head cards now carry the charter's name. Every other card keeps
-the *position* and drops the personal name. Process-step tables now say
-"Civil Registrar Staff" as the charter does.
+**Action taken: removed, and deliberately not replaced.**
 
-**Please check:** the four office heads above are as of the charter's 2023 publication
-date. If any have changed under the 2025-2028 term, they need updating.
+Staff cards now show the **position only** ("City Accountant — office holder not
+published"). Process-step tables name the **role** ("Civil Registrar Staff").
 
----
+**Why no replacement names were substituted.** The Citizen's Charter does print a
+department-head for each office, and those names differ from what the site showed. They
+were *not* copied in, because the charter is from **2023** and the city is now on the
+**2025-2028 term** — several of those posts may have changed hands. Publishing a 2023
+name as if it were current would repeat the original mistake with fresher-looking data.
+An empty field is honest; a stale name is not.
+
+The only office-holder data kept on the site is `data/officials.json` — the Mayor, Vice
+Mayor and 12 Sangguniang Panlungsod members — which is sourced from the **live**
+roxascity.gov.ph city council page for the current 2025-2028 term, and was re-verified
+name-by-name during this review. It was not modified.
+
+**Please check:** if you have a current staff list, these position-only cards are where
+it belongs.
 
 ## 3. Fees changed — the site was wrong
 
@@ -172,28 +194,56 @@ SEA-K as services but publishes no amounts.
 
 ## 6. Contact details corrected
 
+### Office telephone lines cross-referenced
+
+Every service page pointed at the Mayor's trunkline. Each office now carries its own
+line, taken from the Citizen's Charter and cross-checked against the live city site.
+
+| Office | Was | Now | Corroborated on roxascity.gov.ph? |
+| --- | --- | --- | --- |
+| City Mayor's Office | (036) 6212-049 | (036) 6212-049 | **yes** — unchanged since 2023 |
+| Human Resource Management | (036) 6212-049 | (036) 6516-053 | **yes** |
+| CDRRMO | (036) 6212-049 | (036) 522-7878 | **yes** |
+| City Civil Registrar | (036) 6212-049 | (036) 6211-679 | charter only |
+| City Assessor | (036) 6212-049 | (036) 522-3987 | charter only |
+| City Treasurer | (036) 6212-049 | (036) 520-7103 | charter only |
+| CSWDO | (036) 6212-049 | (036) 620-3190 | charter only |
+| City Engineer | (036) 6212-049 | (036) 620-5877 | charter only |
+| City Planning & Development | (036) 6212-049 | (036) 620-2787 | charter only |
+| City Budget | (036) 6212-049 | (036) 6211-912 | charter only |
+| City Accountant | (036) 6212-049 | (036) 6215-428 | charter only |
+| City Agriculture / Veterinarian | (036) 6212-049 | (036) 6214-913 | charter only |
+| BPLO | (036) 6212-049 | (036) 6202-216 | charter only |
+| General Services / City Administrator | (036) 6212-049 | (036) 520-1520 | charter only |
+| Market Operation | (036) 6212-049 | 0995 557 1145 | charter only |
+| Slaughterhouse | (036) 6212-049 | 0948 560 0607 | charter only |
+
+**How much to trust these.** Three of the charter's numbers — the Mayor's Office, HRMO
+and CDRRMO lines — still appear verbatim on the current roxascity.gov.ph, which is good
+evidence the 2023 number block has not been renumbered wholesale. The other 33 have the
+charter as their only source. I looked for a newer directory: `roxascity.gov.ph/directory/`
+exists but is unfinished placeholder content ("Mayor's Office Test Desc…"), and no other
+current per-office list is published. In the site's directory table and in
+`data/office-directory.json`, the three corroborated lines are marked; the rest are not.
+
+### Other contact corrections
+
 | Item | Was | Now | Source |
 | --- | --- | --- | --- |
-| Office phone on 19 service pages | (036) 6212-049 (the Mayor's trunkline, on every page) | each office's own line | Charter pp.6-7 |
-| City Civil Registrar | (036) 6212-049 | **(036) 6211-679** | Charter p.7 |
-| City Assessor | (036) 6212-049 | **(036) 522-3987** | Charter p.6 |
-| City Treasurer | (036) 6212-049 | **(036) 520-7103** | Charter p.6 |
-| CSWDO | (036) 6212-049 | **(036) 620-3190** | Charter p.6 |
 | Office floor numbers | "2nd Floor" / "Ground Floor" (the two civil registrar pages contradicted each other) | City Hall, Arzobispo Street, Barangay IV, Roxas City 5800 | roxascity.gov.ph/contact |
 | Lunch break 12:00-1:00 PM "Closed" | shown on contact page and FAQ | **removed** — not published anywhere, and RA 11032 expects frontline services to run through noon | — |
 
-**Added:** a full 36-office directory (`data/office-directory.json`, rendered on the
-contact page) from the charter's list of department and unit heads. This fills the gap
-the contact page previously flagged as "individual city offices are not yet confirmed".
-
----
+**Added:** a 36-office directory (`data/office-directory.json`, rendered on the contact
+page) filling the gap that page previously flagged as "individual city offices are not
+yet confirmed". **It lists offices and telephone lines only — no names**, for the reason
+in section 2.
 
 ## 7. Checked and kept — these were correct
 
 | Item | Verified against |
 | --- | --- |
-| Mayor Ronnie T. Dadivas, Vice Mayor Teresa H. Almalbis | roxascity.gov.ph/city-council |
-| All 12 Sangguniang Panlungsod members (incl. Hon. Gia T. Potato) | roxascity.gov.ph/city-council — names match exactly |
+| Mayor Ronnie T. Dadivas, Vice Mayor Teresa H. Almalbis | roxascity.gov.ph/city-council (2025-2028 term) — **not** the charter |
+| All 12 Sangguniang Panlungsod members (incl. Hon. Gia T. Potato) | roxascity.gov.ph/city-council — names match exactly; `officials.json` unchanged |
 | CERT Mobile 0917 306 6741 and 0912 472 2669 | roxascity.gov.ph homepage |
 | City CERT (036) 522-7878 | Charter p.7 + roxascity.gov.ph |
 | City Hall (036) 6212-049 / 6516-053 | roxascity.gov.ph/contact |
@@ -227,10 +277,18 @@ the contact page previously flagged as "individual city offices are not yet conf
    in `assets/js/translations.js` under keys like `cr-1530-min` and `bpl-13-days`. They
    are no longer referenced, but should be purged in a follow-up.
 
-5. **Charter edition.** This is the 4th Edition (2023). If a 5th Edition has been
-   published since, these figures need re-checking against it.
+5. **Charter edition, and the age of the phone numbers.** This is the 4th Edition
+   (2023). If a 5th Edition has been published since, these figures need re-checking.
+   This matters most for the 33 office telephone lines that the current city site does
+   not corroborate (section 6) — they are two to three years old. If you can confirm
+   them against a current internal directory, that would close the largest remaining
+   gap in this branch.
 
-6. **Services the charter covers but the site does not list yet.** Among them: PESO job
+6. **Current staff and department heads.** Deliberately left blank rather than filled
+   from the 2023 charter. The position-only cards on the accounting, budget, engineering
+   and general services pages are ready to take a current list whenever you have one.
+
+7. **Services the charter covers but the site does not list yet.** Among them: PESO job
    and OWWA/TESDA/TUPAD enquiries, fisherfolk registration, fishery licences, vessel
    registration, animal bite treatment, TB-DOTS, dental services, medico-legal
    certificates, pre-marriage counselling, DOT accreditation, and city tour guide
@@ -243,6 +301,7 @@ the contact page previously flagged as "individual city offices are not yet conf
 - `data/services.json` — all 57 services. Each carries `"verified": true/false`,
   a `"source"`, and either a `"sourceRef"` (charter page reference) or a `"sourceNote"`
   explaining why nothing is published. **22 of 57 are marked unverified.**
-- `data/office-directory.json` — 36 offices with heads and phone numbers, new.
+- `data/office-directory.json` — 36 offices with phone lines, new. **No names.** Lines
+  also appearing on the current roxascity.gov.ph carry `"corroborated": true`.
 - Pages with removed content show a `.unverified-notice` box explaining the gap.
 - Pages with charter-sourced figures show a `.source-note` citing the page number.
