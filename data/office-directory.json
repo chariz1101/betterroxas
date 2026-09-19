@@ -1,0 +1,203 @@
+{
+  "_schema_version": "1.0",
+  "_status": "published",
+  "_source": "Office telephone lines from the Roxas City Citizen's Charter, 4th Edition (2023), pp.6-7. Lines also appearing on the current roxascity.gov.ph are flagged \"corroborated\": true.",
+  "_sourceUrl": "https://roxascity.gov.ph/wp-content/uploads/2024/06/CITIZEN-CHARTER-2023-4th-edition-updated.pdf",
+  "_note": "Telephone lines only. The charter also prints the department head for each office, but those are as of 2023 and the city is now on the 2025-2028 term, so no names are carried here -- a 2023 name published as current would be worse than none. Officials are sourced separately from roxascity.gov.ph in officials.json. Area code for landlines is (036).",
+  "_lastReviewed": "2026-09-19",
+  "city_hall": {
+    "address": "Arzobispo Street, Barangay IV, Roxas City, Capiz 5800, Philippines",
+    "trunklines": [
+      "(036) 6212-049",
+      "(036) 6516-053"
+    ],
+    "email": [
+      "roxascitygovph@gmail.com",
+      "cityad19@gmail.com"
+    ],
+    "hours": "Monday to Friday, 8:00 AM - 5:00 PM",
+    "_source": "https://roxascity.gov.ph/contact/"
+  },
+  "offices": [
+    {
+      "office": "City Mayor's Office",
+      "phone": "(036) 6212-049",
+      "corroborated": true
+    },
+    {
+      "office": "Vice Mayor's Office",
+      "phone": "(036) 522-2785",
+      "corroborated": false
+    },
+    {
+      "office": "Sangguniang Panlungsod Office",
+      "phone": "(036) 522-2785",
+      "corroborated": false
+    },
+    {
+      "office": "City Administrator's Office / City General Services Office",
+      "phone": "(036) 520-1520",
+      "corroborated": false
+    },
+    {
+      "office": "City Legal Office",
+      "phone": "(036) 522-1990",
+      "corroborated": false
+    },
+    {
+      "office": "City Accountant's Office",
+      "phone": "(036) 6215-428",
+      "corroborated": false
+    },
+    {
+      "office": "City Budget Office",
+      "phone": "(036) 6211-912",
+      "corroborated": false
+    },
+    {
+      "office": "City Treasurer's Office",
+      "phone": "(036) 520-7103",
+      "corroborated": false
+    },
+    {
+      "office": "City Assessor's Office",
+      "phone": "(036) 522-3987",
+      "corroborated": false
+    },
+    {
+      "office": "City Planning & Development Office",
+      "phone": "(036) 620-2787",
+      "corroborated": false
+    },
+    {
+      "office": "City Engineer's Office",
+      "phone": "(036) 620-5877",
+      "corroborated": false
+    },
+    {
+      "office": "Human Resource Management Office",
+      "phone": "(036) 6516-053",
+      "corroborated": true
+    },
+    {
+      "office": "City Health Office",
+      "phone": "(036) 6215-686",
+      "corroborated": false
+    },
+    {
+      "office": "City Social Welfare & Development Office",
+      "phone": "(036) 620-3190",
+      "corroborated": false
+    },
+    {
+      "office": "City Tourism Office",
+      "phone": "(036) 6200-544",
+      "corroborated": false
+    },
+    {
+      "office": "City Agriculture Office / City Veterinarian's Office",
+      "phone": "(036) 6214-913",
+      "corroborated": false
+    },
+    {
+      "office": "City Civil Registrar's Office",
+      "phone": "(036) 6211-679",
+      "corroborated": false
+    },
+    {
+      "office": "CDRRMO",
+      "phone": "(036) 522-7878",
+      "corroborated": true
+    },
+    {
+      "office": "Business Permits & Licensing Office (BPLO)",
+      "phone": "(036) 6202-216",
+      "corroborated": false
+    },
+    {
+      "office": "Tricycle Franchising & Regulation Unit (TFRU)",
+      "phone": "(036) 620-5745",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Office for Senior Citizens Affairs (OSCA)",
+      "phone": "(036) 6215-174",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Traffic Management Unit (TMU)",
+      "phone": "(036) 5207-361",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Market Operation",
+      "phone": "0995 557 1145",
+      "corroborated": false
+    },
+    {
+      "office": "CENRO",
+      "phone": "0939 516 8748",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Fishing Port",
+      "phone": "0908 888 4574",
+      "corroborated": false
+    },
+    {
+      "office": "PESO",
+      "phone": "0919 009 9137",
+      "corroborated": false
+    },
+    {
+      "office": "Transport Unit",
+      "phone": "0999 441 1989",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Zoning Unit",
+      "phone": "0999 992 3748",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Housing Unit",
+      "phone": "0946 717 0558",
+      "corroborated": false
+    },
+    {
+      "office": "RCITT",
+      "phone": "0998 988 5147",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - ICT",
+      "phone": "0926 251 7366",
+      "corroborated": false
+    },
+    {
+      "office": "Slaughterhouse",
+      "phone": "0948 560 0607",
+      "corroborated": false
+    },
+    {
+      "office": "DRCC",
+      "phone": "0977 392 1614",
+      "corroborated": false
+    },
+    {
+      "office": "Roxas City Panublion Museum",
+      "phone": "0968 554 4007",
+      "corroborated": false
+    },
+    {
+      "office": "Roxas City Communication Group (RCCG)",
+      "phone": "0951 442 8913",
+      "corroborated": false
+    },
+    {
+      "office": "CMO - Motorpool Division",
+      "phone": "0930 222 1337",
+      "corroborated": false
+    }
+  ]
+}
